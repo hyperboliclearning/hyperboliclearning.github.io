@@ -7,7 +7,7 @@ permlink: /events/kdd2025_workshop
 <link rel="stylesheet" href="/kdd2025.css">
 
 <div style="color: blue; margin-bottom: 5ex;">
-<p>This tutorial on Hyperbolic Deep Learning for Foundation Models will take place at <a href="https://www.kdd.org/kdd2025/">KDD 2025</a>.
+<p>This tutorial on Hyperbolic Deep Learning for Foundation Models will take place at <a href="https://kdd2025.kdd.org/">KDD 2025</a>.
 We invite you to explore the advancements in hyperbolic deep learning and its applications in foundation models.</p>
 </div>
 <div class="banner-container">
@@ -18,7 +18,7 @@ Hyperbolic Deep Learning for Foundation Models: A Tutorial @KDD 2025.
 </div>
 
 <br>
-This tutorial at [KDD 2025](https://www.kdd.org/kdd2025/) aims to provide a comprehensive understanding of hyperbolic deep learning methods and their application to foundation models. It will cover the theoretical foundations, practical implementations, and future research directions in this exciting field. The tutorial is designed for a broad audience, including both newcomers and experts in machine learning, and will feature interactive components to engage participants.
+This tutorial at [KDD 2025](https://kdd2025.kdd.org/) aims to provide a comprehensive understanding of hyperbolic deep learning methods and their application to foundation models. It will cover the theoretical foundations, practical implementations, and future research directions in this exciting field. The tutorial is designed for a broad audience, including both newcomers and experts in machine learning, and will feature interactive components to engage participants.
 
 
 
