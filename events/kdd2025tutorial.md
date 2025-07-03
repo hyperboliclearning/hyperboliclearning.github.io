@@ -37,22 +37,22 @@ The tutorial will focus on hyperbolic deep learning methods for foundation model
     * Overview of Euclidean foundation models
     * Brief introduction to hyperbolic geometry and Riemannian manifolds
     * Motivation for incorporating hyperbolic geometry into foundation models (e.g., hierarchical structures, scale-free properties)
-    * Key references: [HNN, Ramsay 2013, HNN++, Yang et al. 2024 HypFormer]
+    
 * **Hyperbolic Neural Networks as Building Blocks (40 min)**
     * Hyperbolic neural network operations (feature transformation, residual connections, normalization)
     * Hyperbolic neural network models (RNNs, MLPs, CNNs, GNNs)
-    * Key references: [HGCN 2019, HNN, HNN++, Chen et al. 2021 Fully Hyperbolic]
+    
 * **Hyperbolic Foundation Models (60 minutes)**
     * Hyperbolic Transformers and LLMs (architectures, training, applications)
     * Hyperbolic vision foundation models (e.g., ViTs, CLIP, recent advances)
     * Hyperbolic multi-modal models (compositionality, cross-modal learning)
-    * Key references: [Gulcehre 2019, HNN++, Yang et al. 2024 HypFormer, Ermolov 2022, Fein-Ashley 2024, Ge 2022, Yue 2023, Desai 2023, Pal 2025, Mandica 2024]
+    
 * **Future Directions and Challenges (35 Minutes)**
     * Hyperbolic pre-trained models
     * Advanced hyperbolic foundation models
     * Hyperbolic deep learning tools and libraries
     * Open problems and research opportunities
-    * Key references: [Chen 2024, Yang 2024 Hyplora, He 2025 HyperCore]
+    
 
 ### Interactive Components
 - **Live Polling:** Using tools like Slido or Mentimeter for real-time audience engagement.
@@ -86,4 +86,4 @@ This tutorial targets machine learning researchers of any background, particular
 ## Survey Paper
 TBD
 
-Feel free to contact us at `negel2025@outlook.com`. We look forward to your participation in the workshop!
+Feel free to contact us at `hyperbolic.kdd25@outlook.com`. We look forward to your participation in the workshop!
