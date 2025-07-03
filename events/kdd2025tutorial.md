@@ -22,7 +22,7 @@ This tutorial at [KDD 2025](https://kdd2025.kdd.org/) aims to provide a comprehe
 
 
 
-Join our [Slack channel](https://join.slack.com/t/negel2025/shared_invite/zt-20kpkm9qt-iqSzVjFlY2yBbwy_nvNHYQ) for more discussions and updates about the workshop!
+Join our [Slack channel](https://join.slack.com/t/hfmkdd2025/shared_invite/zt-20kpkm9qt-iqSzVjFlY2yBbwy_nvNHYQ) for more discussions and updates about the workshop!
 
 ## Important Dates
 
