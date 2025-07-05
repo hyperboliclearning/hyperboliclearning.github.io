@@ -24,10 +24,11 @@ This tutorial at [KDD 2025](https://kdd2025.kdd.org/) aims to provide a comprehe
 
 Join our [Slack channel](https://join.slack.com/t/hfmkdd2025/shared_invite/zt-20kpkm9qt-iqSzVjFlY2yBbwy_nvNHYQ) for more discussions and updates about the workshop!
 
-## Important Dates
+## Important Information
 
 * **1:00 PM - 4:00 PM, August 04, 2025**: Lecture-style Tutorial at KDD 2025 (Half-day session)
 * **Location**: To be announced
+* **Slides**: [Tutorial Slides](/events/materials/kdd25.pdf)
 
 ## Tutorial Outline
 
