@@ -81,14 +81,14 @@ ul ul {
 
 /* Images */
 td img {
-  max-width: 100% !important; /* 强制优先使用此样式 */
-  width: 200px !important; /* 固定宽度为 200px */
-  height: 200px !important; /* 固定高度为 200px */
-  object-fit: cover; /* 保持图片比例，并裁剪多余部分 */
-  display: block;    /* 移除图片底部空白 */
-  margin: 0 auto;    /* 图片居中 */
-  max-width: 100%;   /* 确保图片宽度不超过单元格宽度 */
-  height: auto;      /* 当宽度缩小时，保持比例缩放 */
+  max-width: 100% !important; 
+  width: 200px !important; 
+  height: 200px !important; 
+  object-fit: cover; 
+  display: block;    
+  margin: 0 auto;    
+  max-width: 100%;   
+  height: auto;      
 }
 
 /* Table Styling */
@@ -109,7 +109,7 @@ td {
   position: relative;
   width: 100%;
   height: 300px; /* 默认高度 */
-  background-image: url('images/kdd_cover.jpg');
+  background-image: url('/images/neurips25.jpg');
   background-size: cover; /* 背景图片全覆盖 */
   background-position: center; /* 居中显示 */
   display: flex; /* 使用 Flexbox */
