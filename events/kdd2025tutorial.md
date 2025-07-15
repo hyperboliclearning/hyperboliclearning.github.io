@@ -4,7 +4,7 @@ layout: page
 permlink: /events/kdd2025_workshop
 ---
 
-<link rel="stylesheet" href="/kdd2025.css">
+<link rel="stylesheet" href="/assets/kdd2025.css">
 
 <div style="color: blue; margin-bottom: 5ex;">
 <p>This tutorial on Hyperbolic Deep Learning for Foundation Models will take place at <a href="https://kdd2025.kdd.org/">KDD 2025</a>.

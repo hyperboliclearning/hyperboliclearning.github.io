@@ -28,61 +28,59 @@ Foundation models, including large language models (LLMs), vision-language model
   position: fixed;
   top: 80px;
   left: 20px;
-  width: 320px;
-  max-height: 85vh;
+  width: 220px;           /* Reduced width */
+  max-height: 70vh;       /* Slightly smaller max height */
   overflow-y: auto;
   background: #fff;
   border: 1px solid #ddd;
   border-radius: 10px;
   box-shadow: 0 4px 12px rgba(0,0,0,0.08);
-  padding: 25px 15px;
+  padding: 12px 8px;      /* Reduced padding */
   z-index: 1000;
-  font-size: 1.1rem;
+  font-size: 0.78rem;     /* Smaller base font size */
+  text-align: left;
 }
 .sticky-outline ul {
   list-style: none;
   padding: 0;
   margin: 0;
+  text-align: left;
 }
 .sticky-outline > ul > li {
-  margin-bottom: 8px;
+  margin-bottom: 4px;     /* Less space between items */
+  text-align: left;
 }
 .sticky-outline li {
-  margin-bottom: 3px;
+  margin-bottom: 2px;
+  text-align: left;
 }
 .sticky-outline > ul > li > a {
   font-weight: 600;
-  font-size: 1.15rem;
+  font-size: 1.05rem;     /* Smaller link font size */
+  padding: 2px 0;
+  text-align: left;
 }
 .sticky-outline a {
   color: #B22222;
   text-decoration: none;
   transition: color 0.2s;
   display: block;
-  padding: 4px 0;
+  padding: 2px 0;         /* Less vertical padding */
+  text-align: left;
 }
 .sticky-outline a:hover {
   color: #2222B2;
   text-decoration: underline;
-}
-@media (max-width: 1200px) {
-  .sticky-outline {
-    display: none;
-  }
-  .main-content {
-    margin-left: 0;
-  }
-}
-.main-content {
-  margin-left: 370px;
+  text-align: left;
 }
 </style>
 
 # Events and News!
 
-- 🔥 [HELM: Hyperbolic Large Language Models via Mixture-of-Curvature Experts](https://arxiv.org/abs/2505.24722)
-- 🔥 [KDD 2025 Tutorial - Website]({{ "/events/kdd2025tutorial" | relative_url }})
-- ✅ [WWW 2025 Workshop - Website]({{ "/events/www2025workshop" | relative_url }})
+- 🔥 [HELM: Hyperbolic Large Language Models via Mixture-of-Curvature Experts - PDF](https://arxiv.org/abs/2505.24722)
+- 🧠 [NeurIPS 2025 NeFM Workshop - Website]({{ "/events/neurips2025nefmworkshop" | relative_url }})
+- 🔥 [KDD 2025 Hyperbolic FM Tutorial - Website]({{ "/events/kdd2025tutorial" | relative_url }})
+- ✅ [WWW 2025 NEGEL Workshop - Website]({{ "/events/www2025workshop" | relative_url }})
 - ✅ [KDD 2023 Tutorial - Website](https://hyperbolicgnn.github.io/)
 - 👉 [Slack channel for more discussions and tracking updates!](https://join.slack.com/t/hyperboliclearning/shared_invite/zt-1qcqgtwfr-HpsRSzDhvkAEal6dOnKDvA) 
 - 👉 [Awesome Hyperbolic Representation and Deep Learning Repository]({{ "/collection" | relative_url }})
