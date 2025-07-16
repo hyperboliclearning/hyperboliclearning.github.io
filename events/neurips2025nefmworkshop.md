@@ -7,9 +7,101 @@ permalink: /events/neurips2025nefmworkshop
 <link rel="stylesheet" href="/assets/neurips2025.css">
 
 <div style="color: blue; margin-bottom: 5ex;">
-<p>The Non-Euclidean Foundation Models and Geometric Learning Workshop will take place at <a href="https://neurips.cc/Conferences/2025">NeurIPS 2025</a> in San Diego, CA, USA, from December 2–7, 2025.<br>
-We invite you to join discussions on non-Euclidean representation learning, geometric deep learning, and large foundation models!</p>
+<p style="font-weight: 600;">The Non-Euclidean Foundation Models and Geometric Learning Workshop will take place at <a href="https://neurips.cc/Conferences/2025">NeurIPS 2025</a> in San Diego, CA, USA, from December 2–7, 2025. We invite you to join discussions on non-Euclidean representation learning, geometric deep learning, and large foundation models!</p>
 </div>
+
+<div class="sticky-outline">
+  <ul>
+    <li><a href="#workshop-summary">Workshop Summary</a></li>
+    <li><a href="#goal">Goal</a></li>
+    <li><a href="#topics-and-scope">Topics and Scope</a></li>
+    <li><a href="#submissions-and-timeline">Submissions and Timeline</a></li>
+    <li><a href="#community-building-and-discussion-opportunities">Community Building</a></li>
+    <li><a href="#tentative-schedule">Tentative Schedule</a></li>
+    <li><a href="#organizers">Organizers</a></li>
+    <li><a href="#diversity-and-inclusion-statement">Diversity and Inclusion</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</div>
+
+<style>
+body {
+  background-color: #eef0f3;
+}
+h1 {
+  color: #333;
+  text-align: center;
+  margin-top: 0.5em;
+  margin-bottom: 1.5em;
+}
+h2, h3, h4, h5, h6 {
+  color: #333;
+}
+a {
+  color: #3e23dd !important;
+  font-weight: bold;
+}
+a:hover {
+  color: #2222B2 !important;
+}
+/* Fix header font consistency */
+.site-nav .page-link {
+  font-size: 26px !important;
+  font-weight: 600 !important;
+  line-height: 54px !important;
+}
+.sticky-outline {
+  position: fixed;
+  top: 80px;
+  left: 20px;
+  width: 180px;
+  max-height: 60vh;
+  overflow-y: auto;
+  background: #eef0f3;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+  padding: 8px 6px;
+  z-index: 1000;
+  font-size: 0.7rem;
+  text-align: left;
+}
+.sticky-outline ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: left;
+}
+.sticky-outline > ul > li {
+  margin-bottom: 2px;
+  text-align: left;
+}
+.sticky-outline li {
+  margin-bottom: 1px;
+  text-align: left;
+}
+.sticky-outline > ul > li > a {
+  font-weight: 600;
+  font-size: 0.9rem;
+  padding: 1px 0;
+  text-align: left;
+}
+.sticky-outline a {
+  color: #3e23dd;
+  text-decoration: none;
+  transition: color 0.2s;
+  display: block;
+  padding: 1px 0;
+  text-align: left;
+  font-weight: bold;
+}
+.sticky-outline a:hover {
+  color: #2222B2;
+  text-decoration: underline;
+  text-align: left;
+}
+</style>
+
 <div class="banner-container">
  <div class="banner-overlay"></div>
  <div class="banner-text">
@@ -38,10 +130,15 @@ The workshop will include submissions, talks, and poster sessions on topics rela
 - **Benchmarks and Tools**: New datasets, evaluation protocols, and software libraries supporting the integration of foundation models and non-Euclidean representations.
 
 ### Submissions and Timeline
-We will use OpenReview for submissions and welcome short papers (up to 4 pages) and full-length papers (up to 9 pages), excluding references. All accepted papers will be presented as posters, with ~4 selected for oral presentations and 2 for outstanding paper awards. We commit to the official NeurIPS 2025 timeline and will notify contributors before the mandatory September 22, 2025, deadline.
+For detailed submission guidelines, topics, and important dates, please visit our [Call for Papers page]({{ "/events/neurips2025cfp" | relative_url }}).
 
-### Expected Attendance
-50–80 participants based on preliminary surveys and interest from related workshops. This represents a medium-sized workshop suitable for meaningful interaction and discussion.
+We manage paper submissions through [OpenReview](https://openreview.net/). The review process is double‑blind, so submissions must be anonymized. We welcome work that is (1) original and unpublished, (2) recently published, or (3) work‑in‑progress. By default, submissions will not have archival proceedings. 
+
+Please use the [NeurIPS 2025 LaTeX style file](https://media.neurips.cc/Conferences/NeurIPS2025/Styles.zip); it includes a preprint option for non‑anonymous preprints posted online (see additional formatting details here). Submissions should be PDFs of ≤ 9 pages (excluding references and appendices).
+
+We will select outstanding papers for lightning talks. The award for best paper will be announced at the workshop.
+
+
 
 ### Community Building and Discussion Opportunities
 We plan to encourage interactive discussions throughout the workshop through several structured formats. During the poster session, we will organize posters based on research directions into thematic groups, facilitating focused discussions and cross-pollination of ideas. For the panel session, we will implement a multi-channel approach to question collection, including author-submitted questions and social media engagement.

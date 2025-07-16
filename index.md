@@ -24,20 +24,42 @@ Foundation models, including large language models (LLMs), vision-language model
 </div>
 
 <style>
+body {
+  background-color: #eef0f3;
+  max-width: 1500px;
+  margin: 0 auto;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+.wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+h1 {
+  color: #000000;
+  text-align: center;
+  margin-top: 0.5em;
+  margin-bottom: 1.5em;
+}
+h2, h3, h4, h5, h6 {
+  color: #000000;
+}
 .sticky-outline {
   position: fixed;
   top: 80px;
   left: 20px;
-  width: 220px;           /* Reduced width */
-  max-height: 70vh;       /* Slightly smaller max height */
+  width: 180px;
+  max-height: 60vh;
   overflow-y: auto;
-  background: #fff;
+  background: #eef0f3;
   border: 1px solid #ddd;
-  border-radius: 10px;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
-  padding: 12px 8px;      /* Reduced padding */
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+  padding: 8px 6px;
   z-index: 1000;
-  font-size: 0.78rem;     /* Smaller base font size */
+  font-size: 0.7rem;
   text-align: left;
 }
 .sticky-outline ul {
@@ -47,26 +69,27 @@ Foundation models, including large language models (LLMs), vision-language model
   text-align: left;
 }
 .sticky-outline > ul > li {
-  margin-bottom: 4px;     /* Less space between items */
+  margin-bottom: 2px;
   text-align: left;
 }
 .sticky-outline li {
-  margin-bottom: 2px;
+  margin-bottom: 1px;
   text-align: left;
 }
 .sticky-outline > ul > li > a {
   font-weight: 600;
-  font-size: 1.05rem;     /* Smaller link font size */
-  padding: 2px 0;
+  font-size: 0.9rem;
+  padding: 1px 0;
   text-align: left;
 }
 .sticky-outline a {
-  color: #B22222;
+  color: #3e23dd;
   text-decoration: none;
   transition: color 0.2s;
   display: block;
-  padding: 2px 0;         /* Less vertical padding */
+  padding: 1px 0;
   text-align: left;
+  font-weight: bold;
 }
 .sticky-outline a:hover {
   color: #2222B2;
@@ -75,15 +98,15 @@ Foundation models, including large language models (LLMs), vision-language model
 }
 </style>
 
-# Events and News!
+## Events and News!
 
-- 🔥 [HELM: Hyperbolic Large Language Models via Mixture-of-Curvature Experts - PDF](https://arxiv.org/abs/2505.24722)
-- 🧠 [NeurIPS 2025 NeFM Workshop - Website]({{ "/events/neurips2025nefmworkshop" | relative_url }})
-- 🔥 [KDD 2025 Hyperbolic FM Tutorial - Website]({{ "/events/kdd2025tutorial" | relative_url }})
-- ✅ [WWW 2025 NEGEL Workshop - Website]({{ "/events/www2025workshop" | relative_url }})
-- ✅ [KDD 2023 Tutorial - Website](https://hyperbolicgnn.github.io/)
-- 👉 [Slack channel for more discussions and tracking updates!](https://join.slack.com/t/hyperboliclearning/shared_invite/zt-1qcqgtwfr-HpsRSzDhvkAEal6dOnKDvA) 
-- 👉 [Awesome Hyperbolic Representation and Deep Learning Repository]({{ "/collection" | relative_url }})
+- [HELM: Hyperbolic Large Language Models via Mixture-of-Curvature Experts - PDF](https://arxiv.org/abs/2505.24722)
+- [NeurIPS 2025 NeFM Workshop - Website]({{ "/events/neurips2025nefmworkshop" | relative_url }})
+- [KDD 2025 Hyperbolic FM Tutorial - Website]({{ "/events/kdd2025tutorial" | relative_url }})
+- [WWW 2025 NEGEL Workshop - Website]({{ "/events/www2025workshop" | relative_url }})
+- [KDD 2023 Tutorial - Website](https://hyperbolicgnn.github.io/)
+- [Slack channel for more discussions and tracking updates!](https://join.slack.com/t/hyperboliclearning/shared_invite/zt-1qcqgtwfr-HpsRSzDhvkAEal6dOnKDvA) 
+- [Awesome Hyperbolic Representation and Deep Learning Repository]({{ "/collection" | relative_url }})
 
 ## 1. Hyperbolic Geometry
 
@@ -154,7 +177,7 @@ Potential advantages include:
 
 ## Challenges and Opportunities
 
-<span style="color:rgb(41, 41, 213)">While hyperbolic deep learning demonstrates significant promise, several important challenges remain:</span>
+<span style="color:#3e23dd">While hyperbolic deep learning demonstrates significant promise, several important challenges remain:</span>
 
 • **Computational Challenges**: Implementing hyperbolic operations requires careful numerical handling to maintain stability, especially near the boundaries of models like the Poincaré disk where distances approach infinity. Current implementations often suffer from numerical issues that limit their practical deployment at scale.
 
@@ -164,7 +187,7 @@ Potential advantages include:
 
 • **Theoretical Understanding**: The theoretical foundations of hyperbolic deep learning are still developing. Better understanding of generalization, representation capacity, and optimization dynamics in hyperbolic space would accelerate progress.
 
-<span style="color:rgb(41, 41, 213)">Despite these challenges, hyperbolic geometry in deep learning presents exciting opportunities:</span>
+<span style="color:#3e23dd">Despite these challenges, hyperbolic geometry in deep learning presents exciting opportunities:</span>
 
 • **Extreme Efficiency in Hierarchical Tasks**: For applications dominated by tree-like structures, hyperbolic approaches could dramatically reduce model size while improving performance.
 
