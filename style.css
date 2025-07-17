@@ -21,7 +21,7 @@ body {
 
 /* Wrapper for Centralized Content */
 .wrapper {
-  max-width: 1500px; /* Set new max width */
+  max-width: 1000px; /* Set new max width */
   margin: 0 auto;    /* Center-align content */
   padding: 0 20px;   /* Optional: Add side spacing */
   box-sizing: border-box; /* Include padding in width calculations */
