@@ -26,13 +26,13 @@ Foundation models, including large language models (LLMs), vision-language model
 <style>
 body {
   background-color: #eef0f3;
-  max-width: 1500px;
+  max-width: 1000px;
   margin: 0 auto;
   padding: 0 20px;
   box-sizing: border-box;
 }
 .wrapper {
-  max-width: 1200px;
+  max-width: 1000px;
   margin: 0 auto;
   padding: 0 20px;
   box-sizing: border-box;

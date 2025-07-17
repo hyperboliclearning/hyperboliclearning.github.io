@@ -105,7 +105,7 @@ a:hover {
 <div class="banner-container">
  <div class="banner-overlay"></div>
  <div class="banner-text">
-Non-Euclidean Foundation Models Workshop @NeurIPS 2025, San Diego, CA, USA, Dec 2–7, 2025.
+Non-Euclidean Foundation Models Workshop and Geometric Learning@NeurIPS 2025, San Diego, CA, USA, Dec 2–7, 2025.
  </div>
 </div>
 
@@ -147,15 +147,15 @@ We plan to encourage interactive discussions throughout the workshop through sev
 
 - 8:30–8:50 AM: Poster setup
 - 8:50–9:00 AM: Opening remarks
-- 9:00–9:50 AM: Invited talk: Philip S. Yu (confirmed)
-- 9:50–10:40 AM: Invited talk: Pascal Mettes (confirmed)
+- 9:00–9:50 AM: Invited talk: Philip S. Yu
+- 9:50–10:40 AM: Invited talk: Pascal Mettes
 - 10:40–11:30 AM: Contributed talks
 - 11:30–11:50 AM: Discussions and coffee break
 - 11:50–12:55 PM: Poster session
 - 12:55–2:00 PM: Lunch break
-- 2:00–2:50 PM: Invited talk: Min Zhou (confirmed)
-- 2:50–3:40 PM: Invited talk: Bo Xiong (confirmed)
-- 3:40–4:30 PM: Invited talk: Smita Krishnaswamy (confirmed)
+- 2:00–2:50 PM: Invited talk: Min Zhou
+- 2:50–3:40 PM: Invited talk: Bo Xiong
+- 3:40–4:30 PM: Invited talk: Smita Krishnaswamy
 - 4:30–5:00 PM: Discussions and coffee break
 - 5:00–5:30 PM: Panel discussions: Foundation Models Meet Non-Euclidean Space
 
@@ -166,8 +166,6 @@ We plan to encourage interactive discussions throughout the workshop through sev
 - **Yifei Zhang** (NTU)
 - **Rex Ying** (Yale University)
 
-## Diversity and Inclusion Statement
-Our workshop is highly interdisciplinary by design, with applications in machine learning, data mining, NLP, computer vision, mathematics, biology, chemistry, and physics. The organizing committee consists of researchers with a wide variety of demographic backgrounds, promoting diversity in affiliation, gender, seniority, experience, and research areas. We are committed to providing a welcoming atmosphere for participants with diverse backgrounds and plan to create a mentorship program for newcomers.
 
 ## Contact
 Feel free to contact us at `negel2025@outlook.com`. We look forward to your participation at NeurIPS 2025!
