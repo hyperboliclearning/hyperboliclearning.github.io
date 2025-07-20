@@ -1,5 +1,5 @@
 ---
-title: "Hyperbolic Geometry and LLMs (2025)"
+title: "Hyperbolic and Non-Euclidean Geometry for LLMs"
 layout: page
 permlink: /
 ---
@@ -25,7 +25,7 @@ Foundation models, including large language models (LLMs), vision-language model
 
 <style>
 body {
-  background-color: #eef0f3;
+  background-color: #ffffff;
   max-width: 1000px;
   margin: 0 auto;
   padding: 0 20px;
@@ -53,7 +53,7 @@ h2, h3, h4, h5, h6 {
   width: 180px;
   max-height: 60vh;
   overflow-y: auto;
-  background: #eef0f3;
+  background: #ffffff;
   border: 1px solid #ddd;
   border-radius: 8px;
   box-shadow: 0 2px 8px rgba(0,0,0,0.06);
@@ -101,7 +101,7 @@ h2, h3, h4, h5, h6 {
 ## Events and News!
 
 - [HELM: Hyperbolic Large Language Models via Mixture-of-Curvature Experts - PDF](https://arxiv.org/abs/2505.24722)
-- [NeurIPS 2025 NeFM Workshop - Website]({{ "/events/neurips2025nefmworkshop" | relative_url }})
+- [NeurIPS 2025 NEGEL Workshop - Website]({{ "/events/neurips2025negelworkshop" | relative_url }})
 - [KDD 2025 Hyperbolic FM Tutorial - Website]({{ "/events/kdd2025tutorial" | relative_url }})
 - [WWW 2025 NEGEL Workshop - Website]({{ "/events/www2025workshop" | relative_url }})
 - [KDD 2023 Tutorial - Website](https://hyperbolicgnn.github.io/)
@@ -175,7 +175,7 @@ Potential advantages include:
 
 • **Cross-Modal Hierarchical Alignment**: For multimodal foundation models, hyperbolic representations may better align hierarchical structures across different modalities (e.g., visual scene graphs with linguistic parse trees).
 
-## Challenges and Opportunities
+## 6. Challenges and Opportunities
 
 <span style="color:#3e23dd">While hyperbolic deep learning demonstrates significant promise, several important challenges remain:</span>
 
@@ -197,7 +197,7 @@ Potential advantages include:
 
 • **Biologically Inspired Representations**: Some evidence suggests that biological neural systems may utilize hyperbolic-like representations, offering potential insights for neuromorphic computing.
 
-## 6. Conclusion
+## 7. Conclusion
 
 Hyperbolic geometry provides a powerful framework for enhancing deep learning systems, particularly for applications involving hierarchical, tree-like structures. **The intersection of hyperbolic geometry and artificial intelligence represents a frontier where mathematical elegance meets practical utility**, potentially addressing fundamental limitations of traditional Euclidean approaches.
 
