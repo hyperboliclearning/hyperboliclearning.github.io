@@ -239,3 +239,41 @@ nav ul li {
       border-bottom: none; /* Remove border from the last item */
   }
 }
+
+/* ========================================
+   UNIFIED HEADER NAVIGATION STYLES
+   ========================================
+   These styles control the site header appearance across all pages.
+   Modify these values to change header styling site-wide.
+   ======================================== */
+
+/* Header container */
+.site-header {
+  font-size: 0.9em;
+}
+
+/* Site title (Home link) - Higher specificity to override theme */
+body .site-header .site-title,
+.site-header .site-title {
+  font-size: 18px !important;
+  font-weight: 600 !important;
+  color: #000000 !important;
+  text-decoration: none;
+}
+
+/* Navigation links (Event, etc.) - Higher specificity to override theme */
+body .site-header .site-nav .page-link,
+.site-header .site-nav .page-link {
+  font-size: 18px !important;
+  font-weight: 600 !important;
+  color: #000000 !important;
+  line-height: 36px !important;
+  text-decoration: none;
+}
+
+/* Hover states */
+.site-title:hover,
+.site-nav .page-link:hover {
+  color: #3e23dd !important;
+  text-decoration: underline;
+}

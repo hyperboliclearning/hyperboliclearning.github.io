@@ -215,3 +215,5 @@ nav ul li {
       border-bottom: none; /* Remove border from the last item */
   }
 }
+
+/* Header styles are now defined in /style.css for unified management */
