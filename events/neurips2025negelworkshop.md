@@ -13,18 +13,19 @@ permalink: /events/neurips2025negelworkshop
 
 <div style="color: blue; margin-bottom: 5ex;">
 <p style="font-weight: 600;">The Non-Euclidean Foundation Models and Geometric Learning Workshop will take place at <a href="https://neurips.cc/Conferences/2025">NeurIPS 2025</a> in San Diego, CA, USA, from December 2–7, 2025. We invite you to join discussions on non-Euclidean representation learning, geometric deep learning, and large foundation models!</p>
-<p style="font-weight: 600; margin-top: 1em;"><strong>🔗 Workshop Page:</strong> <a href="https://neurips.cc/virtual/2025/workshop/109582" style="color: #3e23dd; font-weight: bold;">Official NeurIPS Workshop Page</a></p>
+
 </div>
 
 
 <div class="sticky-outline">
   <ul>
     <li><a href="#1-workshop-introduction">1. Introduction</a></li>
-    <li><a href="#2-call-for-papers-topics-and-scope">2. Call for Papers</a></li>
+    <li><a href="#2-call-for-papers-topics-and-scope">2. Call for Contributions</a></li>
     <li><a href="#3-submissions-and-timeline">3. Timeline</a></li>
     <li><a href="#4-tentative-schedule">4. Tentative Schedule</a></li>
     <li><a href="#5-organizers">5. Organizers</a></li>
-    <li><a href="#6-community-building-and-discussion-opportunities">6. Community</a></li>
+    <li><a href="#6-speakers">6. Speakers</a></li>
+    <li><a href="#7-faq">7. FAQ</a></li>
   </ul>
 </div>
 
@@ -115,15 +116,22 @@ Non-Euclidean Foundation Models Workshop and Geometric Learning@NeurIPS 2025, Sa
 
 <br>
 
+## News
+
+- 2025-07-22: We are accepting paper for oral and poster presentations. See the [Call for Contributions](#2-call-for-contributions-topics-and-scope) for more details.
+- 2025-07-22: If you are interested in being a reviewer for the workshop, please fill out the [reviewer nomination](https://forms.gle/esqwFrfPKhvjNE7F7) form by August 24st.
+- Submission site: [https://openreview.net/group?id=NeurIPS.cc/2025/Workshop/NEGEL](https://openreview.net/group?id=NeurIPS.cc/2025/Workshop/NEGEL)
+- Join our <img src="/images/slack.png" alt="Slack" style="width: 15px; height: 15px; vertical-align: middle; margin-right: 5px;"> [Slack workspace](https://join.slack.com/t/hyperboliclearning/shared_invite/zt-1qcqgtwfr-HpsRSzDhvkAEal6dOnKDvA)
+
 ## 1. Workshop Introduction
 
 In the era of foundation models and Large Language Models (LLMs), Euclidean space is the de facto geometric setting of our machine learning architectures. However, recent literature has demonstrated that this choice comes with fundamental limitations. Non-Euclidean learning is quickly gaining traction. Non-Euclidean spaces, such as hyperbolic, spherical, and mixed-curvature spaces, have been shown to provide more efficient and effective representations for data with intrinsic geometric properties, like hierarchy, symmetry, and heterogeneity.
 
 Integrating foundation models with non-Euclidean spaces has great potential to enhance their ability to capture and model the underlying structures and relationships in complex real-world data, leading to better performance, generalization, and interpretability. This workshop focuses on the intersection of Non-Euclidean representation learning and Foundation Models, exploring its potential benefits, challenges, and future directions.
 
-The primary goal of this workshop is to provide a platform for researchers from diverse backgrounds—including geometric machine learning, representation learning, foundation models and LLMs, and domain-specific applications—to share knowledge, exchange ideas, and discuss recent advances and challenges in integrating these models with non-Euclidean spaces. By bridging the gap between these areas, we aim to unlock new opportunities for advancing AI beyond traditional Euclidean frameworks, thereby deepening our understanding of foundation models and enhancing their applications in various domains, such as natural language processing, computer vision, graph analysis, and scientific discovery.
 
-## 2. Call for Papers (Topics and Scope)
+
+## 2. Call for Contributions (Topics and Scope)
 The workshop will include submissions on topics related to the intersection of foundation models and non-Euclidean representation learning, including:
 
 - **Theoretical Foundations**: Generalization error, representation precision, curvature-dimension tradeoffs, geometric properties (curvature, geodesics, isometries), expressive power of non-Euclidean representations.
@@ -139,21 +147,24 @@ Submissions should be PDFs of ≤ 9 pages (excluding references and appendices) 
 Please use the [NeurIPS 2025 LaTeX style file](https://media.neurips.cc/Conferences/NeurIPS2025/Styles.zip); it includes a preprint option for non‑anonymous preprints posted online (see additional formatting details here).  Outstanding papers will be selected for **lightning talks** and a **best paper award** will be announced at the workshop. All accepted papers will be presented as posters.
 
 ### Important Dates
-- **Paper Submission Deadline**: TBA
-- **Author Notification**: TBA
-- **Camera-Ready Submission**: TBA
-- **Workshop Date**: December 2–7, 2025
+- **Abstract submission deadline**: August 25,2025
+- **Paper submission deadline**: Sept 2,2025
+- **Author notification**: Sept 25,2025
+- **Camera-ready submission**: Sept 30,2025
+- **NeurIPS early registration deadline**: Oct 11, 2025
+- **NeurIPS financial assistance application deadline**: TBA
+- **Workshop date**: December 6 or 7, 2025
 - **Location**: San Diego, CA, USA
 - **Timezone**: Anywhere On Earth (UTC-12)
   
 <div style="text-align: center; margin: 2em 0;">
-<a href="https://openreview.net/" style="
+<a href="https://openreview.net/group?id=NeurIPS.cc/2025/Workshop/NEGEL" style="
   display: inline-block;
   background-color: #447588;
   color: white !important;
-  padding: 12px 24px;
-  font-size: 18px;
-  font-weight: 600;
+  padding: 12px 20px;
+  font-size: 16px;
+  font-weight: 800;
   text-decoration: none;
   border: 2px solid black;
   border-radius: 8px;
@@ -187,15 +198,94 @@ NeurIPS 2025 Workshop NEGEL Submission
 
 ## 5. Organizers
 
-- **Menglin Yang** (HKUST(GZ))
-- **Neil He** (UIUC)
-- **Yifei Zhang** (NTU)
-- **Rex Ying** (Yale University)
+The workshop is organized by an international and diverse team of experts in the field:
+
+<table>
+ <tr>
+ <td> 
+ <img src="/images/people/menglin.png?raw=true" alt="1" width=200px height=200px><br/>
+ <a href="https://yangmenglin.site/">Menglin Yang</a><br/>
+ HKUST(GZ)
+ </td>
+ <td> 
+ <img src="/images/people/neil.png?raw=true" alt="1" width=200px height=200px><br/>
+ <a href="https://www.linkedin.com/in/neil-he-3760a4230/">Neil He</a><br/>
+ Yale/UIUC
+ </td>
+ <td> 
+ <img src="/images/people/yifei_L.png?raw=true" alt="1" width=200px height=200px><br/>
+ <a href="http://yifeiacc.github.io/">Yifei Zhang</a><br/>
+ NTU
+ </td>
+ <td> 
+ <img src="/images/people/Melanie.png?raw=true" alt="1" width=200px height=200px><br/>
+ <a href="http://melanie-weber.com/">Melanie Weber</a><br/>
+ Harvard
+ </td>
+ <td> 
+ <img src="/images/people/rex.png?raw=true" alt="1" width=200px height=200px><br/>
+ <a href="https://www.cs.yale.edu/homes/ying-rex/">Rex Ying</a><br/>
+ Yale
+ </td>
+ </tr> 
+</table>
+
+Note: Melanie Weber is an extended organizer.
 
 
+## 6.Speakers
 
-## 6. Community Building and Discussion Opportunities
-We plan to encourage interactive discussions throughout the workshop through several structured formats. During the poster session, we will organize posters based on research directions into thematic groups, facilitating focused discussions and cross-pollination of ideas. For the panel session, we will implement a multi-channel approach to question collection, including author-submitted questions and social media engagement.
+The workshop features an international and distinguished lineup of speakers from academia and industry:
+
+<table>
+ <tr>
+ <td>
+ <img src="/images/people/philip.png" alt="Philip S. Yu">
+ <br>
+ <a href="https://cs.uic.edu/profiles/philip-yu/">Philip S. Yu</a>
+ <br>
+ UIC
+ </td>
+ <td>
+ <img src="/images/people/bo_xiong.png" alt="Bo Xiong">
+ <br>
+ <a href="https://boxiong.io/">Bo Xiong</a>
+ <br>
+ Stanford
+ </td>
+ <td>
+ <img src="/images/people/min.png" alt="Min Zhou">
+ <br>
+ <a href="https://scholar.google.com/citations?user=P8WYyYIAAAAJ&hl=en">Min Zhou</a>
+ <br>
+ Huawei
+ </td>
+ <td>
+ <img src="/images/people/pascal.png" alt="Pascal Mettes">
+ <br>
+ <a href="https://staff.fnwi.uva.nl/p.s.m.mettes/">Pascal Mettes</a>
+ <br>
+ UvA
+ </td>
+  <td>
+ <img src="/images/people/smita.png" alt="Smita Krishnaswamy">
+ <br>
+ <a href="https://scholar.google.com/citations?user=l2Pr9m8AAAAJ&hl=en">Smita Krishnaswamy</a>
+ <br>
+ Yale
+ </td>
+ </tr>
+</table>
+
+## 7. FAQ
+
+**Can I attend virtually?**  
+All talks will be live-streamed, so you can follow them online. However, the poster session is in-person only, and we strongly encourage everyone to attend in person if possible to get the most out of the experience.
+
+**What does non-archival mean?**  
+Non-archival means that your submission will not be published in formal proceedings or indexed in academic databases. You still retain the right to publish the same work elsewhere.
 
 ## Contact
 Feel free to contact us at `negel2025@outlook.com`. We look forward to your participation at NeurIPS 2025!
+
+<p style="font-weight: 600; margin-top: 1em;"><strong>🔗 Workshop Page:</strong> <a href="https://neurips.cc/virtual/2025/workshop/109582" style="color: #3e23dd; font-weight: bold;">Official NeurIPS Workshop Page</a></p>
