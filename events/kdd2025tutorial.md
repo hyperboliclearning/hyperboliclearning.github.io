@@ -73,6 +73,36 @@ This tutorial will support future research in hyperbolic foundation models, whic
 
 This tutorial targets machine learning researchers of any background, particularly those interested in foundation models, non-Euclidean, and geometric deep learning. We explore advanced applications of hyperbolic geometry in these fields, focusing on large-scale hyperbolic models that extend beyond the concepts covered in previous tutorials. No special background in differential geometry is required, though familiarity with mathematical concepts such as Riemannian manifolds would be helpful. The tutorial is accessible to researchers and practitioners from diverse backgrounds, including those with limited prior exposure to hyperbolic geometry or geometric deep learning.
 
+<table>
+ <tr>
+ <td> 
+ <img src="/images/people/neil.png?raw=true" alt="1" width=200px height=200px><br/>
+ <a href="https://www.linkedin.com/in/neil-he-3760a4230/">Neil He(Tutor)</a><br/>
+ UIUC/Yale
+ </td>
+ <td> 
+ <img src="/images/people/menglin.png?raw=true" alt="1" width=200px height=200px><br/>
+ <a href="https://yangmenglin.site/">Menglin Yang(Tutor)</a><br/>
+ HKUST(GZ)
+ </td>
+ <td> 
+ <img src="/images/people/rex.png?raw=true" alt="1" width=200px height=200px><br/>
+ <a href="https://www.cs.yale.edu/homes/ying-rex/">Rex Ying(Tutor)</a><br/>
+ Yale University
+ </td>
+ <td> 
+ <img src="/images/people/hiren.png?raw=true" alt="1" width=200px height=200px><br/>
+ <a href="#">Hiren Madhu(Contributor)</a><br/>
+ Yale University
+ </td>
+ <td> 
+ <img src="/images/people/ngoc.png?raw=true" alt="1" width=200px height=200px><br/>
+ <a href="#">Ngoc Bui(Contributor)</a><br/>
+ Yale University
+ </td>
+ </tr> 
+</table>
+
 ## Tutors
 
 * **Neil He** is a bachelors/master student in the mathematics department at Yale University, advised by Professor Rex Ying. His research focus includes geometry and hyperbolic deep learning, their applications to foundation models, and their theoretical foundations. He is particularly interested in developing theoretically robust deep-learning methods and finding theoretical foundations for empirically observed behaviors.
@@ -80,6 +110,7 @@ This tutorial targets machine learning researchers of any background, particular
 * **Rex Ying** is an Assistant Professor in the Department of Computer Science at Yale University. His research focus includes geometric deep learning, foundation models with structured data, multi-modal models, graph learning, and trustworthy deep learning. He is interested in the use of graphs and geometry to empower representation learning in expressiveness and trustworthiness in large-scale settings. Rex has built multi-modal foundation models in engineering, natural science, social science, and financial domains. He won the best dissertation award at KDD 2022 and the Amazon Research Award in 2024. His research is supported by the National Science Foundation, Gordon and Betty Moore Foundation, and industry partners such as NetApp, Goldman Sachs, Snap Research, and Amazon Research Award.
 
 ## Contributors
+
 * **Hiren Madhu** is a PhD student in the Department of Computer Science at Yale University, advised by Professor Rex Ying and Professor Smita Krishnaswamy. His research focus includes geometric deep learning, foundation models with structured data, and their applications to biological data. He is particularly interested in developing novel machine learning methodologies that leverage graph-based and manifold-based approaches for efficient and interpretable representation learning for large biological datasets.
 * **Ngoc Bui** is a PhD student in the Department of Computer Science at Yale University, working under the supervision of Professor Rex Ying. His research interests broadly include large language models (LLMs) and their applications, such as personalized assistants and synthetic data generation through simulations.
 
