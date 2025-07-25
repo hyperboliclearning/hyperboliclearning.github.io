@@ -78,7 +78,7 @@ This tutorial targets machine learning researchers of any background, particular
  <td> 
  <img src="/images/people/neil.png?raw=true" alt="1" width=200px height=200px><br/>
  <a href="https://www.linkedin.com/in/neil-he-3760a4230/">Neil He(Tutor)</a><br/>
- UIUC/Yale
+ Yale University
  </td>
  <td> 
  <img src="/images/people/menglin.png?raw=true" alt="1" width=200px height=200px><br/>

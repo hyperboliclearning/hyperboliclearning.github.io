@@ -230,7 +230,6 @@ The workshop is organized by an international and diverse team of experts in the
  </tr> 
 </table>
 
-Note: Melanie Weber is an extended organizer.
 
 
 ## 6.Speakers
@@ -273,6 +272,13 @@ The workshop features an international and distinguished lineup of speakers from
  <a href="https://scholar.google.com/citations?user=l2Pr9m8AAAAJ&hl=en">Smita Krishnaswamy</a>
  <br>
  Yale
+ </td>
+ <td>
+ <img src="/images/people/lucas.png" alt="Lucas">
+ <br>
+ <a href="https://www.lucasvinhtran.com/">Lucas Vinh Tran </a>
+ <br>
+ JPMorganChase
  </td>
  </tr>
 </table>
