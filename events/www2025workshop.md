@@ -82,7 +82,7 @@ The workshop is organized by an international and diverse team of experts in the
  <tr>
  <td> 
  <img src="/images/people/menglin.png?raw=true" alt="1" width=200px height=200px><br/>
- <a href="https://yangmenglin.site/">Menglin Yang</a><br/>
+ <a href="https://yangmenglinsite.github.io/">Menglin Yang</a><br/>
  Yale University/HKUSTGZ
  </td>
  <td> 

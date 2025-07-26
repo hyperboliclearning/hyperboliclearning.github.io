@@ -82,7 +82,7 @@ This tutorial targets machine learning researchers of any background, particular
  </td>
  <td> 
  <img src="/images/people/menglin.png?raw=true" alt="1" width=200px height=200px><br/>
- <a href="https://yangmenglin.site/">Menglin Yang(Tutor)</a><br/>
+ <a href="https://yangmenglinsite.github.io/">Menglin Yang(Tutor)</a><br/>
  HKUST(GZ)
  </td>
  <td> 
@@ -92,12 +92,12 @@ This tutorial targets machine learning researchers of any background, particular
  </td>
  <td> 
  <img src="/images/people/hiren.png?raw=true" alt="1" width=200px height=200px><br/>
- <a href="#">Hiren Madhu(Contributor)</a><br/>
+ <a href="https://hirenmadhu.github.io/">Hiren Madhu(Contributor)</a><br/>
  Yale University
  </td>
  <td> 
  <img src="/images/people/ngoc.png?raw=true" alt="1" width=200px height=200px><br/>
- <a href="#">Ngoc Bui(Contributor)</a><br/>
+ <a href="https://ngocbh.github.io/">Ngoc Bui(Contributor)</a><br/>
  Yale University
  </td>
  </tr> 
@@ -105,14 +105,14 @@ This tutorial targets machine learning researchers of any background, particular
 
 ## Tutors
 
-* **Neil He** is a bachelors/master student in the mathematics department at Yale University, advised by Professor Rex Ying. His research focus includes geometry and hyperbolic deep learning, their applications to foundation models, and their theoretical foundations. He is particularly interested in developing theoretically robust deep-learning methods and finding theoretical foundations for empirically observed behaviors.
-* **Menglin Yang** is currently an Assistant Professor in AI Thrust at the Hong Kong University of Science and Technology (Guangzhou), HKUST(GZ). He was previously a postdoctoral researcher at Yale University with Prof. Rex Ying and received his Ph.D. from The Chinese University of Hong Kong. His research interests include hyperbolic geometric learning and foundation models. He organized tutorials on hyperbolic graph learning at KDD 2023 and ECML-PKDD 2022, and a workshop on non-Euclidean foundation models at TheWebConf (WWW) 2025 as lead organizer.
-* **Rex Ying** is an Assistant Professor in the Department of Computer Science at Yale University. His research focus includes geometric deep learning, foundation models with structured data, multi-modal models, graph learning, and trustworthy deep learning. He is interested in the use of graphs and geometry to empower representation learning in expressiveness and trustworthiness in large-scale settings. Rex has built multi-modal foundation models in engineering, natural science, social science, and financial domains. He won the best dissertation award at KDD 2022 and the Amazon Research Award in 2024. His research is supported by the National Science Foundation, Gordon and Betty Moore Foundation, and industry partners such as NetApp, Goldman Sachs, Snap Research, and Amazon Research Award.
+* **[Neil He](https://www.linkedin.com/in/neil-he-3760a4230/)** is a bachelors/master student in the mathematics department at Yale University, advised by Professor Rex Ying. His research focus includes geometry and hyperbolic deep learning, their applications to foundation models, and their theoretical foundations. He is particularly interested in developing theoretically robust deep-learning methods and finding theoretical foundations for empirically observed behaviors.
+* **[Menglin Yang](https://yangmenglinsite.github.io/)** is currently an Assistant Professor in AI Thrust at the Hong Kong University of Science and Technology (Guangzhou), HKUST(GZ). He was previously a postdoctoral researcher at Yale University with Prof. Rex Ying and received his Ph.D. from The Chinese University of Hong Kong. His research interests include hyperbolic geometric learning and foundation models. He organized tutorials on hyperbolic graph learning at KDD 2023 and ECML-PKDD 2022, and a workshop on non-Euclidean foundation models at TheWebConf (WWW) 2025 as lead organizer.
+* **[Rex Ying](https://www.cs.yale.edu/homes/ying-rex/)** is an Assistant Professor in the Department of Computer Science at Yale University. His research focus includes geometric deep learning, foundation models with structured data, multi-modal models, graph learning, and trustworthy deep learning. He is interested in the use of graphs and geometry to empower representation learning in expressiveness and trustworthiness in large-scale settings. Rex has built multi-modal foundation models in engineering, natural science, social science, and financial domains. He won the best dissertation award at KDD 2022 and the Amazon Research Award in 2024. His research is supported by the National Science Foundation, Gordon and Betty Moore Foundation, and industry partners such as NetApp, Goldman Sachs, Snap Research, and Amazon Research Award.
 
 ## Contributors
 
-* **Hiren Madhu** is a PhD student in the Department of Computer Science at Yale University, advised by Professor Rex Ying and Professor Smita Krishnaswamy. His research focus includes geometric deep learning, foundation models with structured data, and their applications to biological data. He is particularly interested in developing novel machine learning methodologies that leverage graph-based and manifold-based approaches for efficient and interpretable representation learning for large biological datasets.
-* **Ngoc Bui** is a PhD student in the Department of Computer Science at Yale University, working under the supervision of Professor Rex Ying. His research interests broadly include large language models (LLMs) and their applications, such as personalized assistants and synthetic data generation through simulations.
+* **[Hiren Madhu](https://hirenmadhu.github.io/)** is a PhD student in the Department of Computer Science at Yale University, advised by Professor Rex Ying and Professor Smita Krishnaswamy. His research focus includes geometric deep learning, foundation models with structured data, and their applications to biological data. He is particularly interested in developing novel machine learning methodologies that leverage graph-based and manifold-based approaches for efficient and interpretable representation learning for large biological datasets.
+* **[Ngoc Bui](https://ngocbh.github.io/)** is a PhD student in the Department of Computer Science at Yale University, working under the supervision of Professor Rex Ying. His research interests broadly include large language models (LLMs) and their applications, such as personalized assistants and synthetic data generation through simulations.
 
 
 ## Survey Paper
