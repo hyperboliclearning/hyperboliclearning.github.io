@@ -210,7 +210,7 @@ The workshop is organized by an international and diverse team of experts in the
  </td>
  <td> 
  <img src="/images/people/neil.png?raw=true" alt="1" width=200px height=200px><br/>
- <a href="https://www.linkedin.com/in/neil-he-3760a4230/">Neil He</a><br/>
+ <a href="https://heneil.github.io/">Neil He</a><br/>
  UIUC/Yale
  </td>
  <td> 
