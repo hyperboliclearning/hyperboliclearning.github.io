@@ -97,14 +97,14 @@ ul ul {
 
 /* Links */
 a {
-  color: #3e23dd;
+  color: #0366d6;
   text-decoration: none;
   transition: color 0.2s ease;
   font-weight: bold;
 }
 
 a:hover {
-  color: #3e23dd;
+  color: #0366d6;
   text-decoration: underline;
 }
 
@@ -274,6 +274,6 @@ body .site-header .site-nav .page-link,
 /* Hover states */
 .site-title:hover,
 .site-nav .page-link:hover {
-  color: #3e23dd !important;
+  color: #0366d6 !important;
   text-decoration: underline;
 }

@@ -8,7 +8,7 @@ permalink: /events/neurips2025negelworkshop
 <link rel="stylesheet" href="/assets/neurips2025.css">
 
 <div style="text-align: right; margin-top: -3.5em; margin-bottom: 2em;">
-<h2 style="color: #3e23dd; font-size: 1.5em; font-weight: 600; margin: 0;">— Advancing AI Beyond Euclidean Frameworks</h2>
+<h2 style="color: #0366d6; font-size: 1.5em; font-weight: 600; margin: 0;">— Advancing AI Beyond Euclidean Frameworks</h2>
 </div>
 
 <div style="color: blue; margin-bottom: 5ex;">
@@ -43,7 +43,7 @@ h2, h3, h4, h5, h6 {
   color: #333;
 }
 a {
-  color: #3e23dd !important;
+  color: #0366d6 !important;
   font-weight: bold;
 }
 a:hover {
@@ -92,7 +92,7 @@ a:hover {
   text-align: left;
 }
 .sticky-outline a {
-  color: #3e23dd;
+  color: #0366d6;
   text-decoration: none;
   transition: color 0.2s;
   display: block;
@@ -211,7 +211,7 @@ The workshop is organized by an international and diverse team of experts in the
  <td> 
  <img src="/images/people/neil.png?raw=true" alt="1" width=200px height=200px><br/>
  <a href="https://www.linkedin.com/in/neil-he-3760a4230/">Neil He</a><br/>
- Yale/UIUC
+ UIUC/Yale
  </td>
  <td> 
  <img src="/images/people/yifei_L.png?raw=true" alt="1" width=200px height=200px><br/>
@@ -285,6 +285,8 @@ The workshop features an international and distinguished lineup of speakers from
  </tr>
 </table>
 
+Note: Lucas Vinh Tran is an extended speaker
+
 ## 7. FAQ
 
 **Can I attend virtually?**  
@@ -296,4 +298,4 @@ Non-archival means that your submission will not be published in formal proceedi
 ## Contact
 Feel free to contact us at `negel2025@outlook.com`. We look forward to your participation at NeurIPS 2025!
 
-<p style="font-weight: 600; margin-top: 1em;"><strong>🔗 Workshop Page:</strong> <a href="https://neurips.cc/virtual/2025/workshop/109582" style="color: #3e23dd; font-weight: bold;">Official NeurIPS Workshop Page</a></p>
+<p style="font-weight: 600; margin-top: 1em;"><strong>🔗 Workshop Page:</strong> <a href="https://neurips.cc/virtual/2025/workshop/109582" style="color: #0366d6; font-weight: bold;">Official NeurIPS Workshop Page</a></p>

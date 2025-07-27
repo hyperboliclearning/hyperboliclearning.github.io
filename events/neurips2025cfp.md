@@ -20,11 +20,11 @@ h2, h3, h4, h5, h6 {
   color: #333;
 }
 a {
-  color: #3e23dd !important;
+  color: #0366d6 !important;
   font-weight: bold;
 }
 a:hover {
-  color: #2222B2 !important;
+  color: #0366d6 !important;
 }
 /* Fix header font consistency */
 .site-nav .page-link {

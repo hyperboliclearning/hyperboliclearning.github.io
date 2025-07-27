@@ -83,7 +83,7 @@ h2, h3, h4, h5, h6 {
   text-align: left;
 }
 .sticky-outline a {
-  color: #3e23dd;
+  color: #0366d6;
   text-decoration: none;
   transition: color 0.2s;
   display: block;
@@ -177,7 +177,7 @@ Potential advantages include:
 
 ## 6. Challenges and Opportunities
 
-<span style="color:#3e23dd">While hyperbolic deep learning demonstrates significant promise, several important challenges remain:</span>
+<span style="color:#0366d6">While hyperbolic deep learning demonstrates significant promise, several important challenges remain:</span>
 
 • **Computational Challenges**: Implementing hyperbolic operations requires careful numerical handling to maintain stability, especially near the boundaries of models like the Poincaré disk where distances approach infinity. Current implementations often suffer from numerical issues that limit their practical deployment at scale.
 
@@ -187,7 +187,7 @@ Potential advantages include:
 
 • **Theoretical Understanding**: The theoretical foundations of hyperbolic deep learning are still developing. Better understanding of generalization, representation capacity, and optimization dynamics in hyperbolic space would accelerate progress.
 
-<span style="color:#3e23dd">Despite these challenges, hyperbolic geometry in deep learning presents exciting opportunities:</span>
+<span style="color:#0366d6">Despite these challenges, hyperbolic geometry in deep learning presents exciting opportunities:</span>
 
 • **Extreme Efficiency in Hierarchical Tasks**: For applications dominated by tree-like structures, hyperbolic approaches could dramatically reduce model size while improving performance.
 

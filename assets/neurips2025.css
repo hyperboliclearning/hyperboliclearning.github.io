@@ -3,7 +3,7 @@
 
 /* Base Body Styles */
 body {
-  max-width: 1000px; /* Set maximum width for the page */
+  max-width: 1500px; /* Set maximum width for the page */
   margin: 0 auto;    /* Center the content */
   padding: 0 20px;   /* Add spacing to avoid content touching edges */
   box-sizing: border-box;
@@ -21,7 +21,7 @@ body {
 
 /* Wrapper for Centralized Content */
 .wrapper {
-  max-width: 1000px; /* Set new max width */
+  max-width: 1200px; /* Set new max width */
   margin: 0 auto;    /* Center-align content */
   padding: 0 20px;   /* Optional: Add side spacing */
   box-sizing: border-box; /* Include padding in width calculations */
