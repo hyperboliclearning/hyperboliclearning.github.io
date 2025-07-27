@@ -116,6 +116,18 @@ This tutorial targets machine learning researchers of any background, particular
 
 
 ## Survey Paper
-TBD
+
+[Hyperbolic Deep Learning for Foundation Models: A Survey](https://www.arxiv.org/abs/2507.17787)
+
+```bibtex
+@inproceedings{he2025hyperbolic,
+  title={Hyperbolic Deep Learning for Foundation Models: A Survey},
+  author={He, Neil and Madhu, Hiren and Bui, Ngoc and Yang, Menglin and Ying, Rex},
+  booktitle={Proceedings of the 31st ACM SIGKDD Conference on Knowledge Discovery and Data Mining},
+  year={2025},
+  organization={ACM}
+}
+```
+
 
 Feel free to contact us at `hyperbolic.kdd25@outlook.com`. We look forward to your participation in the workshop!
