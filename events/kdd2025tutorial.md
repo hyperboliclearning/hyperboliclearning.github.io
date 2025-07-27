@@ -115,7 +115,7 @@ Yale University
 
 
 
-* **[Hiren Madhu (Contributor)]((https://hirenmadhu.github.io/))** is a PhD student in the Department of Computer Science at Yale University, advised by Professor Rex Ying and Professor Smita Krishnaswamy. His research focus includes geometric deep learning, foundation models with structured data, and their applications to biological data. He is particularly interested in developing novel machine learning methodologies that leverage graph-based and manifold-based approaches for efficient and interpretable representation learning for large biological datasets.
+* **[Hiren Madhu (Contributor)](https://hirenmadhu.github.io/)** is a PhD student in the Department of Computer Science at Yale University, advised by Professor Rex Ying and Professor Smita Krishnaswamy. His research focus includes geometric deep learning, foundation models with structured data, and their applications to biological data. He is particularly interested in developing novel machine learning methodologies that leverage graph-based and manifold-based approaches for efficient and interpretable representation learning for large biological datasets.
   
 * **[Ngoc Bui (Contributor)](https://ngocbh.github.io/)** is a PhD student in the Department of Computer Science at Yale University, working under the supervision of Professor Rex Ying. His research interests broadly include large language models (LLMs) and their applications, such as personalized assistants and synthetic data generation through simulations.
 
