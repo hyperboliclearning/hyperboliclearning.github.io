@@ -285,7 +285,6 @@ The workshop features an international and distinguished lineup of speakers from
  </tr>
 </table>
 
-Note: Lucas Vinh Tran is an extended speaker
 
 ## 7. FAQ
 
