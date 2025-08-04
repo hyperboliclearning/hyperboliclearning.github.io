@@ -26,8 +26,9 @@ Join our <img src="/images/slack.png" alt="Slack" style="width: 15px; height: 15
 ## Important Information
 
 * **1:00 PM - 4:00 PM, August 04, 2025**: Lecture-style Tutorial at KDD 2025 (Half-day session)
-* **Location**: To be announced
+* **Location**: Room 712, Toronto Convention Centre, Toronto, Canada
 * **Slides**: [**Tutorial Slides**](/events/materials/kdd25.pdf)
+* **Online**: [**Zoom Link**](https://yale.zoom.us/j/91091830612)
 
 ## Tutorial Outline
 
