@@ -17,17 +17,6 @@ permalink: /events/neurips2025negelworkshop
 </div>
 
 
-<div class="sticky-outline">
-  <ul>
-    <li><a href="#1-workshop-introduction">1. Introduction</a></li>
-    <li><a href="#2-call-for-papers-topics-and-scope">2. Call for Contributions</a></li>
-    <li><a href="#3-submissions-and-timeline">3. Timeline</a></li>
-    <li><a href="#4-tentative-schedule">4. Tentative Schedule</a></li>
-    <li><a href="#5-organizers">5. Organizers</a></li>
-    <li><a href="#6-speakers">6. Speakers</a></li>
-    <li><a href="#7-faq">7. FAQ</a></li>
-  </ul>
-</div>
 
 <style>
 body {
@@ -118,6 +107,7 @@ Non-Euclidean Foundation Models Workshop and Geometric Learning@NeurIPS 2025, Sa
 
 ## News
 
+- 2025-08-24: The submission deadline has been extended.
 - 2025-07-22: We are accepting paper for oral and poster presentations. See the [Call for Contributions](#2-call-for-contributions-topics-and-scope) for more details.
 - 2025-07-22: If you are interested in being a reviewer for the workshop, please fill out the [reviewer nomination](https://forms.gle/esqwFrfPKhvjNE7F7) form by August 24st.
 - Submission site: [https://openreview.net/group?id=NeurIPS.cc/2025/Workshop/NEGEL](https://openreview.net/group?id=NeurIPS.cc/2025/Workshop/NEGEL)
@@ -147,8 +137,8 @@ Submissions should be PDFs of ≤ 9 pages (excluding references and appendices) 
 Please use the [NeurIPS 2025 LaTeX style file](https://media.neurips.cc/Conferences/NeurIPS2025/Styles.zip); it includes a preprint option for non‑anonymous preprints posted online (see additional formatting details here).  Outstanding papers will be selected for **lightning talks** and a **best paper award** will be announced at the workshop. All accepted papers will be presented as posters.
 
 ### Important Dates
-- **Abstract submission deadline**: August 25,2025
-- **Paper submission deadline**: Sept 2,2025
+- **Abstract submission deadline**: ~~August 25,2025~~ <span style="color: red;"><strong>Sept 2, 2025 (Extended)</strong></span>
+- **Paper submission deadline**: ~~Sept 2,2025~~ <span style="color: red;"><strong>Sept 6, 2025 (Extended)</strong></span>
 - **Author notification**: Sept 25,2025
 - **Camera-ready submission**: Sept 30,2025
 - **NeurIPS early registration deadline**: Oct 11, 2025
@@ -219,6 +209,16 @@ The workshop is organized by an international and diverse team of experts in the
  NTU
  </td>
  <td> 
+ <img src="/images/people/ngoc3.png?raw=true" alt="1" width=200px height=200px><br/>
+ <a href="https://ngocbh.github.io/">Ngoc Bui</a><br/>
+ Yale
+ </td>
+ <td> 
+ <img src="/images/people/jiahong.png?raw=true" alt="1" width=200px height=200px><br/>
+ <a href="https://misc-lab.cse.cuhk.edu.hk/sciencex_teams/jiahong-liu/">Jiahong Liu</a><br/>
+ CUHK
+ </td>
+ <td> 
  <img src="/images/people/Melanie.png?raw=true" alt="1" width=200px height=200px><br/>
  <a href="http://melanie-weber.com/">Melanie Weber</a><br/>
  Harvard
@@ -231,12 +231,12 @@ The workshop is organized by an international and diverse team of experts in the
  </tr> 
 </table>
 
-Note: Melanie Weber is an extended organizer.
+Note: Ngoc Bui, Jiahong Liu and Melanie Weber are extended organizers.
 
 
-## 6.Speakers
+## 6. Invited Speakers and Panelist
 
-The workshop features an international and distinguished lineup of speakers from academia and industry:
+The workshop features an international and distinguished lineup of speakers and Panelist from academia and industry:
 
 <table>
  <tr>
