@@ -137,7 +137,7 @@ Submissions should be PDFs of ≤ 9 pages (excluding references and appendices) 
 Please use the [NeurIPS 2025 LaTeX style file](https://media.neurips.cc/Conferences/NeurIPS2025/Styles.zip); it includes a preprint option for non‑anonymous preprints posted online (see additional formatting details here).  Outstanding papers will be selected for **lightning talks** and a **best paper award** will be announced at the workshop. All accepted papers will be presented as posters.
 
 ### Important Dates
-- **Abstract submission deadline**: ~~August 25,2025~~ <span style="color: red;"><strong>Sept 2, 2025 (Extended)</strong></span>
+- **Abstract submission deadline**: ~~August 25,2025~~ ~~Sept 2, 2025 (Extended)~~ <span style="color: red;"><strong>Sept 3, 2025 (Extended)</strong></span>
 - **Paper submission deadline**: ~~Sept 2,2025~~ <span style="color: red;"><strong>Sept 6, 2025 (Extended)</strong></span>
 - **Author notification**: Sept 25,2025
 - **Camera-ready submission**: Sept 30,2025
