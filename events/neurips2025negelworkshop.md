@@ -145,7 +145,7 @@ Please use the [NeurIPS 2025 LaTeX style file](https://media.neurips.cc/Conferen
 - **NeurIPS financial assistance application deadline**: TBA
 - **Workshop date**: December 6 or 7, 2025
 - **Location**: San Diego, CA, USA
-- **Timezone**: Anywhere On Earth (UTC-12)
+- **Timezone**: Anywhere On Earth
   
 <div style="text-align: center; margin: 2em 0;">
 <a href="https://openreview.net/group?id=NeurIPS.cc/2025/Workshop/NEGEL" style="
