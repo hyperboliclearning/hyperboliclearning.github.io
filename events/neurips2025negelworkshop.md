@@ -139,7 +139,7 @@ Please use the [NeurIPS 2025 LaTeX style file](https://media.neurips.cc/Conferen
 ### Important Dates
 - **Abstract submission deadline**: ~~August 25,2025~~ ~~Sept 2, 2025 (Extended)~~ <span style="color: red;"><strong>Sept 3, 2025 (Extended)</strong></span>
 - **Paper submission deadline**: ~~Sept 2,2025~~ <span style="color: red;"><strong>Sept 6, 2025 (Extended)</strong></span>
-- **Author notification**: Sept 25,2025
+- **Author notification**: ~~Sept 25,2025~~ <span style="color: red;"><strong>Sept 22, 2025</strong></span>
 - **Camera-ready submission**: Sept 30,2025
 - **NeurIPS early registration deadline**: Oct 11, 2025
 - **NeurIPS financial assistance application deadline**: TBA
@@ -209,8 +209,8 @@ The workshop is organized by an international and diverse team of experts in the
  NTU
  </td>
  <td> 
- <img src="/images/people/ngoc3.png?raw=true" alt="1" width=200px height=200px><br/>
- <a href="https://ngocbh.github.io/">Ngoc Bui</a><br/>
+ <img src="/images/people/weikang.png?raw=true" alt="1" width=200px height=200px><br/>
+ <a href="https://scholar.google.com/citations?user=OLRjhHAAAAAJ&hl">Weikang Qiu</a><br/>
  Yale
  </td>
  <td> 
@@ -231,7 +231,7 @@ The workshop is organized by an international and diverse team of experts in the
  </tr> 
 </table>
 
-Note: Ngoc Bui, Jiahong Liu and Melanie Weber are extended organizers.
+Note: Weikang Qiu, Jiahong Liu and Melanie Weber are extended organizers.
 
 
 ## 6. Invited Speakers and Panelist
@@ -298,3 +298,12 @@ Non-archival means that your submission will not be published in formal proceedi
 Feel free to contact us at `negel2025@outlook.com`. We look forward to your participation at NeurIPS 2025!
 
 <p style="font-weight: 600; margin-top: 1em;"><strong>🔗 Workshop Page:</strong> <a href="https://neurips.cc/virtual/2025/workshop/109582" style="color: #0366d6; font-weight: bold;">Official NeurIPS Workshop Page</a></p>
+
+## 8 Sponsor
+
+This workshop is proudly sponsored by the Artificial Intelligence Journal (AIJ). Established in 1970, AIJ is one of the longest-standing and most respected journals in the field of artificial intelligence. 
+
+<div style="text-align: center; margin: 2em 0;">
+<img src="/images/figs/aij.png" alt="AIJ Logo" style="max-width: 300px; height: auto;">
+</div>
+
