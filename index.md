@@ -100,11 +100,12 @@ h2, h3, h4, h5, h6 {
 
 ## Events and News!
 
+- [Hyperbolic Fine-tuning for Large Language Models (HypLoRA)]({{ "/papers/hyplora" | relative_url }})
 - [HELM: Hyperbolic Large Language Models via Mixture-of-Curvature Experts - PDF](https://arxiv.org/abs/2505.24722)
-- [NeurIPS 2025 NEGEL Workshop - Website]({{ "/events/neurips2025negelworkshop" | relative_url }})
-- [KDD 2025 Hyperbolic FM Tutorial - Website]({{ "/events/kdd2025tutorial" | relative_url }})
-- [WWW 2025 NEGEL Workshop - Website]({{ "/events/www2025workshop" | relative_url }})
-- [KDD 2023 Tutorial - Website](https://hyperbolicgnn.github.io/)
+- [NeurIPS 2025 NEGEL Workshop]({{ "/events/neurips2025negelworkshop" | relative_url }})
+- [KDD 2025 Hyperbolic FM Tutorial]({{ "/events/kdd2025tutorial" | relative_url }})
+- [WWW 2025 NEGEL Workshop]({{ "/events/www2025workshop" | relative_url }})
+- [KDD 2023 Tutorial](https://hyperbolicgnn.github.io/)
 - [Slack channel for more discussions and tracking updates!](https://join.slack.com/t/hyperboliclearning/shared_invite/zt-1qcqgtwfr-HpsRSzDhvkAEal6dOnKDvA) 
 - [Awesome Hyperbolic Representation and Deep Learning Repository]({{ "/collection" | relative_url }})
 
