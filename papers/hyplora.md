@@ -38,7 +38,7 @@ Large language models (LLMs) have demonstrated remarkable performance on various
 ```bibtex
 @article{yang2024hyperbolic,
   title={Hyperbolic Fine-tuning for Large Language Models},
-  author={Yang, Menglin and Feng, Aosong and Xiong, Bo and Liu, Jihong and King, Irwin and Ying, Rex},
+  author={Yang, Menglin, Ram, Samarth and Feng, Aosong and Xiong, Bo and Liu, Jihong and King, Irwin and Ying, Rex},
   journal={arXiv preprint arXiv:2410.04010},
   year={2024}
 }
