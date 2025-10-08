@@ -209,8 +209,20 @@ The workshop is organized by an international and diverse team of experts in the
  NTU
  </td>
  <td> 
+ <img src="/images/people/rex.png?raw=true" alt="1" width=200px height=200px><br/>
+ <a href="https://www.cs.yale.edu/homes/ying-rex/">Rex Ying</a><br/>
+ Yale
+ </td>
+ </tr>
+ <tr>
+ <td> 
  <img src="/images/people/weikang.png?raw=true" alt="1" width=200px height=200px><br/>
  <a href="https://scholar.google.com/citations?user=OLRjhHAAAAAJ&hl">Weikang Qiu</a><br/>
+ Yale
+ </td>
+ <td> 
+ <img src="/images/people/ngoc3.png?raw=true" alt="1" width=200px height=200px><br/>
+ <a href="https://ngocbh.github.io/">Ngoc Bui</a><br/>
  Yale
  </td>
  <td> 
@@ -223,15 +235,10 @@ The workshop is organized by an international and diverse team of experts in the
  <a href="http://melanie-weber.com/">Melanie Weber</a><br/>
  Harvard
  </td>
- <td> 
- <img src="/images/people/rex.png?raw=true" alt="1" width=200px height=200px><br/>
- <a href="https://www.cs.yale.edu/homes/ying-rex/">Rex Ying</a><br/>
- Yale
- </td>
- </tr> 
+ </tr>
 </table>
 
-Note: Weikang Qiu, Jiahong Liu and Melanie Weber are extended organizers.
+Note: Weikang Qiu, Ngoc Bui, Jiahong Liu and Melanie Weber are extended organizers.
 
 
 ## 6. Invited Speakers and Panelist
