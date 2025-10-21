@@ -1,7 +1,7 @@
 ---
 title: "Hyperbolic Fine-tuning for Large Language Models (HypLoRA)"
 layout: page
-permalink: /papers/hyplora
+permalink: /work/hyplora
 ---
 
 <link rel="stylesheet" href="/style.css">
@@ -43,7 +43,5 @@ Large language models (LLMs) have demonstrated remarkable performance on various
   year={2024}
 }
 ```
-
-
 
 

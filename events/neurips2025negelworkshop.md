@@ -176,16 +176,14 @@ NeurIPS 2025 Workshop NEGEL Submission
 - 8:50–9:00 AM: Opening remarks
 - 9:00–9:50 AM: Invited talk: Philip S. Yu (UIC)
 - 9:50–10:40 AM: Invited talk: Pascal Mettes (UvA)
-- 10:40–11:30 AM: Invited talk: Smita Krishnaswamy (Yale)
-- 11:30–11:50 AM: Discussions and coffee break
-- 11:50–12:55 PM: Poster session
+- 10:40–11:30 AM: Invited talk: Min Zhou (Huawei)
+- 11:30–12:55 PM: Poster session
 - 12:55–1:30 PM: Lunch break
-- 1:30–2:20 PM: Invited talk: Min Zhou (Huawei)
+- 1:30–2:20 PM: Invited talk: Smita Krishnaswamy (Yale)
 - 2:20–3:10 PM: Invited talk: Bo Xiong (Standford)
 - 3:10–4:00 PM: Invited talk: Lucas Vinh Tran (JPMorganChase)
-- 4:00–4:50 PM: Contributed talks
-- 4:50–5:00 PM: Discussions and coffee break
-- 5:00–5:30 PM: Panel discussions: Foundation Models Meet Non-Euclidean Space
+- 4:00–4:40 PM: Contributed talks
+- 4:40–5:00 PM: Panel discussions: Foundation Models Meet Non-Euclidean Space
 
 ## 5. Organizers
 
