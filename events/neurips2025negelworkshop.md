@@ -180,7 +180,7 @@ NeurIPS 2025 Workshop NEGEL Submission
 - 11:30–12:55 PM: Poster session
 - 12:55–1:30 PM: Lunch break
 - 1:30–2:20 PM: Invited talk: Smita Krishnaswamy (Yale)
-- 2:20–3:10 PM: Invited talk: Bo Xiong (Standford)
+- 2:20–3:10 PM: Invited talk: Bo Xiong (Stanford)
 - 3:10–4:00 PM: Invited talk: Lucas Vinh Tran (JPMorganChase)
 - 4:00–4:40 PM: Contributed talks
 - 4:40–5:00 PM: Panel discussions: Foundation Models Meet Non-Euclidean Space
