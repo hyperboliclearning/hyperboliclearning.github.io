@@ -143,8 +143,8 @@ Please use the [NeurIPS 2025 LaTeX style file](https://media.neurips.cc/Conferen
 - **Camera-ready submission**: Sept 30,2025
 - **NeurIPS early registration deadline**: Oct 11, 2025
 - **NeurIPS financial assistance application deadline**: TBA
-- **Workshop date**: December 6 or 7, 2025
-- **Location**: San Diego, CA, USA
+- **Workshop date**: December 7, 2025
+- **Location**: Upper Level Room 8, San Diego Convention Center, San Diego, CA, USA
 - **Timezone**: Anywhere On Earth
   
 <div style="text-align: center; margin: 2em 0;">
@@ -185,7 +185,61 @@ NeurIPS 2025 Workshop NEGEL Submission
 - 4:00–4:40 PM: Contributed talks
 - 4:40–5:00 PM: Panel discussions: Foundation Models Meet Non-Euclidean Space
 
-## 5. Organizers
+## 5. Invited Speakers and Panelist
+
+The workshop features an international and distinguished lineup of speakers and Panelist from academia and industry:
+
+<table>
+ <tr>
+ <td>
+ <img src="/images/people/philip.png" alt="Philip S. Yu" width=200px height=200px>
+ <br>
+ <a href="https://cs.uic.edu/profiles/philip-yu/">Philip S. Yu</a>
+ <br>
+ UIC
+ </td>
+ <td>
+ <img src="/images/people/bo_xiong.png" alt="Bo Xiong" width=200px height=200px>
+ <br>
+ <a href="https://boxiong.io/">Bo Xiong</a>
+ <br>
+ Stanford
+ </td>
+ <td>
+ <img src="/images/people/smita.png" alt="Smita Krishnaswamy" width=200px height=200px>
+ <br>
+ <a href="https://scholar.google.com/citations?user=l2Pr9m8AAAAJ&hl=en">Smita Krishnaswamy</a>
+ <br>
+ Yale
+ </td>
+ <td>
+ <img src="/images/people/lucas.png" alt="Lucas" width=200px height=200px>
+ <br>
+ <a href="https://www.lucasvinhtran.com/">Lucas Vinh Tran </a>
+ <br>
+ JPMorganChase
+ </td>
+ </tr>
+ <tr>
+ <td>
+ <img src="/images/people/min.png" alt="Min Zhou" width=200px height=200px>
+ <br>
+ <a href="https://scholar.google.com/citations?user=P8WYyYIAAAAJ&hl=en">Min Zhou</a>
+ <br>
+ Huawei
+ </td>
+ <td>
+ <img src="/images/people/pascal.png" alt="Pascal Mettes" width=200px height=200px>
+ <br>
+ <a href="https://staff.fnwi.uva.nl/p.s.m.mettes/">Pascal Mettes</a>
+ <br>
+ UvA
+ </td>
+ </tr>
+</table>
+
+
+## 6. Organizers
 
 The workshop is organized by an international and diverse team of experts in the field:
 
@@ -237,58 +291,6 @@ The workshop is organized by an international and diverse team of experts in the
 </table>
 
 Note: Weikang Qiu, Ngoc Bui, Jiahong Liu and Melanie Weber are extended organizers.
-
-
-## 6. Invited Speakers and Panelist
-
-The workshop features an international and distinguished lineup of speakers and Panelist from academia and industry:
-
-<table>
- <tr>
- <td>
- <img src="/images/people/philip.png" alt="Philip S. Yu">
- <br>
- <a href="https://cs.uic.edu/profiles/philip-yu/">Philip S. Yu</a>
- <br>
- UIC
- </td>
- <td>
- <img src="/images/people/bo_xiong.png" alt="Bo Xiong">
- <br>
- <a href="https://boxiong.io/">Bo Xiong</a>
- <br>
- Stanford
- </td>
- <td>
- <img src="/images/people/min.png" alt="Min Zhou">
- <br>
- <a href="https://scholar.google.com/citations?user=P8WYyYIAAAAJ&hl=en">Min Zhou</a>
- <br>
- Huawei
- </td>
- <td>
- <img src="/images/people/pascal.png" alt="Pascal Mettes">
- <br>
- <a href="https://staff.fnwi.uva.nl/p.s.m.mettes/">Pascal Mettes</a>
- <br>
- UvA
- </td>
-  <td>
- <img src="/images/people/smita.png" alt="Smita Krishnaswamy">
- <br>
- <a href="https://scholar.google.com/citations?user=l2Pr9m8AAAAJ&hl=en">Smita Krishnaswamy</a>
- <br>
- Yale
- </td>
- <td>
- <img src="/images/people/lucas.png" alt="Lucas">
- <br>
- <a href="https://www.lucasvinhtran.com/">Lucas Vinh Tran </a>
- <br>
- JPMorganChase
- </td>
- </tr>
-</table>
 
 
 ## 7. FAQ
