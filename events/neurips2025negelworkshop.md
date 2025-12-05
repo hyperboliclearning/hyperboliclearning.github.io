@@ -1,5 +1,5 @@
 ---
-title: "Non-Euclidean Foundation Models and Geometric Learning  Workshop @ NeurIPS 2025"
+title: "Non-Euclidean Foundation Models and Geometric Learning Workshop @ NeurIPS 2025"
 layout: page
 permalink: /events/neurips2025negelworkshop
 ---
@@ -99,7 +99,7 @@ a:hover {
 <div class="banner-container">
  <div class="banner-overlay"></div>
  <div class="banner-text">
-Non-Euclidean Foundation Models Workshop and Geometric Learning@NeurIPS 2025, San Diego, CA, USA, Dec 2–7, 2025.
+Non-Euclidean Foundation Models Workshop and Geometric Learning @ NeurIPS 2025, San Diego, CA, USA, Dec 2–7, 2025.
  </div>
 </div>
 
@@ -108,8 +108,8 @@ Non-Euclidean Foundation Models Workshop and Geometric Learning@NeurIPS 2025, Sa
 ## News
 
 - 2025-08-24: The submission deadline has been extended.
-- 2025-07-22: We are accepting paper for oral and poster presentations. See the [Call for Contributions](#2-call-for-contributions-topics-and-scope) for more details.
-- 2025-07-22: If you are interested in being a reviewer for the workshop, please fill out the [reviewer nomination](https://forms.gle/esqwFrfPKhvjNE7F7) form by August 24st.
+- 2025-07-22: We are accepting papers for oral and poster presentations. See the [Call for Contributions](#2-call-for-contributions-topics-and-scope) for more details.
+- 2025-07-22: If you are interested in being a reviewer for the workshop, please fill out the [reviewer nomination](https://forms.gle/esqwFrfPKhvjNE7F7) form by August 24th.
 - Submission site: [https://openreview.net/group?id=NeurIPS.cc/2025/Workshop/NEGEL](https://openreview.net/group?id=NeurIPS.cc/2025/Workshop/NEGEL)
 - Join our <img src="/images/slack.png" alt="Slack" style="width: 15px; height: 15px; vertical-align: middle; margin-right: 5px;"> [Slack workspace](https://join.slack.com/t/hyperboliclearning/shared_invite/zt-1qcqgtwfr-HpsRSzDhvkAEal6dOnKDvA)
 
@@ -137,10 +137,10 @@ Submissions should be PDFs of ≤ 9 pages (excluding references and appendices) 
 Please use the [NeurIPS 2025 LaTeX style file](https://media.neurips.cc/Conferences/NeurIPS2025/Styles.zip); it includes a preprint option for non‑anonymous preprints posted online (see additional formatting details here).  Outstanding papers will be selected for **lightning talks** and a **best paper award** will be announced at the workshop. All accepted papers will be presented as posters.
 
 ### Important Dates
-- **Abstract submission deadline**: ~~August 25,2025~~ ~~Sept 2, 2025 (Extended)~~ <span style="color: red;"><strong>Sept 3, 2025 (Extended)</strong></span>
-- **Paper submission deadline**: ~~Sept 2,2025~~ <span style="color: red;"><strong>Sept 6, 2025 (Extended)</strong></span>
-- **Author notification**: ~~Sept 25,2025~~ <span style="color: red;"><strong>Sept 22, 2025</strong></span>
-- **Camera-ready submission**: Sept 30,2025
+- **Abstract submission deadline**: ~~August 25, 2025~~ ~~Sept 2, 2025 (Extended)~~ <span style="color: red;"><strong>Sept 3, 2025 (Extended)</strong></span>
+- **Paper submission deadline**: ~~Sept 2, 2025~~ <span style="color: red;"><strong>Sept 6, 2025 (Extended)</strong></span>
+- **Author notification**: ~~Sept 25, 2025~~ <span style="color: red;"><strong>Sept 22, 2025</strong></span>
+- **Camera-ready submission**: Sept 30, 2025
 - **NeurIPS early registration deadline**: Oct 11, 2025
 - **NeurIPS financial assistance application deadline**: TBA
 - **Workshop date**: December 7, 2025
@@ -170,24 +170,31 @@ NeurIPS 2025 Workshop NEGEL Submission
 
 
 
-## 4. Tentative Schedule
+## 4. Tentative Schedule (San Diego Local Time)
 
 - 8:30–8:50 AM: Poster setup
 - 8:50–9:00 AM: Opening remarks
-- 9:00–9:50 AM: Invited talk: Philip S. Yu (UIC)
-- 9:50–10:40 AM: Invited talk: Pascal Mettes (UvA)
-- 10:40–11:30 AM: Invited talk: Min Zhou (Huawei)
+- 9:00–9:50 AM: Invited talk: Dr. Bo Xiong (Stanford University)
+- 9:50–10:40 AM: Invited talk: Prof. Smita Krishnaswamy (Yale University)
+- 10:40–11:30 AM: Invited talk: Prof. Pascal Mettes (University of Amsterdam)
 - 11:30–12:55 PM: Poster session
-- 12:55–1:30 PM: Lunch break
-- 1:30–2:20 PM: Invited talk: Smita Krishnaswamy (Yale)
-- 2:20–3:10 PM: Invited talk: Bo Xiong (Stanford)
-- 3:10–4:00 PM: Invited talk: Lucas Vinh Tran (JPMorganChase)
-- 4:00–4:40 PM: Contributed talks
-- 4:40–5:00 PM: Panel discussions: Foundation Models Meet Non-Euclidean Space
+- 12:55–1:00 PM: Lunch break
+- 1:00–1:50 PM: Invited talk: Prof. Philip S. Yu (University of Illinois at Chicago)
+- 1:50–2:40 PM: Invited talk: Dr. Lucas Vinh Tran (JPMorganChase)
+- 2:40–3:30 PM: Panel: Foundation Models Meet Non-Euclidean Space
+- 3:30–5:00 PM: Contributed talks (12 min + 3 min QA per talk): 
+  <ul style="font-size: 0.95em; margin-left: 1em; margin-top: 0.5em;">
+  <li>New Geometric Primitives for Machine Reasoning (Peihao Wang)</li>
+  <li>Geometry-adaptive Hyperbolic Learning in Computer Vision (Pengxiang Li)</li>
+  <li>AQuaMaM: An Autoregressive, Quaternion Manifold Model for Rapidly Estimating Complex SO(3) Distributions (Michael A. Alcorn)</li>
+  <li>Riemannian Fuzzy K-Means on Product Manifolds (Jinghui Yuan, Zhuo Liu, Feip)</li>
+  <li>A geometric framework for momentum-based optimizers for low-rank training (Steffen Schotthöfer, Timor)</li>
+  <li>SphereEdit: Geometric Control for Composable Diffusion-Based Image Editing (Salamata Konate)</li>
+  </ul>
 
-## 5. Invited Speakers and Panelist
+## 5. Invited Speakers and Panelists
 
-The workshop features an international and distinguished lineup of speakers and Panelist from academia and industry:
+The workshop features an international and distinguished lineup of speakers and panelists from academia and industry:
 
 <table>
  <tr>
@@ -215,7 +222,7 @@ The workshop features an international and distinguished lineup of speakers and 
  <td>
  <img src="/images/people/lucas.png" alt="Lucas" width=200px height=200px>
  <br>
- <a href="https://www.lucasvinhtran.com/">Lucas Vinh Tran </a>
+ <a href="https://www.lucasvinhtran.com/">Lucas Vinh Tran</a>
  <br>
  JPMorganChase
  </td>
@@ -290,7 +297,7 @@ The workshop is organized by an international and diverse team of experts in the
  </tr>
 </table>
 
-Note: Weikang Qiu, Ngoc Bui, Jiahong Liu and Melanie Weber are extended organizers.
+Note: Weikang Qiu, Ngoc Bui, Jiahong Liu, and Melanie Weber are extended organizers.
 
 
 ## 7. FAQ
@@ -306,7 +313,7 @@ Feel free to contact us at `negel2025@outlook.com`. We look forward to your part
 
 <p style="font-weight: 600; margin-top: 1em;"><strong>🔗 Workshop Page:</strong> <a href="https://neurips.cc/virtual/2025/workshop/109582" style="color: #0366d6; font-weight: bold;">Official NeurIPS Workshop Page</a></p>
 
-## 8 Sponsor
+## 8. Sponsor
 
 This workshop is proudly sponsored by the Artificial Intelligence Journal (AIJ). Established in 1970, AIJ is one of the longest-standing and most respected journals in the field of artificial intelligence. 
 
