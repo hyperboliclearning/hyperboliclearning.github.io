@@ -103,6 +103,7 @@ h2, h3, h4, h5, h6 {
 - [Hyperbolic Fine-tuning for Large Language Models (HypLoRA)]({{ "/work/hyplora" | relative_url }})
 - [HELM: Hyperbolic Large Language Models via Mixture-of-Curvature Experts - PDF](https://arxiv.org/abs/2505.24722)
 - [NeurIPS 2025 NEGEL Workshop]({{ "/events/neurips2025negelworkshop" | relative_url }})
+- [AAAI 2026 Hyperbolic FM Tutorial]({{ "/events/aaai2026tutorial" | relative_url }})
 - [KDD 2025 Hyperbolic FM Tutorial]({{ "/events/kdd2025tutorial" | relative_url }})
 - [WWW 2025 NEGEL Workshop]({{ "/events/www2025workshop" | relative_url }})
 - [KDD 2023 Tutorial](https://hyperbolicgnn.github.io/)

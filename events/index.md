@@ -17,6 +17,7 @@ body {
 Welcome to our events page! Here you can find information about our tutorials, workshops, and more.
 
 - [NeurIPS 2025 NEGEL Workshop]({{ "/events/neurips2025negelworkshop" | relative_url }})
+- [AAAI 2026 Hyperbolic FM Tutorial]({{ "/events/aaai2026tutorial" | relative_url }})
 - [KDD 2025 Hyperbolic FM Tutorial]({{ "/events/kdd2025tutorial" | relative_url }})
 - [WWW 2025 NEGEL Workshop]({{ "/events/www2025workshop" | relative_url }})
 - [KDD 2023 Tutorial - Website](https://hyperbolicgnn.github.io/)
