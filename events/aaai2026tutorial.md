@@ -41,29 +41,31 @@ This tutorial targets machine learning researchers interested in foundation mode
 
 ## Tutorial Outline
 
-The 3-hour tutorial is organized as follows (with three 10-minute breaks):
+**Part 1. INTRODUCTION**
+- 1.1 Motivation of Hyperbolic Geometry for Foundation Models 
+- 1.2 Brief Introduction Hyperbolic Geometry
 
-* **Introduction & Motivation (50 minutes)**
-  * Overview of Euclidean foundation models and limitations
-  * Hyperbolic geometry and Riemannian manifolds
-  * Motivation and key applications
-* **Break (10 minutes)**
-* **Hyperbolic Neural Networks as Building Blocks (55 minutes)**
-  * Operations (feature transformation, residuals, normalization)
-  * Models (RNNs, MLPs, CNNs, GNNs)
-  * Implementation challenges and solutions
-* **Break (10 minutes)**
-* **Hyperbolic Foundation Models & Applications (60 minutes)**
-  * Hyperbolic Transformers and LLMs
-  * Hyperbolic vision models
-  * Hyperbolic multi-modal models
-  * Applications and efficiency gains
-* **Break (10 minutes)**
-* **Future Directions and Challenges (45 minutes)**
-  * Pre-training and scaling strategies
-  * Advanced architectures
-  * Numerical stability, optimization, and tooling
-  * Emerging applications
+**Part 2. HYPERBOLIC NETWORKS**
+- 2.1 Hyperbolic Operations
+- 2.2 Hyperbolic Shallow Models (Token Embedding)
+- 2.2 Hyperbolic Multilayer Perception
+- 2.3 Hyperbolic Self-Attention
+- 2.4 Hyperbolic Transformers
+  
+**Part 3. HYPERBOLIC GEOMETRY for FOUNDATION MODELS**
+- 3.1 Brief Recap: Foundation Models Should Embrace Non-Euclidean Geometry
+- 3.2 Hyperbolic Geometry for Large Language Models
+- 3.2 Hyperbolic Geometry for Visual Language Models
+- 3.4 Hyperbolic Geometry for Multi-modal Language Models
+
+**Part 4. ADVANCED TOPICS**
+- 4.1 Curvature Aware Learning
+- 4.2 Product Manifolds
+- 4.3 Models Collapse
+- 4.4 Trustworthiness: Federated Learning
+- 4.5 Personalization
+- 4.6 Lifelong Learning
+
 
 ## Tutors
 
