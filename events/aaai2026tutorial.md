@@ -72,8 +72,8 @@ This tutorial targets machine learning researchers interested in foundation mode
 All tutors will participate in person for this tutorial.
 
 * **Jiahong Liu (CUHK)**: Ph.D. candidate at The Chinese University of Hong Kong, focusing on hyperbolic geometry for foundation models and user heterogeneity in recommender systems and federated learning. Publications include ICDE, KDD, WebConf, AAAI, and Information Sciences.
-* **Menglin Yang (HKUST(GZ))**: Assistant Professor in AI Thrust at HKUST (Guangzhou). Research interests include hyperbolic geometric learning and foundation models. He organized revelant tutorials at KDD 2025, 2023 and ECML-PKDD 2022, and workshops at WWW 2025 and NeurIPS 2025.
-* **Irwin King (CUHK)**: Professor at The Chinese University of Hong Kong. Research spans geometric machine learning, hyperbolic representation, data mining, and multimodal learning, with emphasis on personalization and recommendation. IEEE Fellow and ACM Fellow.
+* **Menglin Yang (HKUST(GZ))**: Assistant Professor in AI Thrust at HKUST (Guangzhou). His research interests include hyperbolic geometric learning and foundation models. He has organized revelant tutorials at KDD 2025, 2023 and ECML-PKDD 2022, and workshops at WWW 2025 and NeurIPS 2025.
+* **Irwin King (CUHK)**: Professor at The Chinese University of Hong Kong. His research spans geometric machine learning, hyperbolic representation, data mining, and multimodal learning, with emphasis on personalization and recommendation. He is IEEE Fellow, ACM Fellow and AAAI Fellow.
 
 
 ## Contact
