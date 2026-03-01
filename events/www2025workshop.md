@@ -4,9 +4,7 @@ layout: page
 permlink: /
 ---
 
-<link rel="stylesheet" href="/style.css">
-
-<div style="color: blue; margin-bottom: 5ex;">
+<div style="color: #547a80; margin-bottom: 5ex;">
 <p>The Workshop on Non-Euclidean Foundation Models and Geometric Learning (NEGEL) will take place at <a href="https://www2025.thewebconf.org/"> TheWebConf 2025</a> in Sydney, Australia, from April 28–May 2, 2025.
 We invite you to join discussions on Non-Euclidean representation learning and geometric deep learning, and large foundation models, alongside web-related applications!</p>
 </div>

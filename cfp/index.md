@@ -4,8 +4,6 @@ layout: page
 permlink: /cfp/
 ---
 
-<link rel="stylesheet" href="../style.css">
-
 The primary objective of the NEGEL workshop at [TheWebConf 2025](https://www2025.thewebconf.org/) is to create a collaborative platform for researchers, industry professionals, and academics from diverse fields. These include non-Euclidean representation learning, geometric deep learning, and large foundation models, as well as web-related applications such as recommender systems, social network analysis, web knowledge graphs, search systems, information retrieval, and multi-modal web content understanding. The workshop aims to foster knowledge sharing, idea exchange, and discussions on the latest advancements and challenges in these domains.
 
 **We encourage in-person participation, but remote presentations will be available for authors who cannot travel to Sydney**.

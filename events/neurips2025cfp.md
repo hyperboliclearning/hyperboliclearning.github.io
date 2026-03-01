@@ -7,31 +7,8 @@ permalink: /events/neurips2025cfp
 <link rel="stylesheet" href="/assets/neurips2025.css">
 
 <style>
-body {
-  background-color: #eef0f3;
-}
-h1 {
-  color: #333;
-  text-align: center;
-  margin-top: 0.5em;
-  margin-bottom: 1.5em;
-}
-h2, h3, h4, h5, h6 {
-  color: #333;
-}
-a {
-  color: #0366d6 !important;
-  font-weight: bold;
-}
-a:hover {
-  color: #0366d6 !important;
-}
-/* Fix header font consistency */
-.site-nav .page-link {
-  font-size: 26px !important;
-  font-weight: 600 !important;
-  line-height: 54px !important;
-}
+h1 { text-align: center; margin-top: 0.3em; margin-bottom: 1.2em; }
+h1::before { display: none; }
 </style>
 
 # Call for Papers: Non-Euclidean Foundation Models and Geometric Learning Workshop @ NeurIPS 2025

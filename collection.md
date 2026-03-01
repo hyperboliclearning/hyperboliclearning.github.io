@@ -4,7 +4,6 @@ layout: page
 permlink: /
 ---
 
-<link rel="stylesheet" href="/style.css">
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) ![Stars](https://img.shields.io/github/stars/marlin-codes/Awesome-Hyperbolic-Graph-Representation-Learning?color=yellow)  ![Forks](https://img.shields.io/github/forks/marlin-codes/Awesome-Hyperbolic-Graph-Representation-Learning?color=blue&label=Fork)
 
@@ -1055,10 +1054,9 @@ To cite this repository:
 ```
 @misc{hyperbolic-repo,
   author = {Menglin Yang, Min Zhou, Rex Ying},
-  title = {{Hyperbolic Representation and Deep Learning: A Comprehensive Collection}},
+  title = {Hyperbolic Representation and Deep Learning: A Comprehensive Collection},
   howpublished = {https://github.com/marlin-codes/Awesome-Hyperbolic-Representation-and-Deep-Learning},
   year = 2024,
   month = September
 }
 ```
-

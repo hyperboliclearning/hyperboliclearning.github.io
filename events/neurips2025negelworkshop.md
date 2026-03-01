@@ -4,14 +4,13 @@ layout: page
 permalink: /events/neurips2025negelworkshop
 ---
 
-<link rel="stylesheet" href="/style.css">
 <link rel="stylesheet" href="/assets/neurips2025.css">
 
 <div style="text-align: right; margin-top: -3.5em; margin-bottom: 2em;">
-<h2 style="color: #0366d6; font-size: 1.5em; font-weight: 600; margin: 0;">— Advancing AI Beyond Euclidean Frameworks</h2>
+<h2 style="color: #547a80; font-size: 1.5em; font-weight: 600; margin: 0;">— Advancing AI Beyond Euclidean Frameworks</h2>
 </div>
 
-<div style="color: blue; margin-bottom: 5ex;">
+<div style="color: #547a80; margin-bottom: 5ex;">
 <p style="font-weight: 600;">The Non-Euclidean Foundation Models and Geometric Learning Workshop will take place at <a href="https://neurips.cc/Conferences/2025">NeurIPS 2025</a> in San Diego, CA, USA, from December 2–7, 2025. We invite you to join discussions on non-Euclidean representation learning, geometric deep learning, and large foundation models!</p>
 
 </div>
@@ -19,31 +18,6 @@ permalink: /events/neurips2025negelworkshop
 
 
 <style>
-body {
-  background-color: #ffffff;
-}
-h1 {
-  color: #333;
-  text-align: center;
-  margin-top: 0.5em;
-  margin-bottom: 1.5em;
-}
-h2, h3, h4, h5, h6 {
-  color: #333;
-}
-a {
-  color: #0366d6 !important;
-  font-weight: bold;
-}
-a:hover {
-  color: #2222B2 !important;
-}
-/* Fix header font consistency */
-.site-nav .page-link {
-  font-size: 26px !important;
-  font-weight: 600 !important;
-  line-height: 54px !important;
-}
 .sticky-outline {
   position: fixed;
   top: 80px;
@@ -51,49 +25,21 @@ a:hover {
   width: 180px;
   max-height: 60vh;
   overflow-y: auto;
-  background: #ffffff;
-  border: 1px solid #ddd;
-  border-radius: 8px;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.06);
-  padding: 8px 6px;
+  background: #fff;
+  border: 1px solid #d5ddd0;
+  border-radius: 10px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.06);
+  padding: 10px 8px;
   z-index: 1000;
   font-size: 0.7rem;
   text-align: left;
 }
-.sticky-outline ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  text-align: left;
-}
-.sticky-outline > ul > li {
-  margin-bottom: 2px;
-  text-align: left;
-}
-.sticky-outline li {
-  margin-bottom: 1px;
-  text-align: left;
-}
-.sticky-outline > ul > li > a {
-  font-weight: 600;
-  font-size: 0.9rem;
-  padding: 1px 0;
-  text-align: left;
-}
-.sticky-outline a {
-  color: #0366d6;
-  text-decoration: none;
-  transition: color 0.2s;
-  display: block;
-  padding: 1px 0;
-  text-align: left;
-  font-weight: bold;
-}
-.sticky-outline a:hover {
-  color: #2222B2;
-  text-decoration: underline;
-  text-align: left;
-}
+.sticky-outline ul { list-style: none; padding: 0; margin: 0; text-align: left; }
+.sticky-outline > ul > li { margin-bottom: 2px; text-align: left; }
+.sticky-outline li { margin-bottom: 1px; text-align: left; }
+.sticky-outline > ul > li > a { font-weight: 600; font-size: 0.9rem; padding: 1px 0; text-align: left; }
+.sticky-outline a { color: #547a80; text-decoration: none; transition: color 0.2s; display: block; padding: 1px 0; text-align: left; font-weight: 600; }
+.sticky-outline a:hover { color: #8e5127; text-decoration: underline; text-align: left; }
 </style>
 
 <div class="banner-container">
@@ -310,7 +256,7 @@ Non-archival means that your submission will not be published in formal proceedi
 ## Contact
 Feel free to contact us at `negel2025@outlook.com`. We look forward to your participation at NeurIPS 2025!
 
-<p style="font-weight: 600; margin-top: 1em;"><strong>🔗 Workshop Page:</strong> <a href="https://neurips.cc/virtual/2025/workshop/109582" style="color: #0366d6; font-weight: bold;">Official NeurIPS Workshop Page</a></p>
+<p style="font-weight: 600; margin-top: 1em;"><strong>🔗 Workshop Page:</strong> <a href="https://neurips.cc/virtual/2025/workshop/109582" style="color: #547a80; font-weight: bold;">Official NeurIPS Workshop Page</a></p>
 
 ## 8. Sponsor
 
