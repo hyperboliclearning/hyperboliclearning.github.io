@@ -1,0 +1,623 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  
+  <!-- Viewport Meta Tag for Responsive Design -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- SEO and Metadata --><!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>HypLoRA: Hyperbolic Fine Tuning for Large Language Models | Home</title>
+<meta name="generator" content="Jekyll v4.3.4" />
+<meta property="og:title" content="HypLoRA: Hyperbolic Fine Tuning for Large Language Models" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="By leveraging hyperbolic space’s unique properties, we aim to develop more efficient, scalable, and expressive models that can better understand and process complex data, leading to advancements in various applications." />
+<meta property="og:description" content="By leveraging hyperbolic space’s unique properties, we aim to develop more efficient, scalable, and expressive models that can better understand and process complex data, leading to advancements in various applications." />
+<link rel="canonical" href="/work/hyplora/" />
+<meta property="og:url" content="/work/hyplora/" />
+<meta property="og:site_name" content="Home" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="HypLoRA: Hyperbolic Fine Tuning for Large Language Models" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebPage","description":"By leveraging hyperbolic space’s unique properties, we aim to develop more efficient, scalable, and expressive models that can better understand and process complex data, leading to advancements in various applications.","headline":"HypLoRA: Hyperbolic Fine Tuning for Large Language Models","url":"/work/hyplora/"}</script>
+<!-- End Jekyll SEO tag -->
+<!-- Main CSS File -->
+  <link rel="stylesheet" href="/assets/main.css">
+  <!-- HypLoRA-style global theme -->
+  <link rel="stylesheet" href="/style.css">
+  
+  <!-- Optional Feed Metadata -->
+  <!--<link type="application/atom+xml" rel="alternate" href="/feed.xml" title="Home" />-->
+
+  <!-- Google Analytics (Production Only) --><!-- Favicon -->
+  <link rel="icon" href="/icon.png" type="image/png">
+
+  <!-- Mobile-First Style (Optional Inline CSS as Fallback) -->
+  <style>
+    /* Inline fallback styles */
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    .container {
+      width: 90%;
+      margin: auto;
+    }
+
+    @media (max-width: 768px) {
+      .container {
+        padding: 10px;
+      }
+    }
+  </style>
+</head>
+<body>
+    <main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <style>
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap');
+
+/* ── Full-page background ── */
+html, body { margin: 0; padding: 0; }
+body {
+  background: #edf3e8;
+  background-image:
+    radial-gradient(ellipse 80% 50% at 50% -10%, rgba(84,122,128,0.07) 0%, transparent 60%),
+    radial-gradient(ellipse 60% 40% at 85% 50%, rgba(142,81,39,0.04) 0%, transparent 50%),
+    radial-gradient(ellipse 50% 35% at 15% 70%, rgba(225,236,243,0.3) 0%, transparent 50%);
+  min-height: 100vh;
+}
+.page-content, .wrapper { background: transparent !important; max-width: 100% !important; padding: 0 !important; }
+
+/* ── Subtle dot grid ── */
+.hp-bg-dots {
+  position: fixed; inset: 0; z-index: 0; pointer-events: none;
+  background-image: radial-gradient(rgba(84,122,128,0.06) 1px, transparent 1px);
+  background-size: 28px 28px;
+}
+
+/* ── Outer wrapper ── */
+.hp { position: relative; z-index: 1; font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif; color: #596673; line-height: 1.7; -webkit-font-smoothing: antialiased; }
+.hp *, .hp *::before, .hp *::after { box-sizing: border-box; }
+
+/* ── Hero banner ── */
+.hp-hero {
+  text-align: center;
+  padding: 3.5rem 1.5rem 2.5rem;
+  background: linear-gradient(175deg, #e1ecf3 0%, #edf3e8 55%, #edf3e8 100%);
+  border-bottom: 1px solid #d5ddd0;
+  position: relative; overflow: hidden;
+}
+.hp-hero::before {
+  content: '';
+  position: absolute; top: -150px; left: 50%; transform: translateX(-50%);
+  width: 700px; height: 700px;
+  background: radial-gradient(circle, rgba(84,122,128,0.08) 0%, transparent 65%);
+  pointer-events: none;
+}
+.hp-venue {
+  display: inline-block;
+  background: linear-gradient(135deg, #547a80, #6a9199);
+  color: #fff; font-size: 0.78rem; font-weight: 700;
+  padding: 0.35em 1.2em; border-radius: 999px;
+  letter-spacing: 0.06em; text-transform: uppercase;
+  margin-bottom: 0; position: relative;
+  box-shadow: 0 2px 12px rgba(84,122,128,0.25);
+}
+.hp-tags {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  gap: 0.55rem;
+  margin-bottom: 1.2rem;
+}
+.hp-spotlight {
+  display: inline-block;
+  background: linear-gradient(135deg, #8e5127, #b06a35);
+  color: #fff;
+  font-size: 0.78rem;
+  font-weight: 700;
+  padding: 0.35em 1.05em;
+  border-radius: 999px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  box-shadow: 0 2px 12px rgba(142, 81, 39, 0.28);
+}
+.hp-hero h1 {
+  font-size: 2.5rem; font-weight: 800; line-height: 1.15;
+  margin: 0; color: #2d3a3e; letter-spacing: -0.03em;
+  position: relative;
+}
+.hp-hero h1 span {
+  background: linear-gradient(135deg, #8e5127, #b06a35);
+  -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;
+}
+.hp-sub {
+  color: #596673;
+  font-size: 1.08rem;
+  margin: 0.6rem auto 0;
+  font-weight: 400;
+  position: relative;
+  text-align: center;
+  width: 100%;
+}
+
+/* ── Authors ── */
+.hp-authors { text-align: center; padding: 1.5rem 1rem 0.5rem; position: relative; }
+.hp-author { display: inline-block; margin: 0.3rem 0.2rem; padding: 0.3rem 0.7rem; border-radius: 8px; transition: background 0.2s; }
+.hp-author:hover { background: rgba(84,122,128,0.07); }
+.hp-author-name { font-weight: 600; font-size: 0.92rem; color: #2d3a3e; }
+.hp-author-aff { font-size: 0.73rem; color: #738089; display: block; margin-top: 0.05rem; }
+.hp-author-sep { color: #bdc7c9; margin: 0 0.1rem; font-size: 0.7rem; vertical-align: middle; }
+
+/* ── Buttons ── */
+.hp-btns { text-align: center; padding: 1.2rem 1rem 2rem; display: flex; flex-wrap: wrap; justify-content: center; gap: 0.7rem; }
+.hp-btn {
+  display: inline-flex; align-items: center; gap: 0.45rem;
+  padding: 0.6rem 1.3rem; border-radius: 10px;
+  font-size: 0.88rem; font-weight: 600;
+  text-decoration: none !important; transition: all 0.25s;
+  border: 1.5px solid transparent; position: relative;
+}
+.hp-btn svg { width: 16px; height: 16px; flex-shrink: 0; }
+.hp-btn-fill {
+  background: linear-gradient(135deg, #547a80, #6a9199);
+  color: #fff !important;
+  box-shadow: 0 4px 14px rgba(84,122,128,0.25);
+}
+.hp-btn-fill:hover { transform: translateY(-2px); box-shadow: 0 6px 22px rgba(84,122,128,0.35); }
+.hp-btn-ghost {
+  background: #fff; color: #547a80 !important;
+  border-color: #a8c0c4;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.04);
+}
+.hp-btn-ghost:hover { background: #e1ecf3; border-color: #547a80; transform: translateY(-2px); box-shadow: 0 4px 12px rgba(84,122,128,0.1); }
+
+/* ── Content area ── */
+.hp-body { max-width: 880px; margin: 0 auto; padding: 0 1.5rem 4rem; }
+
+/* ── Card ── */
+.hp-card {
+  background: #fff;
+  border: 1px solid #d5ddd0;
+  border-radius: 16px;
+  padding: 2rem 2.2rem;
+  margin-bottom: 2rem;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.04), 0 4px 16px rgba(0,0,0,0.02);
+  position: relative; overflow: hidden;
+}
+.hp-card::before {
+  content: ''; position: absolute; top: 0; left: 0; right: 0; height: 3px;
+  background: linear-gradient(90deg, #547a80, #8e5127, #547a80);
+  opacity: 0.5;
+}
+
+/* ── Section title ── */
+.hp-card .st {
+  font-size: 1.45rem; font-weight: 700; color: #2d3a3e; margin: 0 0 1.2rem;
+  display: flex; align-items: center; gap: 0.6rem;
+}
+.hp-card .st::before {
+  content: ''; display: inline-block; width: 4px; height: 1.2em;
+  background: linear-gradient(180deg, #547a80, #6a9199);
+  border-radius: 2px; flex-shrink: 0;
+}
+.hp-card .ss { font-size: 1.1rem; font-weight: 600; color: #547a80; margin: 1.5rem 0 0.6rem; }
+.hp-card p { font-size: 0.95rem; color: #596673; margin-bottom: 1rem; text-align: left; }
+.hp-card strong { color: #2d3a3e; }
+.hp-card em { color: #8e5127; font-style: italic; }
+
+/* ── TL;DR card ── */
+.hp-tldr {
+  background: linear-gradient(135deg, #eacdb3 0%, #f3e4d4 100%);
+  border-left: 3px solid #8e5127;
+  border-radius: 0 12px 12px 0;
+  padding: 1.3rem 1.6rem;
+  margin-bottom: 2rem;
+}
+.hp-tldr p { margin: 0; font-size: 0.95rem; line-height: 1.8; color: #3d2e1e; text-align: left; }
+.hp-tldr strong { color: #2d3a3e; }
+.hp-tldr em { color: #8e5127; }
+.hp-tldr-label { font-weight: 700; color: #8e5127; margin-right: 0.3em; }
+
+/* ── Teaser figure ── */
+.hp-teaser { text-align: center; margin-bottom: 2rem; }
+.hp-teaser img {
+  max-width: 100%; border-radius: 14px;
+  border: 1px solid #d5ddd0;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.06);
+}
+.hp-teaser-cap { font-size: 0.82rem; color: #738089; margin-top: 0.7rem; font-style: italic; }
+
+/* ── Equation ── */
+.hp-eq {
+  background: #e1ecf3;
+  border: 1px solid #c8d8e2;
+  border-radius: 12px; padding: 1.4rem 1.5rem;
+  text-align: center; margin: 1rem 0;
+}
+.hp-eq .eq-math { color: #2d3a3e; font-size: 1.05rem; }
+.hp-eq .eq-note { font-size: 0.8rem; color: #738089; margin-top: 0.5rem; }
+
+/* ── Method pills ── */
+.hp-mgrid { display: grid; grid-template-columns: repeat(auto-fit, minmax(140px,1fr)); gap: 0.7rem; margin: 1rem 0; }
+.hp-mitem {
+  background: #edf3e8;
+  border: 1px solid #d5ddd0;
+  border-radius: 10px; padding: 0.9rem; text-align: center;
+  transition: all 0.2s;
+}
+.hp-mitem:hover { border-color: #547a80; background: #e1ecf3; }
+.hp-mitem .ml { font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.08em; color: #547a80; font-weight: 700; margin-bottom: 0.25rem; }
+.hp-mitem .mv { font-size: 0.88rem; color: #2d3a3e; font-weight: 500; }
+
+/* ── Key Information ── */
+.hp-kinfo-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+  margin-top: 0.6rem;
+}
+.hp-kinfo-item {
+  background: #f8fbf6;
+  border: 1px solid #d5ddd0;
+  border-radius: 12px;
+  padding: 0.85rem;
+}
+.hp-kinfo-item img {
+  width: 100%;
+  display: block;
+  border-radius: 10px;
+  border: 1px solid #d5ddd0;
+}
+.hp-kinfo-item .kt {
+  margin-top: 0.7rem;
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: #2d3a3e;
+}
+.hp-kinfo-item .kd {
+  margin-top: 0.35rem;
+  font-size: 0.86rem;
+  line-height: 1.6;
+  color: #596673;
+}
+
+/* ── Result tables ── */
+.hp-tw { overflow-x: auto; margin: 1rem 0 1.2rem; border-radius: 12px; border: 1px solid #d5ddd0; background: #fff; }
+.hp-rt { width: 100%; border-collapse: collapse; font-size: 0.83rem; text-align: center; }
+.hp-rt thead { background: #e1ecf3; }
+.hp-rt th { padding: 0.7rem 0.55rem; font-weight: 600; color: #2d3a3e; border-bottom: 2px solid #c8d8e2; white-space: nowrap; font-size: 0.8rem; letter-spacing: 0.02em; }
+.hp-rt td { padding: 0.55rem 0.55rem; border-bottom: 1px solid #edf3e8; color: #596673; }
+.hp-rt tbody tr:last-child td { border-bottom: none; }
+.hp-rt tbody tr:hover { background: #f5ede4; }
+.hp-rt .best { font-weight: 700; color: #8e5127; }
+.hp-rt .mg td { border-top: 2px solid #d5ddd0; }
+.hp-rt .mh { background: #f5ede4; }
+.hp-rt .mh td:nth-child(1) { color: #8e5127; font-weight: 600; }
+
+/* ── Citation ── */
+.hp-cite {
+  background: #f4f6f2;
+  border: 1px solid #d5ddd0;
+  border-radius: 12px; padding: 1.3rem 1.5rem;
+  position: relative;
+}
+.hp-cite pre {
+  margin: 0;
+  color: #24353c !important;
+  background: #f8fbf6 !important;
+  border: 1px solid #d5ddd0;
+  border-radius: 10px;
+  padding: 1rem 1.1rem;
+  font-size: 0.8rem;
+  line-height: 1.65;
+  white-space: pre-wrap; word-break: break-all;
+  font-family: 'JetBrains Mono', 'SFMono-Regular', Consolas, monospace;
+}
+.hp-cite .cl {
+  position: absolute;
+  top: 0.7rem;
+  right: 0.9rem;
+  font-size: 0.68rem;
+  color: #3f5f66;
+  background: #e1ecf3;
+  border: 1px solid #c8d8e2;
+  padding: 0.15em 0.6em;
+  border-radius: 4px;
+  letter-spacing: 0.04em;
+}
+.hp-cite .copy-btn {
+  position: absolute;
+  top: 0.65rem;
+  right: 0.9rem;
+  border: 1px solid #c8d8e2;
+  background: #e1ecf3;
+  color: #2f4f56;
+  border-radius: 6px;
+  padding: 0.24rem 0.58rem;
+  font-size: 0.72rem;
+  font-weight: 600;
+  line-height: 1.2;
+  cursor: pointer;
+  transition: background 0.18s, border-color 0.18s, transform 0.18s;
+}
+.hp-cite .copy-btn:hover {
+  background: #d7e7f1;
+  border-color: #a8c0c4;
+  transform: translateY(-1px);
+}
+.hp-cite .copy-btn.copied {
+  background: #dff1e6;
+  border-color: #9cc7aa;
+  color: #2d5a3d;
+}
+
+/* ── Takeaway ── */
+.hp-take {
+  background: linear-gradient(135deg, #eacdb3, #f3e4d4);
+  border: 1px solid #dbb996;
+  border-radius: 14px; padding: 1.6rem 2rem;
+  text-align: center; margin: 0.5rem 0 0;
+}
+.hp-take p { font-size: 1.05rem; color: #3d2e1e; line-height: 1.8; margin: 0; font-weight: 500; }
+.hp-take strong { color: #8e5127; }
+
+/* ── Footer ── */
+.hp-footer { text-align: center; padding: 2.5rem 1rem 1.5rem; }
+.hp-footer a { color: #8aa0a5; font-size: 0.8rem; text-decoration: none; transition: color 0.2s; }
+.hp-footer a:hover { color: #547a80; }
+
+/* ── Responsive ── */
+@media (max-width: 640px) {
+  .hp-hero h1 { font-size: 1.7rem; }
+  .hp-hero { padding: 2.5rem 1rem 2rem; }
+  .hp-body { padding: 0 1rem 3rem; }
+  .hp-card { padding: 1.3rem 1.2rem; }
+  .hp-kinfo-grid { grid-template-columns: 1fr; }
+}
+</style>
+
+<script>
+MathJax = { tex: { inlineMath: [['$','$']], displayMath: [['$$','$$']] } };
+</script>
+
+<script async="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+<div class="hp-bg-dots"></div>
+
+<div class="hp">
+
+<!-- ═══════ HERO ═══════ -->
+<div class="hp-hero">
+  <div class="hp-tags">
+    <span class="hp-venue">NeurIPS 2025</span>
+    <span class="hp-spotlight">Spotlight</span>
+  </div>
+  <h1><span>HypLoRA</span>: Hyperbolic Fine Tuning<br />for Large Language Models</h1>
+  <p class="hp-sub">Geometry guided rank reduced adaptation on the hyperbolic manifold</p>
+</div>
+
+<!-- ═══════ AUTHORS ═══════ -->
+<div class="hp-authors">
+  <span class="hp-author"><span class="hp-author-name">Menglin Yang</span><span class="hp-author-aff">HKUST(GZ) &amp; HKUST</span></span>
+  <span class="hp-author-sep">&middot;</span>
+  <span class="hp-author"><span class="hp-author-name">Ram Samarth B B</span><span class="hp-author-aff">IISc Bangalore</span></span>
+  <span class="hp-author-sep">&middot;</span>
+  <span class="hp-author"><span class="hp-author-name">Aosong Feng</span><span class="hp-author-aff">Yale University</span></span>
+  <span class="hp-author-sep">&middot;</span>
+  <span class="hp-author"><span class="hp-author-name">Bo Xiong</span><span class="hp-author-aff">Stanford University</span></span>
+  <span class="hp-author-sep">&middot;</span>
+  <span class="hp-author"><span class="hp-author-name">Jiahong Liu</span><span class="hp-author-aff">CUHK</span></span>
+  <span class="hp-author-sep">&middot;</span>
+  <span class="hp-author"><span class="hp-author-name">Irwin King</span><span class="hp-author-aff">CUHK</span></span>
+  <span class="hp-author-sep">&middot;</span>
+  <span class="hp-author"><span class="hp-author-name">Rex Ying</span><span class="hp-author-aff">Yale University</span></span>
+</div>
+
+<!-- ═══════ BUTTONS ═══════ -->
+<div class="hp-btns">
+  <a class="hp-btn hp-btn-fill" href="https://arxiv.org/abs/2410.04010">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z" /><polyline points="14 2 14 8 20 8" /></svg>
+    Paper
+  </a>
+  <a class="hp-btn hp-btn-ghost" href="https://github.com/marlin-codes/HypLoRA">
+    <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z" /></svg>
+    Code
+  </a>
+  <a class="hp-btn hp-btn-ghost" href="#citation">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20" /><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z" /></svg>
+    Cite
+  </a>
+</div>
+
+<!-- ═══════ BODY ═══════ -->
+<div class="hp-body">
+
+<!-- Teaser -->
+<div class="hp-teaser">
+  <img src="./images/freq_norm_figure.jpg" alt="HypLoRA overview of token frequency trend and token norm relation" />
+  <div class="hp-teaser-cap">Token embeddings exhibit hierarchical geometry: frequent (abstract) tokens cluster near the origin while rare (specific) tokens sit farther away.</div>
+</div>
+
+<!-- TL;DR -->
+<div class="hp-tldr">
+  <p><span class="hp-tldr-label">TL;DR</span> We discover that LLM token embeddings have strong <em>hyperbolic</em> structure.
+  Building on this, we propose <strong>HypLoRA</strong>, a parameter efficient adapter that performs rank reduced adaptation
+  directly on the hyperbolic manifold, consistently improving reasoning performance over standard LoRA.</p>
+</div>
+
+<!-- ─── Motivation ─── -->
+<div class="hp-card">
+  <div class="st">Motivation</div>
+  <p>Most LLM adaptation pipelines operate in Euclidean space by default, yet our empirical analysis reveals a fundamentally different geometric story. We find that token frequencies follow a <strong>power law</strong> distribution, which is a hallmark of hierarchical data, and that frequent abstract tokens consistently sit <strong>closer to the origin</strong> while rare specific tokens are positioned farther away. At the prompt level, token spaces exhibit low <strong>&delta; hyperbolicity</strong>, indicating an underlying tree shaped organization rather than a flat Euclidean structure.</p>
+  <p>These observations motivate a natural question: if the geometry of token embeddings is already hierarchical, should adaptation modules explicitly <strong>preserve and exploit</strong> this structure rather than ignoring it? HypLoRA is our answer to this question.</p>
+</div>
+
+<!-- ─── Key Information ─── -->
+<div class="hp-card">
+  <div class="st">Key Information</div>
+  <p>The two figures below summarize the core empirical signals that motivate manifold based adaptation in HypLoRA.</p>
+  <div class="hp-kinfo-grid">
+    <div class="hp-kinfo-item">
+      <img src="./images/hyperbolicity.jpg" alt="Prompt level hyperbolicity measurements across datasets" />
+      <div class="kt">Prompt Level Hyperbolicity</div>
+      <div class="kd">Across instruction datasets, prompts exhibit low &delta; hyperbolicity, indicating tree shaped geometry. This supports modeling token relationships in a curved space rather than assuming flat Euclidean structure.</div>
+    </div>
+    <div class="hp-kinfo-item">
+      <img src="./images/freq_norm_table.png" alt="Token frequency and embedding norm statistics" />
+      <div class="kt">Frequency Norm Statistics</div>
+      <div class="kd">Token frequency follows a power law trend, and frequent abstract tokens appear closer to the origin while rarer specific tokens are farther away. This radial organization aligns with hierarchical encoding in hyperbolic space.</div>
+    </div>
+  </div>
+</div>
+
+<!-- ─── Method ─── -->
+<div class="hp-card">
+  <div class="st">Method</div>
+
+  <div class="ss">Method Overview</div>
+  <p>HypLoRA augments a standard LoRA update with a <strong>geometry guided branch</strong> designed for hierarchical token structure. The key idea is to keep the base model interface unchanged in Euclidean space while computing an additional rank reduced correction in hyperbolic space, then mapping it back for seamless integration.</p>
+  <p>Concretely, each adapted layer follows a three step flow: <strong>(1)</strong> project Euclidean hidden states to the Lorentz manifold, <strong>(2)</strong> apply a trainable rank reduced transform directly on manifold coordinates (LLR), and <strong>(3)</strong> map the result back and combine it with the original Euclidean pathway. This yields an adapter that preserves parameter efficiency while better respecting curved geometry during training.</p>
+
+  <div class="ss">Core Idea</div>
+  <p>Instead of adapting only in Euclidean space, HypLoRA introduces a <strong>hyperbolic branch</strong>.
+  Input tokens are projected onto the Lorentz manifold, adapted via a direct rank reduced transform, and projected back:</p>
+
+  <div class="hp-eq">
+    <div class="eq-math">$$z_E = W x_E + \Pi^K_{\log}\!\bigl(\mathrm{LLR}(BA,\;\Pi^K_{\exp}(x_E))\bigr)$$</div>
+    <div class="eq-note">LLR = Lorentz rank reduced transform on manifold representations</div>
+  </div>
+
+  <div class="ss">Why Not Naive Tangent Space Chaining?</div>
+  <p>A naive sequence of repeated log/exp mappings can <em>cancel out</em> geometric effects and collapse toward Euclidean behavior. HypLoRA avoids this by adapting <strong>directly on manifold coordinates</strong> before projecting back.</p>
+
+  <div class="ss">Design at a Glance</div>
+  <div class="hp-mgrid">
+    <div class="hp-mitem"><div class="ml">Geometry</div><div class="mv">Lorentz Model</div></div>
+    <div class="hp-mitem"><div class="ml">Adapter</div><div class="mv">Direct LLR</div></div>
+    <div class="hp-mitem"><div class="ml">Parameters</div><div class="mv">Rank Reduced A, B</div></div>
+    <div class="hp-mitem"><div class="ml">Curvature</div><div class="mv">Learnable</div></div>
+    <div class="hp-mitem"><div class="ml">Goal</div><div class="mv">Preserve Hierarchy</div></div>
+  </div>
+</div>
+
+<!-- ─── Experiments ─── -->
+<div class="hp-card">
+  <div class="st">Experiments</div>
+
+  <div class="ss">Arithmetic Reasoning</div>
+  <p>Training on <strong>Math10K</strong>, evaluated on GSM8K, AQuA, MAWPS, and SVAMP.</p>
+
+  <div class="hp-tw">
+    <table class="hp-rt">
+      <thead>
+        <tr><th>Base Model</th><th>Method</th><th>Params&nbsp;%</th><th>MAWPS</th><th>SVAMP</th><th>GSM8K</th><th>AQuA</th><th>W.Avg</th></tr>
+      </thead>
+      <tbody>
+        <tr><td rowspan="2">LLaMA3-8B</td><td>LoRA</td><td>0.70</td><td>92.7</td><td>78.9</td><td>70.8</td><td>30.4</td><td>71.9</td></tr>
+        <tr class="mh"><td><strong>HypLoRA</strong></td><td>0.70</td><td>91.6</td><td>80.5</td><td>74.0</td><td>34.2</td><td class="best">74.2</td></tr>
+        <tr class="mg"><td rowspan="2">Gemma3-4B</td><td>LoRA</td><td>1.04</td><td>90.8</td><td>77.3</td><td>72.3</td><td>50.8</td><td>73.7</td></tr>
+        <tr class="mh"><td><strong>HypLoRA</strong></td><td>1.04</td><td>88.2</td><td>83.9</td><td>76.1</td><td>53.2</td><td class="best">77.8</td></tr>
+        <tr class="mg"><td rowspan="2">Qwen2.5-7B</td><td>LoRA</td><td>0.71</td><td>90.8</td><td>84.4</td><td>78.6</td><td>68.1</td><td>80.8</td></tr>
+        <tr class="mh"><td><strong>HypLoRA</strong></td><td>0.71</td><td>91.2</td><td>92.2</td><td>87.9</td><td>71.6</td><td class="best">88.3</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="ss">Commonsense Reasoning</div>
+  <p>Training on <strong>Commonsense170K</strong>, evaluated on 8 benchmarks.</p>
+
+  <div class="hp-tw">
+    <table class="hp-rt">
+      <thead>
+        <tr><th>Base Model</th><th>Method</th><th>%</th><th>BoolQ</th><th>PIQA</th><th>SIQA</th><th>Hella</th><th>Wino</th><th>ARC-e</th><th>ARC-c</th><th>OBQA</th><th>Avg</th></tr>
+      </thead>
+      <tbody>
+        <tr><td rowspan="2">LLaMA3-8B</td><td>LoRA</td><td>0.70</td><td>70.8</td><td>85.2</td><td>79.9</td><td>91.7</td><td>84.3</td><td>84.2</td><td>71.2</td><td>79.0</td><td>80.8</td></tr>
+        <tr class="mh"><td><strong>HypLoRA</strong></td><td>0.70</td><td>74.1</td><td>87.6</td><td>80.6</td><td>94.5</td><td>84.7</td><td>90.4</td><td>81.2</td><td>85.2</td><td class="best">84.8</td></tr>
+        <tr class="mg"><td rowspan="2">Gemma3-4B</td><td>LoRA</td><td>1.04</td><td>68.1</td><td>83.2</td><td>77.2</td><td>88.9</td><td>80.5</td><td>84.5</td><td>69.9</td><td>83.6</td><td>79.5</td></tr>
+        <tr class="mh"><td><strong>HypLoRA</strong></td><td>1.04</td><td>70.0</td><td>84.3</td><td>79.2</td><td>91.5</td><td>80.3</td><td>89.1</td><td>75.9</td><td>86.4</td><td class="best">82.5</td></tr>
+        <tr class="mg"><td rowspan="2">Qwen2.5-7B</td><td>LoRA</td><td>0.71</td><td>73.4</td><td>89.5</td><td>79.5</td><td>93.6</td><td>84.1</td><td>92.8</td><td>82.0</td><td>87.0</td><td>85.2</td></tr>
+        <tr class="mh"><td><strong>HypLoRA</strong></td><td>0.71</td><td>72.8</td><td>89.3</td><td>79.8</td><td>94.8</td><td>84.4</td><td>95.5</td><td>87.5</td><td>90.8</td><td class="best">87.0</td></tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+
+<!-- ─── Citation ─── -->
+<div class="hp-card" id="citation">
+  <div class="st">Citation</div>
+  <div class="hp-cite">
+    <button class="copy-btn" type="button" id="copy-citation-btn" aria-label="Copy BibTeX citation">Copy BibTeX</button>
+    <pre id="citation-bibtex">@inproceedings{yang2025hyplora,
+  title     = {Hyperbolic Fine-Tuning for Large Language Models},
+  author    = {Yang, Menglin and B B, Ram Samarth and Feng, Aosong
+               and Xiong, Bo and Liu, Jiahong and King, Irwin and Ying, Rex},
+  booktitle = {Advances in Neural Information Processing Systems (NeurIPS)},
+  year      = {2025}
+}</pre>
+  </div>
+</div>
+
+<!-- Takeaway -->
+<div class="hp-take">
+  <p>HypLoRA is not just &ldquo;LoRA in another geometry.&rdquo; It is a <strong>geometry guided adaptation strategy</strong> motivated by measurable structure in token embeddings and consistently improving reasoning with practical parameter efficiency.</p>
+</div>
+
+</div><!-- /hp-body -->
+
+</div>
+<!-- /hp -->
+
+<script>
+(() => {
+  const btn = document.getElementById('copy-citation-btn');
+  const pre = document.getElementById('citation-bibtex');
+  if (!btn || !pre) return;
+
+  const copyText = async (text) => {
+    if (navigator.clipboard && window.isSecureContext) {
+      await navigator.clipboard.writeText(text);
+      return;
+    }
+    const ta = document.createElement('textarea');
+    ta.value = text;
+    ta.setAttribute('readonly', '');
+    ta.style.position = 'absolute';
+    ta.style.left = '-9999px';
+    document.body.appendChild(ta);
+    ta.select();
+    document.execCommand('copy');
+    document.body.removeChild(ta);
+  };
+
+  btn.addEventListener('click', async () => {
+    const citation = pre.innerText.trim();
+    try {
+      await copyText(citation);
+      const original = btn.textContent;
+      btn.textContent = 'Copied';
+      btn.classList.add('copied');
+      setTimeout(() => {
+        btn.textContent = original;
+        btn.classList.remove('copied');
+      }, 1200);
+    } catch (err) {
+      btn.textContent = 'Copy failed';
+      setTimeout(() => {
+        btn.textContent = 'Copy BibTeX';
+      }, 1500);
+    }
+  });
+})();
+</script>
+
+
+      </div>
+    </main>
+  </body>
+
+</html>
