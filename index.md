@@ -25,8 +25,8 @@ h1 {
 }
 h1::before { display: none; }
 .cite-block {
-  background: #f4f6f2;
-  border: 1px solid #d5ddd0;
+  background: #f8f6f3;
+  border: 1px solid var(--border, #e5e2dd);
   border-radius: 12px;
   padding: 1.3rem 1.5rem;
   position: relative;
@@ -38,28 +38,38 @@ h1::before { display: none; }
   font-family: 'JetBrains Mono', 'SFMono-Regular', Consolas, monospace;
   background: transparent; padding: 0; border-radius: 0;
 }
-.cite-block .cite-label {
+.cite-block .copy-btn {
   position: absolute; top: 0.7rem; right: 0.9rem;
-  font-size: 0.68rem; color: #596673;
-  background: rgba(84,122,128,0.1);
-  padding: 0.15em 0.6em; border-radius: 4px;
-  letter-spacing: 0.04em;
+  font-size: 0.75rem; color: var(--primary, #3a5a7c);
+  background: var(--surface, #fff);
+  border: 1px solid var(--border, #e5e2dd);
+  padding: 0.35em 0.9em; border-radius: 6px;
+  cursor: pointer; transition: all 0.2s;
+  font-family: 'Inter', sans-serif; font-weight: 600;
+}
+.cite-block .copy-btn:hover {
+  background: var(--primary, #3a5a7c);
+  color: #fff;
 }
 .sticky-outline {
   position: fixed;
   top: 80px;
   left: 20px;
-  width: 180px;
+  width: 175px;
   max-height: 60vh;
   overflow-y: auto;
-  background: #fff;
-  border: 1px solid #d5ddd0;
+  background: var(--surface, #fff);
+  border: 1px solid var(--border, #e5e2dd);
   border-radius: 10px;
   box-shadow: 0 2px 12px rgba(0,0,0,0.06);
   padding: 10px 8px;
   z-index: 1000;
   font-size: 0.7rem;
   text-align: left;
+  display: none;
+}
+@media (min-width: 1300px) {
+  .sticky-outline { display: block; }
 }
 .sticky-outline ul {
   list-style: none;
@@ -82,7 +92,7 @@ h1::before { display: none; }
   text-align: left;
 }
 .sticky-outline a {
-  color: #547a80;
+  color: var(--primary, #3a5a7c);
   text-decoration: none;
   transition: color 0.2s;
   display: block;
@@ -91,7 +101,7 @@ h1::before { display: none; }
   font-weight: 600;
 }
 .sticky-outline a:hover {
-  color: #8e5127;
+  color: var(--accent, #c0603c);
   text-decoration: underline;
   text-align: left;
 }
@@ -103,19 +113,19 @@ h1::before { display: none; }
   max-width: 100%;
   height: auto;
   border-radius: 10px;
-  border: 1px solid #d5ddd0;
+  border: 1px solid var(--border, #e5e2dd);
   box-shadow: 0 2px 10px rgba(0,0,0,0.04);
 }
 .fig-container .fig-cap {
   font-size: 0.88em;
-  color: #596673;
+  color: var(--text-soft, #6b7280);
   margin-top: 0.6em;
   font-style: italic;
   line-height: 1.5;
 }
 .math-block {
-  background: #f4f6f2;
-  border: 1px solid #d5ddd0;
+  background: #f8f6f3;
+  border: 1px solid var(--border, #e5e2dd);
   border-radius: 10px;
   padding: 1rem 1.4rem;
   margin: 1.2em 0;
@@ -129,6 +139,19 @@ h1::before { display: none; }
 MathJax = { tex: { inlineMath: [['$','$'], ['\\(','\\)']], displayMath: [['$$','$$'], ['\\[','\\]']] } };
 </script>
 <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js" async></script>
+
+## Events and News!
+
+- [Hyperbolic Fine-tuning for Large Language Models (HypLoRA)]({{ "/work/hyplora" | relative_url }})
+- [HELM: Hyperbolic Large Language Models via Mixture-of-Curvature Experts - PDF](https://arxiv.org/abs/2505.24722)
+- [KDD 2026 Geometric Learning Workshop]({{ "/events/kdd2026workshop" | relative_url }})
+- [NeurIPS 2025 NEGEL Workshop]({{ "/events/neurips2025negelworkshop" | relative_url }})
+- [AAAI 2026 Hyperbolic FM Tutorial]({{ "/events/aaai2026tutorial" | relative_url }})
+- [KDD 2025 Hyperbolic FM Tutorial]({{ "/events/kdd2025tutorial" | relative_url }})
+- [WWW 2025 NEGEL Workshop]({{ "/events/www2025workshop" | relative_url }})
+- [KDD 2023 Tutorial](https://hyperbolicgnn.github.io/)
+- [Slack channel for more discussions and tracking updates!](https://join.slack.com/t/hyperboliclearning/shared_invite/zt-1qcqgtwfr-HpsRSzDhvkAEal6dOnKDvA)
+- [Awesome Hyperbolic Representation and Deep Learning Repository]({{ "/collection" | relative_url }})
 
 ## Introduction
 
@@ -147,19 +170,6 @@ Consider a simple example: natural language inherently contains hierarchical str
 </div>
 
 This webpage provides a comprehensive overview of hyperbolic geometry and non-Euclidean representations for large language models and foundation models. We cover the mathematical foundations, key computational models, neural network architectures, and state-of-the-art methods that bring hyperbolic geometry to modern AI.
-
-
-## Events and News!
-
-- [Hyperbolic Fine-tuning for Large Language Models (HypLoRA)]({{ "/work/hyplora" | relative_url }})
-- [HELM: Hyperbolic Large Language Models via Mixture-of-Curvature Experts - PDF](https://arxiv.org/abs/2505.24722)
-- [NeurIPS 2025 NEGEL Workshop]({{ "/events/neurips2025negelworkshop" | relative_url }})
-- [AAAI 2026 Hyperbolic FM Tutorial]({{ "/events/aaai2026tutorial" | relative_url }})
-- [KDD 2025 Hyperbolic FM Tutorial]({{ "/events/kdd2025tutorial" | relative_url }})
-- [WWW 2025 NEGEL Workshop]({{ "/events/www2025workshop" | relative_url }})
-- [KDD 2023 Tutorial](https://hyperbolicgnn.github.io/)
-- [Slack channel for more discussions and tracking updates!](https://join.slack.com/t/hyperboliclearning/shared_invite/zt-1qcqgtwfr-HpsRSzDhvkAEal6dOnKDvA) 
-- [Awesome Hyperbolic Representation and Deep Learning Repository]({{ "/collection" | relative_url }})
 
 
 ## 1. Hyperbolic Geometry
@@ -188,11 +198,6 @@ Real-world data frequently exhibits hierarchical or scale-free structure. Natura
 ## 2. Hyperbolic Models
 
 To visualize and work with hyperbolic geometry computationally, mathematicians have developed several isometric models. Each model represents the same underlying hyperbolic space but offers different computational trade-offs. Understanding these models is essential for designing hyperbolic neural networks.
-
-<div class="fig-container">
-  <img src="/images/figs/fig_hyperbolic_models.png" alt="Four models of hyperbolic geometry">
-  <div class="fig-cap">Figure 2: Four standard models of hyperbolic geometry. Each model provides a different way to visualize and compute in hyperbolic space, with distinct advantages for different applications.</div>
-</div>
 
 ### Poincaré Ball Model
 
@@ -234,11 +239,6 @@ All four models are isometric to one another, and explicit diffeomorphisms exist
 ## 3. Hyperbolic Neural Networks
 
 Hyperbolic neural networks extend deep learning architectures to operate directly in hyperbolic space, enabling more efficient representation of hierarchical data. **The core insight is that hierarchical relationships require exponentially increasing capacity at greater depths—precisely matching the exponential volume growth of hyperbolic spaces.**
-
-<div class="fig-container">
-  <img src="/images/figs/fig_hyperbolic_nn_pipeline.png" alt="Hyperbolic neural network pipeline">
-  <div class="fig-cap">Figure 3: The general pipeline of a hyperbolic neural network. Input data is mapped to hyperbolic space via the exponential map, processed through hyperbolic layers (Möbius linear transformations, hyperbolic attention, and activation functions), and projected back to Euclidean space via the logarithmic map for downstream predictions.</div>
-</div>
 
 ### Hyperbolic Embeddings
 
@@ -323,11 +323,6 @@ Position encodings adapted to hyperbolic geometry can better preserve hierarchic
 ## 5. Hyperbolic Foundation Models
 
 Foundation models—large-scale systems trained on broad data that can be fine-tuned for specific applications—represent the cutting edge of modern AI. **Hyperbolic foundation models incorporate hyperbolic geometry into their architecture to better capture the hierarchical structures inherent in language, knowledge, and multimodal data.** This represents one of the most active and promising frontiers in geometric deep learning.
-
-<div class="fig-container">
-  <img src="/images/figs/fig_hyperbolic_fm_overview.png" alt="Hyperbolic foundation models ecosystem">
-  <div class="fig-cap">Figure 4: The ecosystem of hyperbolic foundation models spans large language models, vision models, multi-modal systems, and diverse applications including knowledge graphs and scientific discovery.</div>
-</div>
 
 ### Hyperbolic Large Language Models
 
@@ -417,8 +412,8 @@ Invited Speakers: Philip S. Yu, Shirui Pan, Min Zhou, Pascal Mettes, Smita Krish
 If you find this webpage useful, please consider citing our work:
 
 <div class="cite-block">
-  <span class="cite-label">BibTeX</span>
-  <pre>@article{yang2024hyperbolic,
+  <button class="copy-btn" onclick="copyBib(this)">Copy</button>
+  <pre id="bib-text">@article{yang2024hyperbolic,
   title     = {Hyperbolic Geometry and Non-Euclidean Representations
                for Large Language Models},
   author    = {Yang, Menglin and He, Neil and Madhu, Hiren and
@@ -430,3 +425,13 @@ If you find this webpage useful, please consider citing our work:
   url       = {https://hyperboliclearning.github.io}
 }</pre>
 </div>
+
+<script>
+function copyBib(btn) {
+  var text = document.getElementById('bib-text').innerText;
+  navigator.clipboard.writeText(text).then(function() {
+    btn.textContent = 'Copied!';
+    setTimeout(function() { btn.textContent = 'Copy'; }, 2000);
+  });
+}
+</script>

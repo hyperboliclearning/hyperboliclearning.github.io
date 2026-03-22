@@ -47,3 +47,5 @@ vendor/
 
 # Local development
 local
+.claude
+.DS_Store

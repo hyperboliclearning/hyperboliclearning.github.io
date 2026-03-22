@@ -6,7 +6,7 @@ permlink: /events/aaai2026tutorial
 
 <link rel="stylesheet" href="/assets/kdd2025.css">
 
-<div style="color: #547a80; margin-bottom: 5ex;">
+<div style="color: var(--primary, #3a5a7c); margin-bottom: 5ex;">
 <p>This tutorial on Hyperbolic Geometry for Foundation Models will take place at AAAI 2026 in Singapore.
 We invite you to explore the advancements in hyperbolic geometry and its applications in foundation models.</p>
 </div>
@@ -17,7 +17,7 @@ We invite you to explore the advancements in hyperbolic geometry and its applica
 <br>
 Foundation models, including large language models, vision transformers, diffusion models, and multi-modal systems, have transformed machine learning across numerous domains. However, their reliance on Euclidean geometry imposes fundamental limitations when representing hierarchical structures and scale-free distributions that are prevalent in real-world data. Hyperbolic geometry, with its exponential volume growth relative to distance, provides a mathematically principled framework for embedding tree-like structures and power-law distributions more efficiently.
 
-<span style="color: #547a80; font-weight: 600;">This tutorial offers a comprehensive review of hyperbolic methods for foundation models, examining theoretical foundations, architectural innovations, implementation strategies, and scaling challenges, with particular emphasis on applications to language, vision, and multi-modal learning.</span>
+<span style="color: var(--primary, #3a5a7c); font-weight: 600;">This tutorial offers a comprehensive review of hyperbolic methods for foundation models, examining theoretical foundations, architectural innovations, implementation strategies, and scaling challenges, with particular emphasis on applications to language, vision, and multi-modal learning.</span>
 
 ## Important Information
 
