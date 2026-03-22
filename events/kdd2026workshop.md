@@ -238,6 +238,10 @@ The accepted workshop is half day. Based on the proposal, the program will inclu
 The final public schedule will be updated after KDD 2026 confirms the half day slot.
 
 
+## Invited Speakers
+
+TBA
+
 ## Organizers
 
 <table class="kdd26-people-table">
@@ -273,9 +277,3 @@ The final public schedule will be updated after KDD 2026 confirms the half day s
  </tr>
 </table>
 
-## Community Principles
-
-- The workshop is intentionally interdisciplinary and aims to connect machine learning, data mining, natural language processing, computer vision, biology, chemistry, physics, and scientific discovery.
-- The author team spans academia and industry, includes multiple career stages, and covers Asia, Europe, and North America.
-- The workshop will promote diversity in invited speakers and participants and aims to create a welcoming environment for newcomers to geometric learning.
-- Conflicts of interest will follow KDD requirements. Organizers will not assess submissions from their own organizations.
