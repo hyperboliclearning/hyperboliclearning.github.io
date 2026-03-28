@@ -46,7 +46,7 @@ h2 {
   padding-top: 20px;
   margin-bottom: 14px;
   padding-bottom: 10px;
-  font-size: 1.55em;
+  font-size: 1.45em;
   color: var(--heading, #1e2a36);
   letter-spacing: -0.015em;
   border-bottom: none;
@@ -252,7 +252,7 @@ hr {
 /* ── Responsive ── */
 @media (max-width: 768px) {
   body { padding: 0; font-size: 15px; }
-  h2 { font-size: 1.3em; padding-top: 15px; }
+  h2 { font-size: 1.2em; padding-top: 15px; }
   .banner-text { font-size: 1.4em; }
   .wrapper { padding: 0 10px; }
   .ev-content { margin: -1rem 0.5rem 2rem; padding: 1.5rem 1.2rem; border-radius: 10px; }
