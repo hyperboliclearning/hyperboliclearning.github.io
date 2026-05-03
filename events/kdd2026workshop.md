@@ -240,8 +240,8 @@ The goal is to bring together researchers from machine learning, data mining, na
 
 Time: 11:59 PM Anywhere on Earth unless otherwise specified.
 
-- <span style="color: red;"><strong>Workshop paper submission: April 30, 2026</strong></span>
-- Workshop paper notification: June 4, 2026
+- <span style="color: red;"><strong>Workshop paper submission:</strong> <del>April 30, 2026</del> <strong>extended to May 31, 2026</strong></span>
+- Workshop paper notification: June 10, 2026
 - Camera ready: June 15, 2026
 - Final workshop program, materials, and full website online: June 22, 2026
 - Workshop date: TBA

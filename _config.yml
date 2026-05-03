@@ -26,6 +26,9 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 # Build settings
 markdown: kramdown
 theme: minima
+# Silence Dart Sass deprecations from the Minima theme gem (build still succeeds; these are warnings only).
+sass:
+  quiet_deps: true
 plugins:
   - jekyll-feed
   - jekyll-sitemap
