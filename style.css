@@ -491,9 +491,10 @@ body .site-header .site-title,
 
 body .site-header .site-nav .page-link,
 .site-header .site-nav .page-link {
-  font-size: 15px !important;
-  font-weight: 600 !important;
-  color: var(--text) !important;
+  font-size: 18px !important;
+  font-weight: 700 !important;
+  color: var(--heading) !important;
+  letter-spacing: -0.01em;
   line-height: 36px !important;
   text-decoration: none;
   padding: 0.2em 0.8em;
