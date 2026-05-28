@@ -54,6 +54,7 @@ permalink: /events/
 
 Welcome to our events page! Here you can find information about our tutorials, workshops, and more.
 
+- [KDD 2026 Hyperbolic Learning Tutorial (🔥)]({{ "/events/kdd2026tutorial" | relative_url }})
 - [KDD 2026 Geometric Learning Workshop (🔥)]({{ "/events/kdd2026workshop" | relative_url }})
 - [NeurIPS 2025 NEGEL Workshop]({{ "/events/neurips2025negelworkshop" | relative_url }})
 - [AAAI 2026 Hyperbolic FM Tutorial]({{ "/events/aaai2026tutorial" | relative_url }})

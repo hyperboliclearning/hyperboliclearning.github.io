@@ -301,6 +301,7 @@ MathJax = { tex: { inlineMath: [['$','$'], ['\\(','\\)']], displayMath: [['$$','
   <li><span class="news-icon" title="Paper">📄</span><a href="https://arxiv.org/pdf/2405.03188">ICML 2026 · HypRAG: Hyperbolic Dense Retrieval for Retrieval Augmented Generation (PDF)</a></li>
   <li><span class="news-icon" title="GitHub"><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="#24292f"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.4 3-.405 1.02.005 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg></span><a href="https://github.com/graph-and-geometric-learning/helm">NeurIPS 2025 HELM: Hyperbolic Large Language Models via Mixture-of-Curvature Experts - GitHub</a></li>
   <li><span class="news-icon" title="Project page">📝</span><a href="{{ "/work/hyplora" | relative_url }}">NeurIPS 2025 Hyperbolic Fine-tuning for Large Language Models (HypLoRA)</a></li>
+  <li class="featured"><span class="news-icon" title="Tutorial">🎓</span><a href="{{ "/events/kdd2026tutorial" | relative_url }}">KDD 2026 Hyperbolic Learning Tutorial</a> <span style="font-size:0.95em">🔥</span></li>
   <li class="featured"><span class="news-icon" title="Workshop">🎤</span><a href="{{ "/events/kdd2026workshop" | relative_url }}">KDD 2026 Geometric Learning Workshop</a> <span style="font-size:0.95em">🔥</span></li>
   <li><span class="news-icon" title="Workshop">🎤</span><a href="{{ "/events/neurips2025negelworkshop" | relative_url }}">NeurIPS 2025 NEGEL Workshop</a></li>
   <li><span class="news-icon" title="Tutorial">🎓</span><a href="{{ "/events/aaai2026tutorial" | relative_url }}">AAAI 2026 Hyperbolic FM Tutorial</a></li>
@@ -311,7 +312,7 @@ MathJax = { tex: { inlineMath: [['$','$'], ['\\(','\\)']], displayMath: [['$$','
   <li><span class="news-icon" title="Repository">⭐</span><a href="{{ "/collection" | relative_url }}">Awesome Hyperbolic Representation and Deep Learning Repository</a></li>
 </ul>
 
-<p class="news-updated">Last updated: May 5, 2026</p>
+<p class="news-updated">Last updated: May 28, 2026</p>
 
 ## Introduction
 
