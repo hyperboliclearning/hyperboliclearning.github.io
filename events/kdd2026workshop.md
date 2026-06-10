@@ -1,5 +1,5 @@
 ---
-title: "KDD 2026 Workshop: Geometric Space, Architecture and Learning Objective for Large Pre-Trained Models"
+title: "KDD 2026 Workshop: Geometric Space, Architecture and Learning Objectives for Large Pre-Trained Models"
 layout: page
 permalink: /events/kdd2026workshop
 ---
@@ -7,7 +7,7 @@ permalink: /events/kdd2026workshop
 <link rel="stylesheet" href="/assets/neurips2025.css">
 
 <div class="kdd26-lead">
-<p><strong>The Geometric Space, Architecture and Learning Objective for Large Pre-Trained Models (GALOP) workshop at <a href="https://kdd2026.kdd.org/">KDD 2026</a></strong> brings together researchers working on geometric representation spaces, geometry-aware architectures, and learning objectives for large pre-trained models, spanning natural language processing, computer vision, graph learning, knowledge discovery, and scientific AI.</p>
+<p><strong>The Geometric Space, Architecture and Learning Objectives for Large Pre-Trained Models (GALOP) workshop at <a href="https://kdd2026.kdd.org/">KDD 2026</a></strong> brings together researchers working on geometric representation spaces, geometry-aware architectures, and learning objectives for large pre-trained models, spanning natural language processing, computer vision, graph learning, knowledge discovery, and scientific AI.</p>
 </div>
 
 
@@ -15,7 +15,7 @@ permalink: /events/kdd2026workshop
  <img class="kdd26-banner-image" src="/images/kdd2026_cover_mid.jpg" alt="KDD 2026 official cover image">
  <div class="banner-overlay"></div>
  <div class="banner-text">
-  Geometric Space, Architecture and Learning Objective for Large Pre-Trained Models @KDD 2026
+  Geometric Space, Architecture and Learning Objectives for Large Pre-Trained Models @KDD 2026
  </div>
 </div>
 
@@ -225,7 +225,8 @@ body::before {
 
 ## News
 
-- 2026-03-22: Call for paper, [Submission website](https://openreview.net/group?id=KDD.org/2026/Workshop/GALOP)
+- <span style="color: red;"><strong>2026-06-10:</strong> Paper notifications have been sent through OpenReview. Camera-ready revision is open for accepted papers.</span>
+- 2026-03-22: Call for papers, [OpenReview portal](https://openreview.net/group?id=KDD.org/2026/Workshop/GALOP)
 - 2026-03-11: The workshop proposal was accepted by KDD 2026 as a half day workshop.
 
 ## Introduction
@@ -242,9 +243,9 @@ Time: 11:59 PM Anywhere on Earth unless otherwise specified.
 
 - <span style="color: red;"><strong>Workshop paper submission:</strong> <del>April 30, 2026</del> <strong>extended to May 31, 2026</strong></span>
 - Workshop paper notification: June 10, 2026
-- Camera ready: June 15, 2026
+- Camera-ready revision: June 15, 2026
 - Final workshop program, materials, and full website online: June 22, 2026
-- Workshop date: TBA
+- Workshop date: August 9, 2026 afternoon
 - Conference dates: August 9 to 13, 2026
 - Venue: Jeju, Korea
 
@@ -265,16 +266,32 @@ We welcome submissions on topics including, but not limited to, the following di
 
 ## Submission
 
-- We welcome short research papers of up to 4 pages and full research papers of up to 9 pages, excluding references and supplementary materials.
-- All accepted papers are planned to be presented as posters.
-- Approximately 4 papers will be selected for oral presentations and 2 papers for outstanding paper awards.
+- The submission period has closed.
+- Authors of accepted papers should submit the camera-ready revision through OpenReview by June 15, 2026.
+- Accepted papers will be presented as oral or poster presentations, as indicated in the decision notification.
 - The workshop follows the current KDD 2026 workshop policy and is planned as an in person event.
 
-<p style="text-align: center;"><a class="kdd26-btn" href="https://openreview.net/group?id=KDD.org/2026/Workshop/GALOP">GALOP Workshop @ KDD 2026 Submission</a></p>
+<p style="text-align: center;"><a class="kdd26-btn" href="https://openreview.net/group?id=KDD.org/2026/Workshop/GALOP">GALOP Workshop @ KDD 2026 OpenReview Portal</a></p>
 
-## Tentative Program
+## Accepted Papers
 
-The accepted workshop is half day. Based on the proposal, the program will include the following components:
+### Oral Presentations
+
+- Geometric Perturbation Graph Neural Network for Heterophily Modeling
+- Hyperattentive Residuals
+- Revisiting CF-Integrated LLM Recommenders through Dimensional Collapse
+- MeSH-HyRerank: Hyperbolic Ontology Adaptation for Biomedical Foundation Model Retrieval
+
+### Poster Presentations
+
+- Curvature-Adaptive Self-Attention: Riemannian Transformers with Distortion and Generalization Bounds
+- Extracting Local Manifold Geometry from Pretrained Diffusion Models in One Inverse Step
+
+## Program
+
+The accepted workshop is a half day workshop scheduled for the afternoon of August 9, 2026. Detailed schedule information will be posted after the camera-ready deadline.
+
+The program will include the following components:
 
 - Opening remarks and workshop overview
 - Invited talks on geometric learning and large pre-trained models
@@ -321,3 +338,7 @@ TBA
   </td>
  </tr>
 </table>
+
+## Contact
+
+For questions about the workshop, please contact us at [galop-kdd2026@googlegroups.com](mailto:galop-kdd2026@googlegroups.com).
