@@ -128,6 +128,32 @@ body::before {
 .kdd26-card ul {
   margin: 0.6rem 0 0;
 }
+.kdd26-speaker-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+  margin: 1rem 0 1.5rem;
+}
+.kdd26-speaker-card h3 {
+  margin: 0 0 0.25rem;
+  font-size: 1.55rem;
+}
+.kdd26-speaker-photo {
+  width: 190px;
+  height: 190px;
+  object-fit: cover;
+  object-position: center top;
+  border-radius: 14px;
+  display: block;
+  margin: 0.65rem 0 0.85rem;
+  background: #eef2f7;
+  border: 1px solid #d8d9dc;
+}
+.kdd26-speaker-role {
+  margin: 0 0 0.55rem;
+  color: #5a6572;
+  font-weight: 700;
+}
 .post-content h2 {
   color: #3a5a7c;
   font-weight: 800;
@@ -141,11 +167,15 @@ body::before {
 }
 .post-content h3 {
   color: #1e2a36;
+  font-size: 1.35rem;
   font-weight: 760;
   letter-spacing: -0.01em;
   margin-top: 0.95rem;
   margin-bottom: 0.3rem;
   scroll-margin-top: 84px;
+}
+.post-content .kdd26-speaker-card h3 {
+  font-size: 1.55rem;
 }
 .post-content h2:first-of-type {
   margin-top: 0.7rem;
@@ -220,6 +250,9 @@ body::before {
     display: block;
     width: 100%;
   }
+  .kdd26-speaker-grid {
+    grid-template-columns: 1fr;
+  }
 }
 </style>
 
@@ -245,7 +278,7 @@ Time: 11:59 PM Anywhere on Earth unless otherwise specified.
 - Workshop paper notification: June 10, 2026
 - Camera-ready revision: June 15, 2026
 - Final workshop program, materials, and full website online: June 22, 2026
-- Workshop date: August 9, 2026 afternoon
+- Workshop date: August 9, 2026 afternoon (1:30 pm-5:30 pm)
 - Conference dates: August 9 to 13, 2026
 - Venue: Jeju, Korea
 
@@ -264,7 +297,7 @@ We welcome submissions on topics including, but not limited to, the following di
 - Applications in natural language processing, computer vision, graph learning, knowledge discovery, and scientific discovery
 - Benchmarks, evaluation protocols, open source tools, visualization, and reproducibility resources
 
-## Submission
+## Submission (Completed)
 
 - The submission period has closed.
 - Authors of accepted papers should submit the camera-ready revision through OpenReview by June 15, 2026.
@@ -275,17 +308,12 @@ We welcome submissions on topics including, but not limited to, the following di
 
 ## Accepted Papers
 
-### Oral Presentations
-
-- Geometric Perturbation Graph Neural Network for Heterophily Modeling
-- Hyperattentive Residuals
-- Revisiting CF-Integrated LLM Recommenders through Dimensional Collapse
-- MeSH-HyRerank: Hyperbolic Ontology Adaptation for Biomedical Foundation Model Retrieval
-
-### Poster Presentations
-
-- Curvature-Adaptive Self-Attention: Riemannian Transformers with Distortion and Generalization Bounds
-- Extracting Local Manifold Geometry from Pretrained Diffusion Models in One Inverse Step
+- [Geometric Perturbation Graph Neural Network for Heterophily Modeling](https://openreview.net/forum?id=xzPpTAWG25) (Oral + Poster)
+- [Hyperattentive Residuals](https://openreview.net/forum?id=6I2ZE5IdXS) (Oral + Poster)
+- [Revisiting CF-Integrated LLM Recommenders through Dimensional Collapse](https://openreview.net/forum?id=KaBEPwhpgK) (Oral + Poster)
+- [MeSH-HyRerank: Hyperbolic Ontology Adaptation for Biomedical Foundation Model Retrieval](https://openreview.net/forum?id=1ssMLWnBwf) (Oral + Poster)
+- [Curvature-Adaptive Self-Attention: Riemannian Transformers with Distortion and Generalization Bounds](https://openreview.net/forum?id=lSExhYH4Cz) (Poster)
+- [Extracting Local Manifold Geometry from Pretrained Diffusion Models in One Inverse Step](https://openreview.net/forum?id=E7op24P6Uh) (Poster)
 
 ## Program
 
@@ -302,7 +330,20 @@ The program will include the following components:
 
 ## Invited Speakers
 
-TBA
+<div class="kdd26-speaker-grid">
+ <div class="kdd26-card kdd26-speaker-card">
+  <h3><a href="https://kijungs.github.io/">Kijung Shin</a></h3>
+  <img class="kdd26-speaker-photo" src="/images/people/kijung-shin.jpg" alt="Kijung Shin">
+  <p class="kdd26-speaker-role">Associate Professor, KAIST AI &amp; EE; Director, Data Mining Lab</p>
+  <p>Kijung Shin works on data mining, graph algorithms, and network science, with broad interests in scalable methods for structured and relational data.</p>
+ </div>
+ <div class="kdd26-card kdd26-speaker-card">
+  <h3><a href="https://en.wikipedia.org/wiki/Tatyana_Sharpee">Tatyana Sharpee</a></h3>
+  <img class="kdd26-speaker-photo" src="/images/people/tatyana-sharpee.jpg" alt="Tatyana Sharpee">
+  <p class="kdd26-speaker-role">Professor, Salk Institute for Biological Studies; Adjunct Professor of Physics, UC San Diego</p>
+  <p>Tatyana Sharpee is a computational neuroscientist whose work studies neural coding, information transmission, and how the brain represents complex natural signals.</p>
+ </div>
+</div>
 
 ## Organizers
 
