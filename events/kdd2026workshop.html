@@ -206,6 +206,32 @@ body::before {
 .kdd26-card ul {
   margin: 0.6rem 0 0;
 }
+.kdd26-speaker-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+  margin: 1rem 0 1.5rem;
+}
+.kdd26-speaker-card h3 {
+  margin: 0 0 0.25rem;
+  font-size: 1.55rem;
+}
+.kdd26-speaker-photo {
+  width: 190px;
+  height: 190px;
+  object-fit: cover;
+  object-position: center top;
+  border-radius: 14px;
+  display: block;
+  margin: 0.65rem 0 0.85rem;
+  background: #eef2f7;
+  border: 1px solid #d8d9dc;
+}
+.kdd26-speaker-role {
+  margin: 0 0 0.55rem;
+  color: #5a6572;
+  font-weight: 700;
+}
 .post-content h2 {
   color: #3a5a7c;
   font-weight: 800;
@@ -219,11 +245,15 @@ body::before {
 }
 .post-content h3 {
   color: #1e2a36;
+  font-size: 1.35rem;
   font-weight: 760;
   letter-spacing: -0.01em;
   margin-top: 0.95rem;
   margin-bottom: 0.3rem;
   scroll-margin-top: 84px;
+}
+.post-content .kdd26-speaker-card h3 {
+  font-size: 1.55rem;
 }
 .post-content h2:first-of-type {
   margin-top: 0.7rem;
@@ -298,6 +328,9 @@ body::before {
     display: block;
     width: 100%;
   }
+  .kdd26-speaker-grid {
+    grid-template-columns: 1fr;
+  }
 }
 </style>
 
@@ -326,7 +359,7 @@ body::before {
   <li>Workshop paper notification: June 10, 2026</li>
   <li>Camera-ready revision: June 15, 2026</li>
   <li>Final workshop program, materials, and full website online: June 22, 2026</li>
-  <li>Workshop date: August 9, 2026 afternoon</li>
+  <li>Workshop date: August 9, 2026 afternoon (1:30 pm-5:30 pm)</li>
   <li>Conference dates: August 9 to 13, 2026</li>
   <li>Venue: Jeju, Korea</li>
 </ul>
@@ -348,7 +381,7 @@ body::before {
   <li>Benchmarks, evaluation protocols, open source tools, visualization, and reproducibility resources</li>
 </ul>
 
-<h2 id="submission">Submission</h2>
+<h2 id="submission-completed">Submission (Completed)</h2>
 
 <ul>
   <li>The submission period has closed.</li>
@@ -361,20 +394,13 @@ body::before {
 
 <h2 id="accepted-papers">Accepted Papers</h2>
 
-<h3 id="oral-presentations">Oral Presentations</h3>
-
 <ul>
-  <li>Geometric Perturbation Graph Neural Network for Heterophily Modeling</li>
-  <li>Hyperattentive Residuals</li>
-  <li>Revisiting CF-Integrated LLM Recommenders through Dimensional Collapse</li>
-  <li>MeSH-HyRerank: Hyperbolic Ontology Adaptation for Biomedical Foundation Model Retrieval</li>
-</ul>
-
-<h3 id="poster-presentations">Poster Presentations</h3>
-
-<ul>
-  <li>Curvature-Adaptive Self-Attention: Riemannian Transformers with Distortion and Generalization Bounds</li>
-  <li>Extracting Local Manifold Geometry from Pretrained Diffusion Models in One Inverse Step</li>
+  <li><a href="https://openreview.net/forum?id=xzPpTAWG25">Geometric Perturbation Graph Neural Network for Heterophily Modeling</a> (Oral + Poster)</li>
+  <li><a href="https://openreview.net/forum?id=6I2ZE5IdXS">Hyperattentive Residuals</a> (Oral + Poster)</li>
+  <li><a href="https://openreview.net/forum?id=KaBEPwhpgK">Revisiting CF-Integrated LLM Recommenders through Dimensional Collapse</a> (Oral + Poster)</li>
+  <li><a href="https://openreview.net/forum?id=1ssMLWnBwf">MeSH-HyRerank: Hyperbolic Ontology Adaptation for Biomedical Foundation Model Retrieval</a> (Oral + Poster)</li>
+  <li><a href="https://openreview.net/forum?id=lSExhYH4Cz">Curvature-Adaptive Self-Attention: Riemannian Transformers with Distortion and Generalization Bounds</a> (Poster)</li>
+  <li><a href="https://openreview.net/forum?id=E7op24P6Uh">Extracting Local Manifold Geometry from Pretrained Diffusion Models in One Inverse Step</a> (Poster)</li>
 </ul>
 
 <h2 id="program">Program</h2>
@@ -394,7 +420,20 @@ body::before {
 
 <h2 id="invited-speakers">Invited Speakers</h2>
 
-<p>TBA</p>
+<div class="kdd26-speaker-grid">
+ <div class="kdd26-card kdd26-speaker-card">
+  <h3><a href="https://kijungs.github.io/">Kijung Shin</a></h3>
+  <img class="kdd26-speaker-photo" src="/images/people/kijung-shin.jpg" alt="Kijung Shin" />
+  <p class="kdd26-speaker-role">Associate Professor, KAIST AI &amp; EE; Director, Data Mining Lab</p>
+  <p>Kijung Shin works on data mining, graph algorithms, and network science, with broad interests in scalable methods for structured and relational data.</p>
+ </div>
+ <div class="kdd26-card kdd26-speaker-card">
+  <h3><a href="https://en.wikipedia.org/wiki/Tatyana_Sharpee">Tatyana Sharpee</a></h3>
+  <img class="kdd26-speaker-photo" src="/images/people/tatyana-sharpee.jpg" alt="Tatyana Sharpee" />
+  <p class="kdd26-speaker-role">Professor, Salk Institute for Biological Studies; Adjunct Professor of Physics, UC San Diego</p>
+  <p>Tatyana Sharpee is a computational neuroscientist whose work studies neural coding, information transmission, and how the brain represents complex natural signals.</p>
+ </div>
+</div>
 
 <h2 id="organizers">Organizers</h2>
 
