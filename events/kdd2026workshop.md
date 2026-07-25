@@ -258,7 +258,8 @@ body::before {
 
 ## News
 
-- <span style="color: red;"><strong>2026-06-10:</strong> Paper notifications have been sent through OpenReview. Camera-ready revision is open for accepted papers.</span>
+- <span style="color: red;"><strong>2026-07-25:</strong> Workshop date and time information has been updated.</span>
+- **2026-06-10:** Paper notifications have been sent through OpenReview. Camera-ready revision is open for accepted papers.
 - 2026-03-22: Call for papers, [OpenReview portal](https://openreview.net/group?id=KDD.org/2026/Workshop/GALOP)
 - 2026-03-11: The workshop proposal was accepted by KDD 2026 as a half day workshop.
 
@@ -266,21 +267,21 @@ body::before {
 
 Foundation models now drive progress across language, vision, graphs, recommendation, and scientific discovery, yet most of them are still built around Euclidean representations and objectives. In many real world settings, however, the underlying data contain hierarchy, relational structure, multi scale organization, or nonuniform geometry that is not naturally captured by standard design choices.
 
-This workshop focuses on how geometric spaces, geometric neural networks, and geometric objectives can improve foundation models by introducing more appropriate inductive bias for representation, reasoning, and adaptation. It highlights work on hyperbolic, spherical, mixed curvature, and other geometry aware approaches that can better align model structure with the structure of data.
+**Target.** This workshop focuses on how geometric spaces, geometric neural networks, and geometric objectives can improve foundation models by introducing more appropriate inductive bias for representation, reasoning, and adaptation. It highlights work on hyperbolic, spherical, mixed curvature, and other geometry aware approaches that can better align model structure with the structure of data.
 
-The goal is to bring together researchers from machine learning, data mining, natural language processing, computer vision, graph learning, knowledge discovery, and scientific AI. By connecting theory, methods, systems, and applications, the workshop aims to create a shared forum for understanding when geometric modeling matters, how it should be integrated into large models, and how its benefits should be evaluated in practice.
+**Goal.** The goal is to bring together researchers from machine learning, data mining, natural language processing, computer vision, graph learning, knowledge discovery, and scientific AI. By connecting theory, methods, systems, and applications, the workshop aims to create a shared forum for understanding when geometric modeling matters, how it should be integrated into large models, and how its benefits should be evaluated in practice.
 
 ### Important Dates
 
 Time: 11:59 PM Anywhere on Earth unless otherwise specified.
 
-- <span style="color: red;"><strong>Workshop paper submission:</strong> <del>April 30, 2026</del> <strong>extended to May 31, 2026</strong></span>
+- <strong>Workshop paper submission:</strong> <span style="color: #6c757d;"><del>April 30, 2026</del></span> <strong>extended to May 31, 2026</strong>
 - Workshop paper notification: June 10, 2026
 - Camera-ready revision: June 15, 2026
 - Final workshop program, materials, and full website online: June 22, 2026
-- Workshop date: August 9, 2026 afternoon (1:30 pm-5:30 pm)
+- <span style="color: red;">Workshop date: August 9, 2026 afternoon (1:00 pm-5:00 pm)</span>
 - Conference dates: August 9 to 13, 2026
-- Venue: Jeju, Korea
+- Venue: Room 201B, International Convention Center Jeju (ICC Jeju)
 
 ## Topics of Interest
 
