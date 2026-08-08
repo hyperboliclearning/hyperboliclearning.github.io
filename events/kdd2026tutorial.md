@@ -7,7 +7,7 @@ permalink: /events/kdd2026tutorial
 <link rel="stylesheet" href="/assets/kdd2025.css">
 
 <div class="kdd26-tutorial-lead">
-<p><strong>Hyperbolic Learning for Structured Data, Knowledge, and Memory: A Tutorial</strong> will take place at <a href="https://kdd2026.kdd.org/">KDD 2026</a>. The tutorial focuses on how hyperbolic geometry can support structured data organization, retrieval, knowledge interfaces, and memory layers in modern foundation-model systems.</p>
+<p><strong>Hyperbolic Learning for Structured Data, Knowledge, and Memory: A Tutorial</strong> will take place at <a href="https://kdd2026.kdd.org/">KDD 2026</a> on Sunday, August 9, 2026, <span class="kdd26-info-highlight">from 9:00 AM to 12:00 PM</span> in <span class="kdd26-info-highlight">Samda A at ICC Jeju</span>. The tutorial focuses on how hyperbolic geometry can support structured data organization, retrieval, knowledge interfaces, and memory layers in modern foundation-model systems.</p>
 </div>
 
 <div class="banner-container kdd26-tutorial-banner">
@@ -115,6 +115,10 @@ body::before {
 .kdd26-info-card ul {
   margin: 0.55rem 0 0;
 }
+.kdd26-info-highlight {
+  color: #8b1e1e;
+  font-weight: 800;
+}
 .post-content h2 {
   color: #3a5a7c;
   font-weight: 800;
@@ -163,9 +167,9 @@ body::before {
 
 * **Tutorial title**: Hyperbolic Learning for Structured Data, Knowledge, and Memory: A Tutorial
 * **Date**: Sunday, August 9, 2026
-* **Time**: 8:00 AM - 12:00 PM
+* **Time**: <span class="kdd26-info-highlight">9:00 AM - 12:00 PM (KST)</span>
 * **Conference**: KDD 2026
-* **Venue**: Jeju, Korea
+* **Venue**: <span class="kdd26-info-highlight">Samda A, International Convention Center Jeju (ICC Jeju), Jeju, Korea</span>
 * **Format**: Half-day lecture-style tutorial with interactive questions and discussion
 
 </div>
