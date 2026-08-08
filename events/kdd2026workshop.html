@@ -206,9 +206,57 @@ body::before {
 .kdd26-card ul {
   margin: 0.6rem 0 0;
 }
+.kdd26-program-meta {
+  margin: 0.35rem 0 1rem;
+  color: #3d424a;
+}
+.kdd26-program-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 0.75rem 0 1.5rem;
+  background: #ffffff;
+  border: 1px solid #d8d9dc;
+  border-radius: 14px;
+  overflow: hidden;
+  box-shadow: 0 8px 24px rgba(24, 33, 46, 0.07);
+  font-size: 0.95rem;
+}
+.kdd26-program-table th,
+.kdd26-program-table td {
+  padding: 0.62rem 0.72rem;
+  border-bottom: 1px solid #e5e2dd;
+  text-align: left;
+  vertical-align: middle;
+  line-height: 1.45;
+}
+.kdd26-program-table th {
+  background: linear-gradient(180deg, #edf3f5 0%, #e7eef1 100%);
+  color: #1e2a36;
+  font-weight: 800;
+  letter-spacing: 0.01em;
+}
+.kdd26-program-table tr:last-child td {
+  border-bottom: 0;
+}
+.kdd26-program-table tbody tr:nth-child(even) td {
+  background: #fafbfb;
+}
+.kdd26-program-table tbody tr:nth-child(4) td {
+  background: #f4eee5;
+}
+.kdd26-program-table td:first-child {
+  width: 7.3rem;
+  white-space: nowrap;
+  color: #3a5a7c;
+  font-weight: 750;
+}
+.kdd26-program-table td:nth-child(2) {
+  width: 8.6rem;
+  font-weight: 700;
+}
 .kdd26-speaker-grid {
   display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
+  grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 1rem;
   margin: 1rem 0 1.5rem;
 }
@@ -216,9 +264,14 @@ body::before {
   margin: 0 0 0.25rem;
   font-size: 1.55rem;
 }
+.kdd26-speaker-card p {
+  text-align: left;
+}
 .kdd26-speaker-photo {
-  width: 190px;
-  height: 190px;
+  width: 100%;
+  max-width: 190px;
+  aspect-ratio: 1 / 1;
+  height: auto;
   object-fit: cover;
   object-position: center top;
   border-radius: 14px;
@@ -331,6 +384,65 @@ body::before {
   .kdd26-speaker-grid {
     grid-template-columns: 1fr;
   }
+  .kdd26-program-table,
+  .kdd26-program-table tbody,
+  .kdd26-program-table tr,
+  .kdd26-program-table td {
+    display: block;
+    width: 100%;
+  }
+  .kdd26-program-table thead {
+    display: none;
+  }
+  .kdd26-program-table tr {
+    padding: 0.62rem 0.72rem;
+    border-bottom: 1px solid #d8d9dc;
+  }
+  .kdd26-program-table tr:last-child {
+    border-bottom: 0;
+  }
+  .kdd26-program-table td {
+    padding: 0.15rem 0;
+    border: 0;
+  }
+  .kdd26-program-table td:first-child,
+  .kdd26-program-table td:nth-child(2) {
+    width: 100%;
+    white-space: normal;
+  }
+}
+@media (min-width: 481px) and (max-width: 640px) {
+  .kdd26-speaker-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+  .kdd26-program-table {
+    display: table;
+    width: 100%;
+  }
+  .kdd26-program-table thead {
+    display: table-header-group;
+  }
+  .kdd26-program-table tbody {
+    display: table-row-group;
+  }
+  .kdd26-program-table tr {
+    display: table-row;
+    padding: 0;
+    border-bottom: 0;
+  }
+  .kdd26-program-table td {
+    display: table-cell;
+    width: auto;
+    padding: 0.62rem 0.72rem;
+    border-bottom: 1px solid #e5e2dd;
+  }
+  .kdd26-program-table td:first-child {
+    width: 7.3rem;
+    white-space: nowrap;
+  }
+  .kdd26-program-table td:nth-child(2) {
+    width: 8.6rem;
+  }
 }
 </style>
 
@@ -406,22 +518,74 @@ body::before {
 
 <h2 id="program">Program</h2>
 
-<p>The accepted workshop is a half day workshop scheduled for the afternoon of August 9, 2026. Detailed schedule information will be posted after the camera-ready deadline.</p>
+<p class="kdd26-program-meta"><strong>August 9, 2026 · 1:00–5:00 PM KST · Room 201B, International Convention Center Jeju (ICC Jeju)</strong></p>
 
-<p>The program will include the following components:</p>
-
-<ul>
-  <li>Opening remarks and workshop overview</li>
-  <li>Invited talks on geometric learning and large pre-trained models</li>
-  <li>Contributed paper spotlight presentations</li>
-  <li>Poster and discussion session</li>
-  <li>Panel discussion on the future of geometric AI</li>
-  <li>Best paper recognition and closing remarks</li>
-</ul>
+<table class="kdd26-program-table">
+ <thead>
+  <tr>
+   <th>Time (KST)</th>
+   <th>Session</th>
+   <th>Speaker / Presentation</th>
+  </tr>
+ </thead>
+ <tbody>
+  <tr>
+   <td>1:00–1:05 PM</td>
+   <td>Opening Remarks</td>
+   <td>—</td>
+  </tr>
+  <tr>
+   <td>1:05–2:00 PM</td>
+   <td>Invited Talk 1</td>
+   <td><strong>Prof. Yifei Zhang</strong><br />Understanding Self-supervised Learning from the Dimensional Collapse Perspective</td>
+  </tr>
+  <tr>
+   <td>2:00–3:00 PM</td>
+   <td>Invited Talk 2</td>
+   <td><strong>Prof. Kijung Shin</strong><br />AI for Complex Networks: With a Focus on Hypergraphs</td>
+  </tr>
+  <tr>
+   <td>3:00–3:30 PM</td>
+   <td>Coffee Break and Poster Session</td>
+   <td>—</td>
+  </tr>
+  <tr>
+   <td>3:30–3:45 PM</td>
+   <td>Contributed Talk 1</td>
+   <td>Geometric Perturbation Graph Neural Network for Heterophily Modeling</td>
+  </tr>
+  <tr>
+   <td>3:45–4:00 PM</td>
+   <td>Contributed Talk 2</td>
+   <td>MeSH-HyRerank: Hyperbolic Ontology Adaptation for Biomedical Foundation Model Retrieval</td>
+  </tr>
+  <tr>
+   <td>4:00–4:15 PM</td>
+   <td>Contributed Talk 3</td>
+   <td>Revisiting CF-Integrated LLM Recommenders through Dimensional Collapse</td>
+  </tr>
+  <tr>
+   <td>4:15–4:30 PM</td>
+   <td>Contributed Talk 4</td>
+   <td>Hyperattentive Residuals</td>
+  </tr>
+  <tr>
+   <td>4:30–5:00 PM</td>
+   <td>Invited Talk 3</td>
+   <td><strong>Prof. Tatyana Sharpee</strong><br />Topic to be arranged</td>
+  </tr>
+ </tbody>
+</table>
 
 <h2 id="invited-speakers">Invited Speakers</h2>
 
 <div class="kdd26-speaker-grid">
+ <div class="kdd26-card kdd26-speaker-card">
+  <h3><a href="https://yifeiacc.github.io/Lab/">Yifei Zhang</a></h3>
+  <img class="kdd26-speaker-photo" src="https://yifeiacc.github.io/Lab/assets/img/group/yifei-zhang.jpg" alt="Yifei Zhang" />
+  <p class="kdd26-speaker-role">Professor, School of Computer Science, Northwestern Polytechnical University</p>
+  <p>Yifei Zhang works on trustworthy machine learning, federated learning, graph representation learning, large language models, and robust vision-language models.</p>
+ </div>
  <div class="kdd26-card kdd26-speaker-card">
   <h3><a href="https://kijungs.github.io/">Kijung Shin</a></h3>
   <img class="kdd26-speaker-photo" src="/images/people/kijung-shin.jpg" alt="Kijung Shin" />
