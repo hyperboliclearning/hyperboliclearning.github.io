@@ -119,6 +119,28 @@ body::before {
   color: #8b1e1e;
   font-weight: 800;
 }
+.kdd26-slack-group {
+  display: grid;
+  grid-template-columns: 140px minmax(0, 1fr);
+  gap: 1.2rem;
+  align-items: center;
+  margin: 0.8rem 0 1.75rem;
+  padding: 1rem 0;
+  border-top: 1px solid #d8d9dc;
+  border-bottom: 1px solid #d8d9dc;
+}
+.kdd26-slack-group img {
+  display: block;
+  width: 140px;
+  height: 140px;
+}
+.kdd26-slack-group p {
+  margin: 0;
+}
+.kdd26-slack-group a {
+  color: #3a5a7c;
+  font-weight: 800;
+}
 .post-content h2 {
   color: #3a5a7c;
   font-weight: 800;
@@ -157,6 +179,11 @@ body::before {
     font-weight: 800;
     line-height: 1.3;
     border-radius: 14px;
+  }
+  .kdd26-slack-group {
+    grid-template-columns: 1fr;
+    justify-items: center;
+    text-align: center;
   }
 }
 </style>
@@ -205,3 +232,10 @@ All tutors are planned to participate in person for this tutorial.
 ## Contact
 
 For questions or updates, please contact `jiahong.liu21@gmail.com`, `menglinyang@hkust-gz.edu.cn`, or `king@cse.cuhk.edu.hk`.
+
+## Slack Group
+
+<div class="kdd26-slack-group">
+  <img src="/images/kdd2026-tutorial-slack-qr.png" alt="QR code for the Hyperbolic Learning Slack group">
+  <p>Join the <a href="https://hyperboliclearning.slack.com">Hyperbolic Learning Slack group</a> for community discussions and updates.</p>
+</div>
