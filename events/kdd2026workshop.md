@@ -173,12 +173,12 @@ body::before {
   font-weight: 750;
 }
 .kdd26-program-table td:nth-child(2) {
-  width: 8.6rem;
+  width: 15rem;
   font-weight: 700;
 }
 .kdd26-speaker-grid {
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 1rem;
   margin: 1rem 0 1.5rem;
 }
@@ -268,6 +268,33 @@ body::before {
   margin: 0 auto 0.85rem;
   background: #eef2f7;
 }
+.kdd26-slack-group {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  margin: 0.85rem 0 1.5rem;
+  padding: 1.35rem 1.4rem;
+  background: #ffffff;
+  border: 1px solid #d8d9dc;
+  border-radius: 14px;
+  box-shadow: 0 8px 24px rgba(24, 33, 46, 0.07);
+}
+.kdd26-slack-group img {
+  width: 190px;
+  height: 190px;
+  flex: 0 0 190px;
+  display: block;
+}
+.kdd26-slack-group p {
+  margin: 0;
+  color: #3d424a;
+  font-size: 1.08rem;
+  line-height: 1.65;
+  text-align: left;
+}
+.kdd26-slack-group a {
+  color: #3a5a7c;
+}
 .kdd26-btn {
   display: inline-block;
   background: #447588;
@@ -306,6 +333,17 @@ body::before {
   .kdd26-speaker-grid {
     grid-template-columns: 1fr;
   }
+  .kdd26-slack-group {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+    padding: 1rem;
+  }
+  .kdd26-slack-group img {
+    width: 170px;
+    height: 170px;
+    flex-basis: 170px;
+  }
   .kdd26-program-table,
   .kdd26-program-table tbody,
   .kdd26-program-table tr,
@@ -335,7 +373,7 @@ body::before {
 }
 @media (min-width: 481px) and (max-width: 640px) {
   .kdd26-speaker-grid {
-    grid-template-columns: repeat(3, minmax(0, 1fr));
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
   .kdd26-program-table {
     display: table;
@@ -363,15 +401,16 @@ body::before {
     white-space: nowrap;
   }
   .kdd26-program-table td:nth-child(2) {
-    width: 8.6rem;
+    width: 15rem;
   }
 }
 </style>
 
 ## News
 
-- <span style="color: red;"><strong>2026-07-25:</strong> Workshop date and time information has been updated.</span>
-- **2026-06-10:** Paper notifications have been sent through OpenReview. Camera-ready revision is open for accepted papers.
+- <span style="color: #8b1e1e;"><strong>2026-08-09:</strong> 🔥 The final workshop program and Workshop Slack group are now available.</span>
+- 2026-07-25: Workshop date and time information has been updated.
+- 2026-06-10: Paper notifications have been sent through OpenReview. Camera-ready revision is open for accepted papers.
 - 2026-03-22: Call for papers, [OpenReview portal](https://openreview.net/group?id=KDD.org/2026/Workshop/GALOP)
 - 2026-03-11: The workshop proposal was accepted by KDD 2026 as a half day workshop.
 
@@ -391,7 +430,7 @@ Time: 11:59 PM Anywhere on Earth unless otherwise specified.
 - Workshop paper notification: June 10, 2026
 - Camera-ready revision: June 15, 2026
 - Final workshop program, materials, and full website online: June 22, 2026
-- <span style="color: red;">Workshop date: August 9, 2026 afternoon (1:00 pm-5:00 pm)</span>
+- <span style="color: #8b1e1e;">Workshop date: August 9, 2026 afternoon (1:00 pm-5:00 pm)</span>
 - Conference dates: August 9 to 13, 2026
 - Venue: Room 201B, International Convention Center Jeju (ICC Jeju)
 
@@ -448,12 +487,12 @@ We welcome submissions on topics including, but not limited to, the following di
   </tr>
   <tr>
    <td>1:05–2:00 PM</td>
-   <td>Invited Talk 1</td>
+   <td>Invited Talk 1<br><span style="font-weight: 500;">(Geometric Objective Function)</span></td>
    <td><strong>Prof. Yifei Zhang</strong><br>Understanding Self-supervised Learning from the Dimensional Collapse Perspective</td>
   </tr>
   <tr>
    <td>2:00–3:00 PM</td>
-   <td>Invited Talk 2</td>
+   <td>Invited Talk 2<br><span style="font-weight: 500;">(Geometric Architecture)</span></td>
    <td><strong>Prof. Kijung Shin</strong><br>AI for Complex Networks: With a Focus on Hypergraphs</td>
   </tr>
   <tr>
@@ -483,8 +522,8 @@ We welcome submissions on topics including, but not limited to, the following di
   </tr>
   <tr>
    <td>4:30–5:00 PM</td>
-   <td>Invited Talk 3</td>
-   <td><strong>Prof. Tatyana Sharpee</strong><br>Topic to be arranged</td>
+   <td>Organizational Talk<br><span style="font-weight: 500;">(Geometric Embedding Space)</span></td>
+   <td><strong>Ms. Jiahong Liu</strong><br>Hyperbolic Learning in the Era of Large Language Models</td>
   </tr>
  </tbody>
 </table>
@@ -503,12 +542,6 @@ We welcome submissions on topics including, but not limited to, the following di
   <img class="kdd26-speaker-photo" src="/images/people/kijung-shin.jpg" alt="Kijung Shin">
   <p class="kdd26-speaker-role">Associate Professor, KAIST AI &amp; EE; Director, Data Mining Lab</p>
   <p>Kijung Shin works on data mining, graph algorithms, and network science, with broad interests in scalable methods for structured and relational data.</p>
- </div>
- <div class="kdd26-card kdd26-speaker-card">
-  <h3><a href="https://en.wikipedia.org/wiki/Tatyana_Sharpee">Tatyana Sharpee</a></h3>
-  <img class="kdd26-speaker-photo" src="/images/people/tatyana-sharpee.jpg" alt="Tatyana Sharpee">
-  <p class="kdd26-speaker-role">Professor, Salk Institute for Biological Studies; Adjunct Professor of Physics, UC San Diego</p>
-  <p>Tatyana Sharpee is a computational neuroscientist whose work studies neural coding, information transmission, and how the brain represents complex natural signals.</p>
  </div>
 </div>
 
@@ -546,6 +579,13 @@ We welcome submissions on topics including, but not limited to, the following di
   </td>
  </tr>
 </table>
+
+## Slack Group
+
+<div class="kdd26-slack-group">
+ <img src="/images/kdd2026-workshop-slack-qr.png" alt="QR code for the Workshop Slack group">
+ <p>Join the <a href="https://join.slack.com/t/hyperboliclearning/shared_invite/zt-1qcqgtwfr-HpsRSzDhvkAEal6dOnKDvA"><strong>Workshop Slack group</strong></a> for community discussions and updates.</p>
+</div>
 
 ## Contact
 
