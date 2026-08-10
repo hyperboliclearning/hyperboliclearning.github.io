@@ -237,5 +237,5 @@ For questions or updates, please contact `jiahong.liu21@gmail.com`, `menglinyang
 
 <div class="kdd26-slack-group">
   <img src="/images/kdd2026-tutorial-slack-qr.png" alt="QR code for the Hyperbolic Learning Slack group">
-  <p>Join the <a href="https://hyperboliclearning.slack.com">Hyperbolic Learning Slack group</a> for community discussions and updates.</p>
+  <p>Join the <a href="https://join.slack.com/t/hyperboliclearning/shared_invite/zt-1qcqgtwfr-HpsRSzDhvkAEal6dOnKDvA">Hyperbolic Learning Slack group</a> for community discussions and updates.</p>
 </div>
