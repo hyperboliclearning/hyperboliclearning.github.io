@@ -19,7 +19,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   By leveraging hyperbolic space's unique properties, we aim to develop more efficient, scalable, and expressive models that can better understand and process complex data, leading to advancements in various applications.
 # Use "" for username.github.io (site at domain root). "/" breaks Jekyll URL helpers and local static file serving.
 baseurl: ""
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://hyperboliclearning.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: FAccTRec
 #github_username: facctrec
 
