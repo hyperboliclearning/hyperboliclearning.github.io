@@ -600,33 +600,3 @@ Invited Speakers: Philip S. Yu, Shirui Pan, Min Zhou, Pascal Mettes, Smita Krish
   <li>Yang, M., Verma, H., Zhang, D. C., Liu, J., King, I., & Ying, R. (2024). <em>Hypformer: Exploring Efficient Transformer Fully in Hyperbolic Space.</em> KDD. <a href="https://arxiv.org/abs/2407.01290">arXiv:2407.01290</a></li>
   <li>Yang, M. et al. (2025). <em>Hyperbolic Fine-tuning for Large Language Models (HypLoRA).</em> NeurIPS.</li>
 </ol>
-
-
-## Citation
-
-If you find this webpage useful, please consider citing our work:
-
-<div class="cite-block">
-  <button class="copy-btn" onclick="copyBib(this)">Copy</button>
-  <pre id="bib-text">@article{yang2026hyperbolic,
-  title     = {Hyperbolic Geometry and Non-Euclidean Representations
-               for Large Language Models},
-  author    = {Yang, Menglin and He, Neil and Madhu, Hiren and
-               Bui, Ngoc and Maatouk, Ali and Anand, Rishabh and
-               Zhang, Yifei and Chen, Jialin and Liu, Jiahong and
-               Xiong, Bo and Zhou, Min and King, Irwin and
-               Weber, Melanie and Ying, Rex},
-  year      = {2026},
-  url       = {https://hyperboliclearning.github.io}
-}</pre>
-</div>
-
-<script>
-function copyBib(btn) {
-  var text = document.getElementById('bib-text').innerText;
-  navigator.clipboard.writeText(text).then(function() {
-    btn.textContent = 'Copied!';
-    setTimeout(function() { btn.textContent = 'Copy'; }, 2000);
-  });
-}
-</script>
