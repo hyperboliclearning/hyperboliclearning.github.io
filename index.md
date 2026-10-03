@@ -317,17 +317,9 @@ MathJax = { tex: { inlineMath: [['$','$'], ['\\(','\\)']], displayMath: [['$$','
 
 ## Introduction
 
-Foundation models, including large language models (LLMs), vision-language models (VLMs), and large multimodal models, are pre-trained on massive datasets and have demonstrated remarkable success across diverse downstream tasks. Models such as GPT-4, LLaMA, CLIP, and Gemini have pushed the boundaries of natural language understanding, visual reasoning, and cross-modal generation. Despite these achievements, recent studies have identified three fundamental limitations rooted in their reliance on Euclidean geometry:
+Recently, hyperbolic spaces have emerged as a promising alternative for processing data with a tree-like structure or power-law distribution, owing to its exponential growth property and tree-likeness prior. Different from the Euclidean space, which expands polynomially, the hyperbolic space grows exponentially which makes it gain natural advantages in abstracting tree-like or scale-free data with hierarchical organizations. In this repository, we organize papers into core methods, domain applications, and cross-domain task settings to make the taxonomy easier to navigate. We will keep updating this repository with the latest research developments. We are aware that there will inevitably be some mistakes and oversights, so if you have any questions or suggestions, please feel free to contact us (menglin.yang[@]outlook.com).
 
-- **Limited representational capacity** for hierarchical and structured data, where shallow Euclidean embeddings struggle to preserve tree-like relations.
-- **Lower adaptability** when fine-tuning on tasks with inherent geometric structure, leading to suboptimal transfer on knowledge- and reasoning-intensive benchmarks.
-- **Less efficient scaling**, since the polynomial volume growth of Euclidean space cannot match the exponential branching of real-world hierarchies, forcing the use of high-dimensional embeddings.
-
-These shortcomings raise a critical question:
-
-<div class="callout-question">Is Euclidean geometry truly the optimal inductive bias for foundation models, or could alternative geometric spaces better align with the intrinsic structure of real-world data and reasoning processes?</div>
-
-Consider a simple example. Natural language inherently contains hierarchical structures, where words compose phrases, phrases compose sentences, and sentences compose paragraphs. Knowledge graphs likewise encode taxonomic relationships (e.g., "animal → mammal → dog → poodle") that grow exponentially with depth. In Euclidean space, representing a balanced binary tree of depth $d$ with low distortion requires $\mathcal{O}(2^d)$ dimensions, whereas in hyperbolic space the same tree can be faithfully embedded in just **2 dimensions** [Sarkar, 2011]. This exponential advantage motivates the exploration of hyperbolic geometry as a foundational building block for modern AI systems.
+**Survey paper:** [From Hyperbolic to Mixed-Curvature Geometric Learning: A Comprehensive Survey](https://hyperboliclearning.github.io/survey/)
 
 <div class="fig-container" style="display: flex; gap: 1rem; flex-wrap: wrap; justify-content: center;">
   <img src="/images/figs/root-leaf.png" alt="Root-leaf proximity in hyperbolic space" style="flex: 1 1 48%; min-width: 280px;">
@@ -336,8 +328,6 @@ Consider a simple example. Natural language inherently contains hierarchical str
 <div class="fig-container" style="margin-top: 0;">
   <div class="fig-cap">Figure 1: Hyperbolic space naturally encodes hierarchical structure. <strong>Left</strong>: Root and leaf nodes are close in hyperbolic distance, reflecting parent-child relationships. <strong>Right</strong>: Leaf nodes from different branches are far apart, preserving the tree's branching structure. The exponential volume growth of hyperbolic space enables faithful low-distortion embeddings of trees.</div>
 </div>
-
-This webpage provides a comprehensive overview of hyperbolic geometry and non-Euclidean representations for large language models and foundation models. We cover the mathematical foundations, key computational models, neural network architectures, and state-of-the-art methods that bring hyperbolic geometry to modern AI.
 
 
 ## 1. Hyperbolic Geometry
