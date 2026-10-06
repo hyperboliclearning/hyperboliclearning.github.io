@@ -30,13 +30,14 @@
   <meta name="twitter:image" content="https://hyperboliclearning.github.io/survey/geometry.png">
   <link rel="icon" href="/icon.png" type="image/png">
   <link rel="stylesheet" href="style.css">
+  <script src="citation.js" defer></script>
   <script type="application/ld+json">{"@context": "https://schema.org", "@type": "ScholarlyArticle", "headline": "From Hyperbolic to Mixed-Curvature Geometric Learning: A Comprehensive Survey", "name": "From Hyperbolic to Mixed-Curvature Geometric Learning: A Comprehensive Survey", "author": [{"@type": "Person", "name": "Menglin Yang"}, {"@type": "Person", "name": "Zihao Liu"}, {"@type": "Person", "name": "Jiahong Liu"}, {"@type": "Person", "name": "Jindong Li"}, {"@type": "Person", "name": "Linxiao Cao"}, {"@type": "Person", "name": "Buze Zhang"}, {"@type": "Person", "name": "Irwin King"}], "inLanguage": "en", "isAccessibleForFree": true, "url": "https://hyperboliclearning.github.io/survey/", "sameAs": "https://openreview.net/forum?id=cpqHCXXZcr", "abstract": "Euclidean space has long served as the default representation space in machine learning. This choice rests on the implicit assumption that the geometry of the data itself is flat, yet many datasets carry hierarchies, cyclical and directional patterns, or a mixture of these structures. Non-Euclidean geometric learning addresses this limitation by introducing representation spaces whose curvature reflects the underlying structure of the data. In recent years, hyperbolic geometry has attracted substantial attention because its negative curvature and exponentially expanding volume align naturally with hierarchical and scale-free structures. At the same time, spherical geometry serves the complementary case, where positive curvature and a closed, compact structure suit cyclical, directional, and angular data. Mixed-curvature or generalized curvature models combine hyperbolic, spherical, and Euclidean components within a unified framework for representing heterogeneous geometric patterns. In this paper, we present a comprehensive survey of from hyperbolic to mixed-curvature geometric learning. We review their mathematical foundations, geometric operators, neural architectures, learning strategies, and applications spanning natural language processing, computer vision, speech, multimodal learning, knowledge graphs, recommendation, robotics, the sciences, and trustworthiness, covering developments from shallow embeddings to convolutional, recurrent, and graph neural networks, Transformers, and generative models. We trace how geometry now reaches foundation-model pipelines through pretraining, adaptation, retrieval, and analysis. In addition, we examine practical considerations involving numerical stability, optimization cost, geometric model selection, and unified geometric frameworks. We hope this survey offers both an accessible entry point for newcomers and a comprehensive reference for experienced researchers. A continuously updated collection of papers and resources is maintained at https://github.com/marlin-codes/Awesome-Hyperbolic-Representation-and-Deep-Learning/.", "encoding": {"@type": "MediaObject", "contentUrl": "https://hyperboliclearning.github.io/survey/From-Hyperbolic-to-Mixed-Curvature-Geometric-Learning-A-Comprehensive-Survey.pdf", "encodingFormat": "application/pdf"}}</script>
 </head>
 <body>
   <a class="skip-link" href="#abstract">Skip to abstract</a>
   <header class="site-bar">
     <a class="site-name" href="https://hyperboliclearning.github.io/">Hyperbolic Learning</a>
-    <nav aria-label="Site navigation"><a href="https://hyperboliclearning.github.io/">Home</a><a href="https://hyperboliclearning.github.io/events/">Events</a><a href="https://github.com/marlin-codes/Awesome-Hyperbolic-Representation-and-Deep-Learning/">Paper collection</a></nav>
+    <nav aria-label="Site navigation"><a href="https://hyperboliclearning.github.io/">Home</a><a href="https://hyperboliclearning.github.io/events/">Events</a><a href="https://github.com/marlin-codes/Awesome-Hyperbolic-Representation-and-Deep-Learning/">Paper Collection</a></nav>
   </header>
   <main>
     <article aria-labelledby="paper-title">
@@ -48,7 +49,7 @@
         <div class="resources" aria-label="Paper resources">
           <a class="button primary" href="From-Hyperbolic-to-Mixed-Curvature-Geometric-Learning-A-Comprehensive-Survey.pdf">Read PDF <span class="pdf-size">· 114 pages · 4.9 MB</span></a>
           <a class="button" href="https://openreview.net/forum?id=cpqHCXXZcr">OpenReview</a>
-          <a class="button" href="https://github.com/marlin-codes/Awesome-Hyperbolic-Representation-and-Deep-Learning/">Paper collection</a>
+          <a class="button" href="https://github.com/marlin-codes/Awesome-Hyperbolic-Representation-and-Deep-Learning/">Paper Collection</a>
           <a class="button" href="#citation">Cite this survey</a>
         </div>
       </header>
@@ -70,8 +71,15 @@
         </ul>
       </section>
       <section id="citation" aria-labelledby="citation-title">
-        <div class="section-heading"><h2 id="citation-title">Citation</h2><a href="citation.bib" download>Download BibTeX</a></div>
-        <pre aria-label="BibTeX citation"><code>@misc{yang2026hyperbolic,
+        <h2 id="citation-title">Citation</h2>
+        <div class="citation-box">
+          <div class="citation-toolbar">
+            <button class="copy-citation" type="button" aria-label="Copy BibTeX citation" aria-controls="citation-code">
+              <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><rect x="8" y="8" width="12" height="13" rx="2"/><path d="M16 8V5a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h3"/></svg>
+              <span>Copy</span>
+            </button>
+          </div>
+        <pre aria-label="BibTeX citation"><code id="citation-code">@misc{yang2026hyperbolic,
   title  = {{From Hyperbolic to Mixed-Curvature Geometric Learning: A Comprehensive Survey}},
   author = {Yang, Menglin and Liu, Zihao and Liu, Jiahong and Li, Jindong and
             Cao, Linxiao and Zhang, Buze and King, Irwin},
@@ -79,6 +87,8 @@
   url    = {https://openreview.net/forum?id=cpqHCXXZcr}
 }
 </code></pre>
+        </div>
+        <p class="copy-status" role="status" aria-live="polite"></p>
       </section>
       <footer><p><a href="https://github.com/marlin-codes/Awesome-Hyperbolic-Representation-and-Deep-Learning/blob/main/hyperbolic_survey.pdf">Original PDF (10.2 MB)</a></p><p>We maintain the <a href="https://github.com/marlin-codes/Awesome-Hyperbolic-Representation-and-Deep-Learning/">paper collection</a> as related work develops. The manuscript is also available on <a href="https://openreview.net/forum?id=cpqHCXXZcr">OpenReview</a>.</p><p class="updated">Page updated October 1, 2026.</p></footer>
     </article>

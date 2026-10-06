@@ -60,8 +60,13 @@ figcaption { margin-top: 14px; font-size: 13px; color: var(--muted); text-align:
 .reading-map ul { padding-left: 20px; margin: 0; }
 .reading-map li { margin-bottom: 8px; }
 .reading-map strong { color: var(--ink); font-weight: 600; }
-.section-heading { display: flex; align-items: baseline; justify-content: space-between; flex-wrap: wrap; gap: 10px; }
-.section-heading a { font-size: 13px; }
+.citation-box { background: #f7f8fa; border: 1px solid #e5e8eb; border-radius: 6px; }
+.citation-toolbar { display: flex; justify-content: flex-end; padding: 12px 12px 0; }
+.citation-box pre { padding-top: 8px; background: transparent; border: 0; }
+.copy-citation { display: inline-flex; align-items: center; gap: 7px; min-width: 88px; justify-content: center; padding: 7px 11px; border: 1px solid var(--border); border-radius: 5px; background: white; color: var(--primary); font: inherit; font-size: 13px; line-height: 1.4; font-weight: 600; cursor: pointer; }
+.copy-citation:hover { border-color: var(--primary); background: #f3f6f8; }
+.copy-citation:focus-visible { outline: 3px solid #b17f48; outline-offset: 3px; }
+.copy-status { min-height: 1.5em; margin: 5px 0 0; color: var(--muted); font-size: 12px; }
 pre { margin: 0; padding: 20px; background: #f7f8fa; border: 1px solid #e5e8eb; border-radius: 6px; font: 13px/1.65 ui-monospace, SFMono-Regular, Consolas, monospace; white-space: pre-wrap; overflow-wrap: anywhere; }
 footer { border-top: 1px solid var(--border); margin-top: 30px; padding-top: 18px; font-size: 14px; }
 footer p { margin: 0 0 8px; }
