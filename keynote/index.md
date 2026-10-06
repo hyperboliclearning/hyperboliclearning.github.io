@@ -8,7 +8,7 @@ permlink: /keynote/
 
 by [João Vinagre](https://algorithmic-transparency.ec.europa.eu/joao-vinagre_en), Joint Research Centre of the European Commission.
 
-[presentation slide](keynote.pdf)
+Presentation slides are currently unavailable.
 
 ## Abstract
 
@@ -19,5 +19,4 @@ The European Union has recently introduced several pieces of EU-wide legislation
 <p><img src="Joao.jpg" style="height:150px"></p>
 
 João is a researcher at the Joint Research Centre (JRC) of the European Commission in Seville, Spain. His research interests are on recommender systems and machine learning, mostly on stream-based algorithms and continuous evaluation. Within the JRC, he is also part of the research team of the European Centre for Algorithmic Transparency (ECAT), that provides technical and scientific inputs to policy makers in the context of the Digital Services Act and the AI Act.
-
 

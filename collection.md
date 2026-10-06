@@ -526,7 +526,7 @@ Anoushka Vyas, Nurendra Choudhary, Mehrdad Khatir, Chandan K. Reddy
 1. [Hyperbolic Deep Learning for Computer Vision](https://sites.google.com/view/hdlcv-cvpr23tutorial/homepage) \
    Pascal Mettes, Max van Spengler, Yunhui Guo, Stella Yu
 
-1. [Hyperbolic networks: Theory, Architecture and Applications](https://nurendra.com/hyperbolic-networks-tutorial/) \
+1. [Hyperbolic networks: Theory, Architecture and Applications](https://archives.iw3c2.org/www2022/tutorials/) \
    Nurendra Choudhary, Nikhil Rao, Karthik Subbian, Srinivasan H. Sengamedu, Chandan Reddy
 
 1. [Hyperbolic Graph Neural Networks: A Tutorial on Methods and Applications](https://hyperbolicgnn.github.io/), KDD 2023 \
@@ -539,7 +539,7 @@ Anoushka Vyas, Nurendra Choudhary, Mehrdad Khatir, Chandan K. Reddy
 1. [Hyperbolic Graph Representation Learning](https://hyperbolicgraphlearning.github.io/). Tutorial 2022 \
 Min Zhou, Menglin Yang, Lujia Pan, Irwin King @ ECML-PKDD 2022
 
-1. [Hyperbolic Neural Network](https://nurendra.me/hyperbolic-networks-tutorial/kdd-2022/). Tutorial 2022 \
+1. [Hyperbolic Neural Network](https://creddy.net/TUTORIAL/Hyperbolic/kdd-2022/index.html). Tutorial 2022 \
 Nurendra Choudhary, Nikhil Rao, Karthik Subbian, Srinivasan Sengamedu, Chandan Reddy @ KDD 2022
 
 1. [Hyperbolic embeddings in machine learning and deep learning](https://www.youtube.com/watch?v=-ksbWExpWis). Tutorial 2020 \
@@ -769,7 +769,7 @@ Koshi Watanabe, Keisuke Maeda, Takahiro Ogawa, Miki Haseyama
 1. [Latent Variable Modelling with Hyperbolic Normalizing Flows](https://arxiv.org/abs/2002.06336), ICML 2020  \
    Avishek Joey Bose, Ariella Smofsky, Renjie Liao, Prakash Panangaden, William L. Hamilton
 
-1. [Lorentzian fully hyperbolic generative adversarial network](https://arxiv.org/abs/2201.12825), arxiv 2022 \
+1. [Autoencoding Hyperbolic Representation for Adversarial Generation](https://arxiv.org/abs/2201.12825), arXiv 2022 \
    Eric Qu, Dongmian Zou
 
 1. [Hyperbolic VAE via Latent Gaussian Distributions](https://arxiv.org/abs/2209.15217), NeurIPS 2023 \
@@ -988,7 +988,7 @@ Avik Pal, Max van Spengler, Guido Maria D'Amely di Melendugno, Alessandro Flabor
 1. [HypeVPR: Exploring Hyperbolic Space for Perspective to Equirectangular Visual Place Recognition](https://arxiv.org/abs/2506.04764), CVPR 2026 \
 *Suhan Woo, Seongwon Lee, Jinwoo Jang, Euntai Kim*
 
-1. [Searching for Actions on the Hyperbole](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9157196), CVPR 2020 \
+1. [Searching for Actions on the Hyperbole](https://openaccess.thecvf.com/content_CVPR_2020/html/Long_Searching_for_Actions_on_the_Hyperbole_CVPR_2020_paper.html), CVPR 2020 \
 Teng Long, Pascal Mettes, Heng Tao Shen, Cees Snoek
 
 1. [Mix Dimension in Poincaré Geometry for 3D Skeleton-based Action Recognition](https://dl.acm.org/doi/abs/10.1145/3394171.3413910), ACM MM 2020 \
@@ -1191,7 +1191,7 @@ Nurendra Choudhary, Nikhil Rao, Sumeet Katariya, Karthik Subbian, Chandan K. Red
 1. [Knowledge Graph Representation via Hierarchical Hyperbolic Neural Graph Embedding](https://ieeexplore.ieee.org/document/9671651), IEEE Big Data \
 Shen Wang, Xiaokai Wei, Cicero Nogueira Dos Santos, Zhiguo Wang, Ramesh Nallapati, Andrew Arnold, Philip S. Yu
 
-1. [Mixed-Curvature Multi-relational Graph Neural Network for Knowledge Graph Completion](https://assets.amazon.science/0c/9d/51d98f1040b1bfa7dc52d1015750/mixed-curvature-multi-relational-graph-neural-network-for-knowledge-graph-completion.pdf), WWW 2021 \
+1. [Mixed-Curvature Multi-relational Graph Neural Network for Knowledge Graph Completion](https://www.amazon.science/publications/mixed-curvature-multi-relational-graph-neural-network-for-knowledge-graph-completion), WWW 2021 \
 Shen Wang, Xiaokai Wei, Cicero Nogueira dos Santos, Zhiguo Wang, Ramesh Nallapati, Andrew Arnold, Bing Xiang, Philip S. Yu, Isabel F. Cruz
 
 1. [Geometry Interaction Knowledge Graph Embeddings](https://arxiv.org/abs/2206.12418), AAAI 2022 \
@@ -1267,7 +1267,7 @@ Raiyan R. Khan, Philippe Chlenski, Itsik Pe'er
 1. [The Natural Geometry of Code: Hyperbolic Representation Learning for Program Reasoning](https://openreview.net/forum?id=oq4jXWaFyH), ICLR 2026 Poster \
 Weilin Zhou
 
-1. [Hyperbolic Representations of Source Code](https://assets.amazon.science/55/d9/58097f0d41b886269b30e5c68522/hyperbolic-representations-of-source-code.pdf), AAAI 2022 \
+1. [Hyperbolic Representations of Source Code](https://www.amazon.science/publications/hyperbolic-representations-of-source-code), AAAI 2022 Workshop \
 Raiyan Khan, Thanh V. Nguyen, Sengamedu H. Srinivasan
 
 ## 4. Task-Oriented Settings

@@ -5,7 +5,7 @@ permlink: /
 ---
 
 <div style="color: var(--primary, #3a5a7c); margin-bottom: 5ex;">
-<p>The Workshop on Non-Euclidean Foundation Models and Geometric Learning (NEGEL) will take place at <a href="https://www2025.thewebconf.org/"> TheWebConf 2025</a> in Sydney, Australia, from April 28–May 2, 2025.
+<p>The Workshop on Non-Euclidean Foundation Models and Geometric Learning (NEGEL) will take place at <a href="https://archives.iw3c2.org/www2025/"> TheWebConf 2025</a> in Sydney, Australia, from April 28–May 2, 2025.
 We invite you to join discussions on Non-Euclidean representation learning and geometric deep learning, and large foundation models, alongside web-related applications!</p>
 </div>
 <div class="banner-container">
@@ -16,7 +16,7 @@ We invite you to join discussions on Non-Euclidean representation learning and g
 </div>
 
 <br>
-The primary objective of the NEGEL workshop at [TheWebConf 2025](https://www2025.thewebconf.org/) is to create a collaborative platform for researchers, industry professionals, and academics from diverse fields. These include non-Euclidean representation learning, geometric deep learning, and large foundation models, as well as web-related applications such as recommender systems, social network analysis, web knowledge graphs, search systems, information retrieval, and multi-modal web content understanding. The workshop aims to foster knowledge sharing, idea exchange, and discussions on the latest advancements and challenges in these domains.
+The primary objective of the NEGEL workshop at [TheWebConf 2025](https://archives.iw3c2.org/www2025/) is to create a collaborative platform for researchers, industry professionals, and academics from diverse fields. These include non-Euclidean representation learning, geometric deep learning, and large foundation models, as well as web-related applications such as recommender systems, social network analysis, web knowledge graphs, search systems, information retrieval, and multi-modal web content understanding. The workshop aims to foster knowledge sharing, idea exchange, and discussions on the latest advancements and challenges in these domains.
 
 
 Join our [Slack channel](https://join.slack.com/t/negel2025/shared_invite/zt-20kpkm9qt-iqSzVjFlY2yBbwy_nvNHYQ) for more discussions and updates about the workshop!
